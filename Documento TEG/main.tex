@@ -1,0 +1,78 @@
+%--------------------------------------------------------------
+%	Template de documentos formales de la universidad
+%	Autor: Pedro Luis Boll Lugo
+%--------------------------------------------------------------
+
+%--------------------------------------------------------------
+%	ARCHIVO PRINCIPAL
+%--------------------------------------------------------------
+
+%	Tipo de documento
+\documentclass[letterpaper,12pt]{report}
+
+%	Lista de paquetes a utilizar
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[spanish, mexico]{babel}
+\usepackage{url}
+\usepackage{cite}
+\usepackage[right=3cm,left=3cm,top=2cm,bottom=2.2cm,headsep=0.5cm,footskip=0.5cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{emptypage}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+
+%	Ubicación de las imágenes 
+\graphicspath{ {Figuras/} }
+
+
+% 	Aquí definimos el encabezado de las paginas 
+\lhead[L]{}
+\chead[]{}
+\rhead[]{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+
+
+% 	Aquí definimos el pie de pagina de las paginas
+\lfoot[]{}
+\cfoot[]{}
+\rfoot[]{Titulo del documento}
+\renewcommand{\footrulewidth}{0.5pt}
+
+% 	Aquí definimos el encabezado y pie de pagina de la pagina inicial de un capitulo.
+\fancypagestyle{plain}{
+%	Encabezado
+\fancyhead[L]{\rightmark}
+\fancyhead[C]{}
+\fancyhead[R]{\thepage}
+%	Pie de pagina
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{Titulo del documento}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+}
+\setlength{\headheight}{16pt}
+
+%	Estilo de las paginas (Activa encabezados y pie de pagina)
+\pagestyle{fancy}
+
+%	Tipo de referencias
+\bibliographystyle{unsrt}
+
+%	Titulo del documento
+\title{Plantilla de documentos universitarios}
+%	Autor del documento
+\author{Pedro Luis Boll Lugo}
+
+%***************** Estructura del documento *****************
+
+\begin{document}
+%	Portada
+\include{Capitulos/Portada}
+%	Indice / Tabla de Contenidos
+\include{Capitulos/Indices}
+%	Capitulo uno
+\include{Capitulos/CapituloN}
+%	Referencias bibliográfica
+\bibliography{Referencias/Referencias}
+\end{document}
