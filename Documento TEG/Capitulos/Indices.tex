@@ -1,4 +1,10 @@
 %--------------------------------------------------------------
+%	Agregando las subsubsecciones a los indices
+%--------------------------------------------------------------
+\setcounter{secnumdepth}{3} 
+\setcounter{tocdepth}{4} 
+
+%--------------------------------------------------------------
 %	Indice de contenidos
 %--------------------------------------------------------------
 \tableofcontents
@@ -7,5 +13,14 @@
 %	Indice de Figuras
 %--------------------------------------------------------------
 \newpage
+\addcontentsline{toc}{chapter}{Lista de figuras}
 \listoffigures
+
+%--------------------------------------------------------------
+%	Indice de Tablas
+%--------------------------------------------------------------
+\newpage
+\addcontentsline{toc}{chapter}{Lista de tablas}
+\listoftables
+
 

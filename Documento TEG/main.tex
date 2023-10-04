@@ -1,5 +1,5 @@
-%--------------------------------------------------------------
-%	Template de documentos formales de la universidad
+	%--------------------------------------------------------------
+%	Documento de Seminario
 %	Autor: Pedro Luis Boll Lugo
 %--------------------------------------------------------------
 
@@ -13,13 +13,23 @@
 %	Lista de paquetes a utilizar
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\usepackage[spanish, mexico]{babel}
+\usepackage[spanish, mexico,es-tabla]{babel}
 \usepackage{url}
 \usepackage{cite}
 \usepackage[right=3cm,left=3cm,top=2cm,bottom=2.2cm,headsep=0.5cm,footskip=0.5cm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{emptypage}
 \usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage[justification=centering]{caption}
+\usepackage[table]{xcolor}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{longtable}
 
 %	Ubicación de las imágenes 
 \graphicspath{ {Figuras/} }
@@ -35,7 +45,7 @@
 % 	Aquí definimos el pie de pagina de las paginas
 \lfoot[]{}
 \cfoot[]{}
-\rfoot[]{Titulo del documento}
+\rfoot[]{Herramienta de análisis de datos para administración y optimización de recursos en hogares usando Internet de las Cosas}
 \renewcommand{\footrulewidth}{0.5pt}
 
 % 	Aquí definimos el encabezado y pie de pagina de la pagina inicial de un capitulo.
@@ -47,7 +57,7 @@
 %	Pie de pagina
 \fancyfoot[L]{}
 \fancyfoot[C]{}
-\fancyfoot[R]{Titulo del documento}
+\fancyfoot[R]{Herramienta de análisis de datos para administración y optimización de recursos en hogares usando Internet de las Cosas}
 \renewcommand{\headrulewidth}{0.5pt}
 \renewcommand{\footrulewidth}{0.5pt}
 }
@@ -56,11 +66,12 @@
 %	Estilo de las paginas (Activa encabezados y pie de pagina)
 \pagestyle{fancy}
 
+
 %	Tipo de referencias
 \bibliographystyle{unsrt}
 
 %	Titulo del documento
-\title{Plantilla de documentos universitarios}
+\title{Trabajo Especial de Grado}
 %	Autor del documento
 \author{Pedro Luis Boll Lugo}
 
@@ -69,10 +80,19 @@
 \begin{document}
 %	Portada
 \include{Capitulos/Portada}
+% 	Resumen
+\include{Capitulos/Resumen}
+%   Agradecimientos
+\include{Capitulos/Agradecimientos}
 %	Indice / Tabla de Contenidos
 \include{Capitulos/Indices}
+%	Introducción
+\include{Capitulos/Introduccion}
 %	Capitulo uno
-\include{Capitulos/CapituloN}
+\include{Capitulos/Capitulo1}
+%	Capitulo N
+\include{Capitulos/ProblemaDeInvestigacion}
 %	Referencias bibliográfica
+\lhead[\thepage]{BIBLIOGRAFÍA}
 \bibliography{Referencias/Referencias}
 \end{document}

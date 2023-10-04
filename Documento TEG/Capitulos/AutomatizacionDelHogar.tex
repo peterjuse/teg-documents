@@ -1,0 +1,263 @@
+%-----------------------------------------------------------------------------
+%	Marco Teórico: Automatización del Hogar (Domótica)
+%-----------------------------------------------------------------------------
+
+%	Sección siete: Automatización del Hogar (Domótica)
+\section{Automatización del Hogar (Domótica)}
+\lhead[\thepage]{\thesection. Automatización del Hogar (Domótica)}
+
+\subsection{Definición}
+La automatización del hogar, también conocida como domótica (portmanteau entre \textit{domus} que en latin significa casa y el sufijo ``tica'' en referencia a la  informática). Esta área del desarrollo tecnológico busca la automatización de actividades domésticas diversas con el fin de aumentar la comodidad, el confort, la eficiencia energética y/o la seguridad. Para ello, una serie de servicios en red están vinculados a diferentes elementos dentro del hogar, tales como la iluminación, HVAC (calefacción, ventilación y aire acondicionado), electrodomésticos, dispositivos de entretenimiento y otros sistemas.\cite{atosDomotics}\\ 
+
+El objetivo es quitar tanta interacción humana como sea técnicamente posible y deseable en varios procesos domésticos, y reemplazándolos con sistemas electrónicos programados esencialmente para cumplir las tareas domésticas.\\
+
+El concepto de automatización de hogar no es nuevo. Desde la revolución industrial, cada vez mas se hacia posible remplazar a las personas en tareas repetitivas con la idea de que se pudiera tener mayor tiempo libre y con la aparición de las primeros artefactos automáticos para el hogar y la masificación de la electricidad potenciaron esta tendencia para facilitar las labores de diarias y tediosas.\\
+
+Electrodomésticos y artefactos de ocio se han hecho de un espacio cada vez mayor en los hogares y cada vez mas, estos adquieren capacidades de comunicación, de adquisición y recolección de datos, el despliegue de información y la actuación programada de tareas, por lo que se surge la necesidad de crear nuevas formas de controlar, de monitorear y de utilizar los objetos que nos rodearan y las diversas aplicaciones que tendrán en nuestra vida diaria.\\
+
+Inicialmente, la única manera de construir una instalación domótica era con el uso de sensores y actuadores que se unían, con una arquitectura centralizada, a un autómata o controlador que tenía embarcada toda la inteligencia que se exigía a la vivienda. Casi siempre eran sistemas propietarios, muy pocos flexibles y que hacían muy difícil y costoso el aumento de las prestaciones.\cite{profDomotica}\\
+
+A pesar de la aparición de estándares y tecnologías que han abaratado y reducido la complejidad de las instalaciones domóticas, hasta la fecha esta industria no ha tenido la difusión y demanda esperada por parte de los propietarios de las viviendas. Pero ahora, gracias a Internet, estamos viendo como están apareciendo multitud de fabricantes y proveedores de servicios que están desarrollando nuevos productos y servicios que conjugan lo mejor de Internet con tecnologías de redes de datos y control asequibles y estandarizadas.\\
+
+La capacidad de integrar varios sistemas y estar continuamente aprendiendo y adaptándose a través del análisis de datos complejos es la siguiente etapa de la integración inteligente del hogar. Este proceso de aprendizaje impulsa un sistema centralizado que integra los principales sistemas de su hogar: iluminación, calefacción, seguridad, audio, persianas, etc. En este escenario, una casa inteligente es un ecosistema, supervisado por un ``cerebro'' central y controlado a través de un teléfono inteligente, tableta, computador o de un asistente virtual. Como valor agregado final se busca el detectar rápidamente patrones de uso y sus preferencias personales en cuanto a temperatura (por ejemplo) para predecir lo que mejor le convenga.\cite{ibmdomotica}
+
+\subsubsection{Arquitecturas}
+Para desarrollar apliaciones de automatización de hogares, se debe tener en cuenta que la manera en la que los artefactos, dispositivos, electrodomésticos y demás objetos se comunicaran,  las diversidad de los mismos y donde residirá la logica programada de los elementos. De esta forma podemos pensar en cuatro distintas arquitecturas dentro de entornos domóticos:
+
+\begin{itemize}
+\item Arquitectura centralizada: Esta arquitectura esta organizada de forma que un nodo sea el controlador o el ``eje central'' del sistema, recibiendo la información de los sensores, analizándola, y enviando una orden a los actuadores, según la configuración, o la información que reciba por parte del usuario.
+\item Arquitectura distribuida: Este tipo de arquitectura se diferencia por tener sensores y actuadores que son a su vez sus propios controladores, es decir son capaces de analizar la información, y están conectados a través de un bus central (medio de comunicación).
+\item Arquitectura semi-distribuida: En una arquitectura semi-distribuidas existen varios controladores, conectados a sensores y actuadores, quienes a su vez están interconectados por medio de uno mas medios de comunicación.
+\item Arquitectura mixta: Esta arquitectura se combinan las arquitecturas de los sistemas centralizados, distribuidos y/o semi-distribuidos. Por lo que puede disponer de un controlador central o varios controladores distribuidos, los dispositivos de interfaces, sensores y actuadores pueden también ser controladores y procesar la información (que captan ellos mismos u otro sensor), según el programa o la configuración y pueden actuar de acuerdo a ella, como por ejemplo, enviándola a otros dispositivos de la red, sin que necesariamente pase por un controlador.
+\end{itemize}
+
+\subsection{Protocolos y estándares utilizados}
+Una vez establecidos las diversas arquitecturas existentes para implementar una solución de domótica, se han implementado diversos protocolos que aprovechan las ventajas de dichas arquitecturas. Algunos protocolos requieren del uso de materiales y dispositivos especiales para poder ser implantados en el hogar, mientras que otros aprovechan la infraestructura existente para poder llevar a cabo todos lo procesos necesarios por los nodos, indistintamente de si son sensores, actuadores, de control o con múltiples roles.
+
+\subsubsection{X10}
+El protocolo x10 es un estándar para un protocolo de comunicación para transmitir señales de control entre equipos de automatización del hogar a través de la red eléctrica (220V o 110V). X10 es uno de los protocolos más antiguos y aun  en uso en aplicaciones domóticas. Fue diseñado en Escocia entre los años 1976 y 1978 con el objetivo de transmitir datos por las líneas de baja tensión a muy baja velocidad (60 bps en EEUU y 50 bps en Europa) y muy bajos costos. Al usar las líneas de eléctricas de la vivienda, no es necesario tender nuevos cables para conectar dispositivos.\cite{iecor}\\
+
+Gracias a su madurez y a las tecnologías empleadas, los productos bajo el estándar X10 tienen un precio muy competitivo, de forma que han sido líderes en el mercado residencial y de pequeñas empresas en lo que a instalaciones realizadas por los usuarios finales o electricistas sin conocimientos de automatización se trata.\\
+
+El protocolo X10, en sí, no es propietario, es decir, cualquier fabricante puede producir dispositivos X10 y ofrecerlos en su catálogo, sin embargo si está obligado a usar los circuitos del fabricante por Pico Electronics of Glenrothes que diseño esta tecnología. 
+
+\subsubsection{KNX/EIB}
+El Bus de Instalación Europeo (EIB o EIBus) actualmente llamado KNX es un sistema de domótica basado en un bus de datos. A diferencia de X10, que utiliza la red eléctrica, y otros sistemas actuales por radio frecuencia, el KNX utiliza su propio cableado, con lo cual se ha de proceder a instalar las conducciones adecuadas en el hogar y para el sistema. El KNX, a través de gateways, puede ser utilizado en sistemas inalámbricos como los infrarrojos, radiofrecuencia o incluso empaquetado para enviar información por Internet u otra red TCP/IP. \cite{serconint}
+
+KNX nace de la unión de las iniciativas de tres asociaciones europeas unidas para crear un único estándar europeo para la automatización de las viviendas y oficinas\cite{iecor}:
+\begin{itemize}
+\item EIBA, (European Installation Bus Association).
+\item BatiBUS Club International.
+\item EHSA (European Home System Association).
+\end{itemize}
+
+Este protocolo posee 3 modos de funcionamiento:
+\begin{itemize}
+\item S.mode (System mode): en esta configuración el sistema usa la misma filosofía que el EIB actual, esto es, los diversos dispositivos o nodos de la red son instalados y configurados por profesionales con ayuda del software de aplicación especialmente diseñada para este propósito. Está especialmente pensado para su uso en instalaciones como oficinas, industrias, hoteles, etc. Sólo los instaladores profesionales tendrán acceso a este tipo de material y a las herramientas de desarrollo. Los dispositivos S.mode sólo pueden ser comprados a través de distribuidores eléctricos especializados.
+\item E.mode (Easy mode): en esta configuración sencilla los dispositivos son programados en fábrica para realizar una función concreta. Aún así deben ser configurados algunos detalles en la instalación, ya sea con el uso de un controlador central (como un gateway residencial o similar) o mediante unos microinterruptores alojados en el mismo dispositivo. Cualquier electricista sin formación en manejo de herramientas informáticas o cualquier usuario final autodidacta, puede conseguir dispositivos E.mode en ferreterías o almacenes de productos eléctricos. Aunque la funcionalidad de estos productos está limitada (viene establecida de fábrica), la ventaja de este modo es que se configuran en un instante seleccionando, en unos microinterruptores, las opciones ofrecidas con una pequeña guía de usuario. 
+\item  A.mode (Automatic mode): en esta configuración automática, con una filosofía Plug\&Play, ni el instalador, ni el usuario final tienen que configurar el dispositivo. Este modo está especialmente indicado para ser usado en electrodomésticos, equipos de entretenimiento (consolas, set-top boxes, HiFi, etc) y proveedores de servicios. Es el objetivo al que tienden muchos productos informáticos y de uso cotidiano. Con la filosofía Plug\&Play, el usuario final no tiene que preocuparse de leer complicados manuales de instalación o perderse en un mar de referencias o especificaciones. Tan pronto como conecte un dispositivo A.mode a la red este se registrará en las bases de datos de todos los dispositivos activos en ese momento en la instalación o vivienda y pondrá a disposición de los demás sus recursos (procesador, memoria, entradas/salidas, etc). Son los fabricantes de electrodomésticos y de pasarelas residenciales, así como los proveedores de servicios (empresas de telecomunicaciones, eléctricas, ISPs), los más interesados en este tipo de productos ya que permitirán ofrecer nuevos servicios a sus clientes de forma rápida y sin necesidad de complicadas instalaciones.
+\end{itemize}
+
+\subsubsection{OSGI}
+La asociación Open Services Gateway Initiative (OSGI) fue creada en marzo de 1999 con el objetivo de crear una especificación software abierta, y libre de regalías, que permita diseñar y construir plataformas compatibles que sean capaces de proporcionar múltiples servicios en el mercado residencial y automovilístico.\\
+
+En el ámbito de la gestión técnica de las edificaciones, el OSGI pretende ofrecer una arquitectura completa de extremo a extremo, que cubra todas las necesidades del proveedor de servicios, del cliente y de cualquier dispositivo instalado en las viviendas.\cite{domoticaoviedo}\\
+
+Las áreas en que se vuelcan todos los esfuerzos del OSGI son:
+\begin{itemize}
+\item Servicios: se busca la creación de plataformas que sean capaces de procesar y tratar de forma correcta toda la información necesaria para proporcionar servicios de comunicaciones, de entretenimiento, de control y de seguridad. Por lo tanto, la especificación OSGI debe tener los interfaces adecuados para soportar todos estos servicios sin incompatibilidades además de permitir gestionarlos de forma adecuada.
+\item Métodos de acceso: La idea es que el gateway para OSGI sea capaz de acceder al mundo exterior (redes de datos, Internet) usando cualquiera de las tecnologías disponibles actualmente. 
+\item Redes de datos y control de las viviendas: Teniendo en cuenta la variedad de hogares y edificios en donde este tipo de pasarelas deben ser instaladas, esta iniciativa no escoge una única tecnología de conexión en red de múltiples dispositivos de las viviendas. Su objetivo es definir un interfaz común para todas ellas, dejando la responsabilidad a los fabricantes de construir los controladores adecuados para cada una de ellas. Teniendo en cuenta ésto, los gateways OSGI podrán usar tecnologías de conexión inalámbricas (IrDa, IEEE 802.11x, Bluetooth), sobre cables telefónicos (HomePNA), sobre la red de baja tensión (HomePlug, LonWorks, EIB/KNX, etc), sobre conexiones como Ethernet o USB. Por lo tanto, la especificación OSGI será el "gateway" que transforme los paquetes de información procedentes del mundo exterior a un paquete de datos de cualquiera de estas tecnologías y viceversa.
+\end{itemize}
+
+\subsubsection{LonWorks}
+LonWorks es una plataforma de control creada por la compañía norteamericana Echelon\cite{serconint}. Presentado en el año 1992 es un protocolo diseñado para cubrir los requisitos de la mayoría de las aplicaciones de control: edificios de oficinas, hoteles, transporte, industrias, monitorización de contadores de energía, viviendas, etc.\\
+
+El protocolo LonWorks se encuentra homologado por las distintas normas Europeas (EN-14908), de Estados Unidos (EIA-709-1) y Chinas (GB/Z20177-2006) así como por el estándar europeo de electrodomésticos CEDEC AIS. Su arquitectura es un sistema abierto a cualquier fabricante que quiera usar esta tecnología, sin depender de sistemas propietarios, permitiendo reducir los costes y aumentar la flexibilidad de la aplicación.\\
+
+Cualquier dispositivo LonWorks, o nodo, está basado en un microcontrolador llamado Neuron Chip. El diseño inicial del Neuron Chip y el protocolo LonTalk fueron desarrollados por Echelon en el año 1990. Actualmente toda la información para implementar LonWorks en otro chip esta publicada en medios oficiales pero al estar la familia Neuron Chips adaptada y dimensionada exclusivamente para este objetivo los fabricantes que eligen otras opciones son muy escasos.\\
+
+Para el funcionamiento de LonWorks en los dispositivos, estos poseen las siguientes:
+\begin{itemize}
+\item Identificador único: El Neuron ID, que permite direccionar cualquier nodo de forma unívoca dentro de una red de control LonWorks. Este identificador, con 48 bits de ancho, se graba en la memoria EEPROM durante la fabricación del circuito.
+\item Modelo de comunicaciones independiente del medio físico: Los datos pueden transmitirse sobre cables de par trenzado, ondas portadoras, fibra óptica, radiofrecuencia y cable coaxial, entre otros.
+\item El firmware que implementa el protocolo LonTalk, proporciona servicios de transporte y routing punto a punto: Está incluido un sistema operativo que ejecuta y planifica la aplicación distribuida y que maneja las estructuras de datos que intercambian los nodos.
+\end{itemize}
+
+Los datos pueden enviarse en dos formatos, un mensaje explícito o una variable de red. Los mensajes explícitos son la forma más sencilla de intercambiar datos entre dos aplicaciones residentes en dos Neuron Chips del mismo segmento LonWorks. Por el contrario, las variables de red proporcionan un modelo estructurado para el intercambio automático de datos distribuidos en un segmento LonWorks. Aunque son menos flexibles que los mensajes explícitos, las variables de red evitan que el programador de la aplicación distribuida esté pendiente de los detalles de las comunicaciones.\cite{iecor}
+
+\subsubsection{Universal Plug and Play (UPnP)}
+Universal Plug and Play (UPnP) es una estándar de software abierto y distribuido que permite a las aplicaciones de los dispositivos conectados a una red intercambien información y datos de forma sencilla y transparente para el usuario final, sin necesidad de que este tenga que ser un experto en la configuración de redes, dispositivos o sistemas operativos. Esta arquitectura está por encima de protocolos como TCP, UDP, IP, entre otros y es independiente de éstos.\\
+
+Este protocolo es capaz de detectar cuando se conecta un nuevo equipo o dispositivo a la red, asignándole una dirección IP, un nombre lógico, informando a los demás de sus funciones y capacidad de procesamiento, e informarle, a su vez, de las funciones y prestaciones de los demás. De esta forma, el usuario no tiene que preocuparse de configurar la red ni de perder el tiempo instalando drivers o controladores de dispositivos.\cite{domoticaoviedo}
+
+\subsubsection{CEBus}
+En 1984 varios miembros de la Electronics Industry Association (EIA) llegaron a la conclusión de la necesidad de un bus domótico que aportara más funciones que las que aportaban sistemas de aquella época (ON, OFF, DIMMER xx, ALL OFF, etc). Especificaron y desarrollaron un estándar al cual llamaron CEBus (Consumer Electronic Bus). En 1992 fue presentada la primera especificación.\\
+
+Se trata de un protocolo, para entornos distribuidos de control, que está definido en un conjunto de documentos del estándar. Como es una especificación abierta cualquier empresa puede conseguir estos documentos y fabricar productos que implementen este estándar. En Europa, una iniciativa similar en prestaciones, teniendo en cuenta el mercado al que va dirigido, es el protocolo EHS (European Home System).\\
+
+Los desarrollos en curso son conducidos por un grupo conocido como el CIC (CEBus Industry Council). El CIC es una organización sin fines de lucro compuesta por representantes de muchas empresas nacionales e internacionales de electrónica como Microsoft, IBM, Compaq Computer Corp, AT\&T Bell Labs, Honeywell, Panasonic, Sony, entre otros.\\
+
+Aunque no hay ninguna restricción de cualquiera que use el estándar CEBus, el CIC está desarrollando un laboratorio de pruebas sin fines de lucro que será financiado por cargos de certificación. Se alienta a los fabricantes a utilizar el laboratorio de pruebas para verificar la conformidad de su producto y su rendimiento en un entorno de red doméstica. Cuando el rendimiento está certificado, el fabricante paga una cuota de certificación y tiene licencia para incluir el logotipo de CEBus en su producto.
+
+\subsubsection{BACnet}
+BACnet es un protocolo de comunicación de datos diseñado para comunicar entre sí a los diferentes aparatos electrónicos presentes en los edificios actuales. Originalmente diseñado por la ASHRAE actualmente es también un estándar de la ISO y ANSI.\cite{serconint}\\
+
+El principal objetivo, a finales de los años ochenta, era la de crear un protocolo abierto que permitiera interconectar los sistemas de aire acondicionado y calefacción de las viviendas y edificios con el único propósito de realizar una gestión energética inteligente de la vivienda. Se definió un protocolo que implementaba el estándar OSI y se decidió empezar usando, como soporte de nivel físico, la tecnología RS-485.\cite{iecor}\\
+
+La ventaja de este protocolo es el esfuerzo que han realizado para definir un conjunto de reglas de hardware y software que permiten comunicar dos dispositivos, independientemente si estos usan protocolos como el EIB, el EHS, el LonTalk, TCP/IP, etc. El BACnet no busca cerrarse a un nivel físico o a un protocolo de nivel de capa de transporte concreto, realmente lo que pretende definir es la forma en que se representan las funciones que puede hacer cada dispositivo llamadas “objetos”, cada una con sus propiedades concretas. Existen objetos con entradas/salidas analógicas, digitales, bucles de control entre otros. 
+
+\subsubsection{EHS}
+El estándar European Home System (EHS) fue otro de los intentos que la industria europea (año 1984) procuró, auspiciada por la Comisión Europea, buscando  crear una tecnología que permitiera la implantación de la domótica en el mercado residencial de forma masiva. El resultado fue la especificación del EHS en el año 1992. Estuvo basada en una topología de red basada en el modelo OSI, y se especificaron los niveles: físico, de enlace de datos, de red y de aplicación.\\
+
+Desde su inicio estuvieron involucrados los fabricantes europeos más importantes de electrodomésticos de línea marrón y blanca, las empresas eléctricas, las operadoras de telecomunicaciones y los fabricantes de equipamiento eléctrico. La idea era crear un protocolo abierto que permitiera cubrir las necesidades de interconexión de los productos de todos estos fabricantes y proveedores de servicios.\\
+
+Tal y como fue pensado, el objetivo de la EHS fue cubrir las necesidades de automatización de la mayoría de las viviendas europeas cuyos propietarios no podían permitirse el lujo de usar sistemas más potentes pero también más caros como LonWorks, EIB o BatiBUS, debido fundamentalmente a la mano de obra especializada que exigía su instalación. El EHS viene a cubrir, por prestaciones y objetivos, el espacio que tienen el CEBus norteamericano y el HBS japonés y rebasa las prestaciones del X10.\cite{iecor}
+
+\subsection{Procesos de automatización de hogares}
+En los hogares existen una cantidad de tareas, procesos y de quehaceres que se deben atender, muchas de ellas de carácter repetitivo y tedioso. Estos cubren aspectos del uso y administración de los recursos que se tienen en los hogares con el caso de la energía, el agua, los alimentos, entre otros, que presentan una gran oportunidad para poder automatizar en un mayor grado al actual.\\
+
+Aspectos como el ocio y el confort también requieren de algunas rutinas manuales que pueden manejarse de mejor manera si estos son abordados desde la perspectiva de nuevas formas de interacción y de personalización de experiencias gracias a la recolección de información relacionada a las personas que estén en el hogar.\\
+
+Por ultimo los aspectos de seguridad y accesibilidad son altamente potenciados gracias al uso de la tecnología. Un conjunto de dispositivos y sistemas que automaticamente perciban situaciones de peligro y vigilancia para los residentes de un hogar y que pueda tomar las previsiones necesarias y generar los avisos de alerta, harán que los peligros se reduzcan aun mas. Las personas con algún tipo de dificultad o discapacidad podrán aprovechar las posibilidades que les brinda un ambiente mas amigable y adecuado, gracias a dispositivos que los ayuden a llevar una vida lo mas normal posible.
+
+\subsubsection{Administración y monitoreo de recursos}
+La gestión de los recursos básicos es una tarea primordial dentro de los hogares. El consumo y el monitoreo energetico, del agua y de alimentos no solo se puede cuantificar sino que también representa parte fundamental de la administración general de las familias. El conocer como se usan dichos elementos abre la puerta a mejorar el consumo o administración de los mismos, optimizando los procesos involucrados. Si agregamos una capa tecnológica, podemos utilizar la información generada para mejorar y conocer los patrones de consumo y optimizar cada elemento posible de esta cadena de manera automatizada.\\
+
+De esta manea podemos hablar de las diversas estrategias que se pueden llevar a cabo, según el recurso involucrado:
+\begin{itemize}
+\item Gestión en el consumo energetico: La electricidad y el gas son elementos de suma importancia en el hogar actual. En los hogares casi todos los artefactos requieren de una fuente eléctrica, con lo que es uno de los recursos mas utilizados. El poder conocer de manera concienzuda cuales artefactos o habitaciones realizan el mayor consumo eléctrico, detallando los horarios de uso e incluyendo el poder reconocer patrones, permite utilizar y establecer de manera inteligente, políticas automatizadas para la regulación en el consumo de este recurso. Del mismo modo, el registrar información de uso del gas en cocinas y sistemas de calefacción permite establecer dichos patrones  y así no solo regular automaticamente el uso, sino establecer niveles de eficiencia energética deseables y tomando en cuenta la inclusión de perfiles según gustos y necesidades de usuarios. El poder agregar sensores de medición en las infraestructura de los hogares, en los dispositivos y la comunicación entre ellos y sistemas de análisis en tiempo real también puede usarse para ayudar a monitorear de manera remota cual es el estado actual de los artefactos de nuestro hogar, permitiendo incluso desactivarlos o activarlos sin requerir de presencia de personas. 
+\item Manejo de recursos hidiricos: El agua es considerado un recurso critico, no solo en los hogares, sino en donde sea que este es utilizado. Este valioso recurso es utilizado ampliamente en la alimentación, en la higiene personal y de la vivienda, entre otros y muchas veces es subestimado su acceso y consumo, pero las crecientes dificultades en el suministro confiable, la preocupación por la contaminación del vital liquido entre otras razones hace cada vez mas necesario la implantación de sensores que permiten conocer en todo momento los niveles existentes, los patrones de uso y la calidad del mismo. 
+\item Alimentos y desperdicios: Los adquisición de alimento o reposición de los mismos es una de las formas en las que al introducir artefactos con características de comunicación y procesamiento de información ayudan a sumar esfuerzos en pro de la automatización de los hogares. Neveras con capacidad de reconocer cuando se han acabado la o las existencias de uno o mas productos o si un determinado alimento ha expirado a fines de generar listas de compras o realizar los pedidos correspondientes, teniendo en cuenta los perfiles de gustos de las personas e incluso de su dieta. Por otro lado la gestión correcta de los desechos permite ser mas conscientes con el ambiente y también permite ayudar a clasificar los elementos reciclables automáticamente.
+\end{itemize}
+
+\subsubsection{Entretenimiento y Confort}
+Los sistemas de entretenimiento han sido desde el principio parte del desarrollo de la domótica. Muchos elementos han ido promocionando la integración de televisiones, reproductores de música y otros con controles universales o con teléfonos inteligentes, tabletas o computadoras. Cada vez mas, los artefactos de entretenimiento se pueden conectar a Internet y sincronizarse con servicios de suscripción de música, de películas y series, con nuestros archivos multimedia en las computadoras casi sin requerir configuración alguna de parte de los usuarios. \\
+
+Por otro lado, los sistemas de iluminación, HVAC, entre otros también agregan una capa de confort a los hogares automatizados y que en la actualidad se hace mas común que el resto de elementos del hogar inteligente, ofreciendo capas de personalización importante a aspectos tradicionales de los hogares.
+
+\subsubsection{Seguridad}
+Otro aspecto fundamental en la incorporación de tecnología en el hogar ha sido el uso de sensores, cámaras de circuito cerrado y alarmas de seguridad. En cuanto a la domótica se refiere, esta s tecnologías han ido evolucionando en capacidad y en utilidad, contando ahora con características de comunicación tanto con el usuario, como con servicios policiales  y/o emergencia y también con otros dispositivos y artefactos. \\
+
+Con la aparición de sistemas de cámaras de circuito cerrado que pueden estar funcionando de manera autónoma o  activarse bajo eventos y con los cuales se pueden observar no solo desde un dispositivo sino desde cualquier lugar, utilizando Internet para ello, permite elevar los niveles de seguridad y confianza en los usuarios pero esta no es la ultima linea de defensa contra delincuentes o vandalismo. Red de sensores de movimiento de infrarrojo o ultra sonido ubicados estratégicamente al rededor y dentro el hogar permite conocer , incluso de manera remota si existe algún peligro de intrusión no deseado, pudiendo activar las alarmas o alertar a las autoridades competentes de manera automática.\\
+
+El uso de timbres y sistemas intercomunicadores que alertan a los usuarios donde quieran que estén de las personas que se encuentran en la puerta del hogar  hacen mas fácil la tarea de reconocer posibles amenazas de personas que no se conozcan, o por el contrario, permitir que personas autorizadas puedan entrar sin la necesidad de recibirlas presencialmente.\\
+
+Pero también existen otros peligros en los hogares que no necesariamente vienen dados por riesgo de robos, intrusiones, también  los sistemas de seguridad han cambiado para agregar maneras inteligentes  de reconocer otros riesgos potenciales para las familias. Las alarmas de seguridad ahora no solo se activan bajo entradas no autorizadas sino también cuando los detectores de humo y fuego indican la presencia de un incendio y notificar a los servicios de urgencias de manera automatizada del mismo; también es posible detectar cuando la calidad del aire dentro de una o mas habitaciones no es la adecuada. \\
+
+En el caso de familias que poseen niños pequeños también la seguridad a nivel de procesos de hogares automatizados ha mejorado, con la introducción de monitores y cunas de bebes inteligentes, las cuales permiten monitorear en tiempo real y generar estadísticas sobre posibles factores de riesgo sobre los infantes. También esto es aplicable a otros aspectos del hogar para evitar accidentes, como es el caso de notificaciones de acceso a áreas de lo hogares sin la supervisión adulta en piscinas, desvanes, sótanos,  jardines, e incluso de artefactos, permitiendo a los padres y responsables tomar medidas tempranas antes de que pudiese ocurrir un accidente.  
+
+\subsubsection{Accesibilidad}
+La accesibilidad dentro y fuera de los hogares es un aspecto que ha estado en desarrollo desde el principio en la domótica. Las personas que poseen algún tipo de discapacidad muchas veces enfrentan grandes retos en el uso de los espacios y recursos dentro de sus propios hogares y una manera ideal de minimizar estas dificultades es automatizando gran parte de las tareas que se puedan realizar en lo hogares, desde la limpieza realizada por robots autónomos o con la creación de nuevas maneras de interactuar (interfaces) que permitan controlar los artefactos dentro del hogar.\\
+
+Personas que poseen alguna discapacidad motriz pueden valerse de asistentes de voz y de sistemas roboticos permiten al usuario encargase de las tareas de limpieza y organización del hogar. Del mismo modo las personas con discapacidad visual pueden aprovechar las cognitivas de inteligencia artificial en los artefactos para realizar las labores, utilizando por ejemplo, comandos de voz.\\
+
+Otro sector de la población que se ve beneficiado de la introducción de mas características inteligentes en los hogares son las personas de la tercera edad, pues cada vez es mas común el uso de múltiples interfaces por las cuales controlar y realizar tareas del hogar, gracias a artefactos inteligentes que rompen con el esquema de una curva de aprendizaje elevada. 
+
+\subsection{Tecnologías de automatización}
+Existen una gran cantidad formas y presentaciones por las cuales la tecnología se hace presente en los hogares automatizados y en el área de la domótica. Se puede abordar desde el punto de vista de artefactos tecnológicos que han adquirido capacidades de comunicación o de cognición o  desde el punto del software, hardware e infraestructuras utilizadas para obtener un hogar con apliaciones automáticas.
+
+\subsubsection{OpenHAB}
+El open Home Automation Bus (openHAB)\cite{openhabofficial} es una plataforma de automatización domótica agnóstica de código abierto que funciona como el centro de una casa inteligente.\cite{openhabdoc} El objetivo principal que busca cubrir openHAB es el integrar diferentes sistemas y tecnologías de domótica en una única solución que permite reglas de automatización globales y que ofrece interfaces de usuario uniformes.
+
+Como software que gobierna otros sistemas openHAB esta capacitado con las siguientes características:
+\begin{enumerate}
+\item Está diseñado para ser absolutamente neutral ante los fabricantes, el hardware o los protocolos implementados.
+\item Puede ejecutarse en cualquier dispositivo que sea capaz de ejecutar una Java Virtual Machine (JVM) incluyendo sistemas operativos Linux, Mac, Windows.
+\item Le permite integrar una gran cantidad de tecnologías domóticas diferentes en una sola.
+\item Tiene un potente motor de reglas para satisfacer todas las necesidades de automatización requeridas.
+\item Viene con diferentes interfaces de usuario basadas en la Web, así como interfaces de usuario nativas para iOS y Android.
+\item Es totalmente código abierto.
+\item Es mantenido por una comunidad apasionada y creciente.
+\item Es fácilmente extensible para integrarse con nuevos sistemas y dispositivos.
+\item Proporciona APIs para integrarse con otros sistemas.
+\end{enumerate}
+
+OpenHAB no busca reemplazar las soluciones domóticas existentes, por lo que puede considerarse como un sistema de sistemas. Por lo tanto, asume que los subsistemas se configuran y de manera independiente a openHAB, ya que esto es a menudo un asunto muy específico y complejo (incluyendo procesos de "emparejamiento", enlaces de dispositivos directos, etc). En cambio, openHAB se centra en el "uso diario" de las cosas y los resúmenes de los propios dispositivos.\\
+
+Un concepto central para openHAB es la noción de un "item". Un item es un bloque de construcción atómico funcional centrado en los datos. OpenHAB no le importa si un item (por ejemplo, un valor de temperatura) está relacionado con un dispositivo físico o alguna fuente como un servicio web o como un resultado de cálculo. Todas las características ofrecidas por openHAB utilizan esta abstracción de item, lo que significa que no encontrará ninguna referencia a las cosas específicas del dispositivo (como direcciones IP, ID, etc) en las reglas de automatización, las definiciones de la interfaz de usuario y así sucesivamente. Esto hace que sea perfectamente fácil reemplazar una tecnología por otra sin hacer ningún cambio en las reglas e interfaces de usuario.\\
+
+Un aspecto muy importante de la arquitectura de openHAB es su diseño modular. Es muy fácil agregar nuevas características (como la integración con otro sistema a través de una "vinculación") y puede agregar y eliminar tales características en tiempo de ejecución. Este enfoque modular ha sido un aliciente enorme para atraer a una comunidad activa alrededor de openHAB con muchos colaboradores comprometidos.\\
+
+OpenHAB es altamente flexible y personalizable, pero esto trae como contra que se tiene que invertir tiempo para aprender sus conceptos y para establecer un sistema individual adaptado a las necesidades propias. No es un producto comercial que se conecta y esta listo para usar y muchas partes de la configuración requieren configuración y el acceso potencial a los archivos de registro. Por lo tanto, la configuración de openHAB es principalmente un trabajo para personas con conocimientos en las tecnologías implicadas. \cite{openhab2}
+
+\subsubsection{Home Assistant}
+Home Assistant es una plataforma de domótica de código abierto que escrita en Python 3. Su objetivo es el poder otorgar la capacidades de rastrear y controlar todos los dispositivos en el hogar y poder establecer control automatizado. \cite{homeAssistant} Home Assistant se basa en tres pilares fundamentales:
+
+\begin{itemize}
+\item Observar: Home Assistant rastreará el estado de todos los dispositivos en el hogar, por lo que no es necesario intervención humana alguna.
+\item Control: El objetivo es controlar todos tus dispositivos desde una interfaz única, compatible con dispositivos móviles. Home Assistant no requiere almacenar ninguno de los datos en la nube, buscando mantener su privacidad.
+\item Automatizar: El usuario establece las reglas, incluso de carácter avanzado para controlar dispositivos y mantener su hogar activo.
+\end{itemize}
+
+Al ser escrito en Python 3, este software es altamente portable y es capaz de ser ejecutado en computadores de capacidades modestas o incluso distribuir el sistema entre varios nodos. También al utilizar APIs, este puede ser extendido de la manera que se requiera, agregando componentes modulares a su arquitectura. La manera en que Home Assistant muestra la información de los diferentes dispositivos es través de una interfaz web, lo que lo hace fácil de acceder desde cualquier dispositivo que este dentro de la misma red.\\
+
+Al igual que openHAB posee una alta integración con dispositivos de mas de 700 marcas.\cite{homeAssistant2} También comparte su principal inconveniente que es su difícil configuración, la cual requiere de conocimiento medios o avanzados sobre las tecnologías implicadas o de los dispositivos que se desean utilizar a través de este software. 
+
+\subsubsection{Domoticz}
+Domoticz es un sistema de domótica muy ligero que le permite monitorear y configurar diversos dispositivos, incluyendo luces, interruptores, varios sensores como temperatura, lluvia, viento, radiación ultravioleta (UV), uso o producción de electricidad, consumo de gas, consumo de agua, entre otros. Las notificaciones  y alertas se pueden enviar a cualquier dispositivo móvil.\cite{domoticzwiki}\\
+
+Domoticz está escrito en C ++ y fue lanzado al mercado en el año 2012. El sistema está diseñado para operar en varios sistemas operativos (Linux, Windows, Mac, dispositivos programados). La interfaz de usuario es un frontend web HTML5 escalable y se adapta automáticamente para dispositivos de escritorio y móviles.\cite{domoticz} Utiliza su propio servidor web integrado, escrito también en C ++, para una ejecución eficiente y evitar dependencias.\\
+
+La lógica de manejo de eventos de los dispositivos es programable por el usuario, ya sea mediante Blockly (para codificación visual usando gráficos de interconexión) o Lua (un lenguaje de programación de guiones rico ideal para soluciones integradas).
+
+La principal desventaja de Domoticz es que es una solución de domótica es comparativamente mas difícil de configurar y extender que sus contrapartes openHAB y Home Assistant, aunque su base de datos de sensores, dispositivos es mayor.
+
+\subsubsection{Android Things}
+Android Things es un sistema operativo para dispositivos embebidos y para micro computadores basado en el sistema operativo Android y parte del ecosistema de soluciones tecnológicas de Google. Nace del proyecto Brillo y evoluciona adecuándose con otros proyectos de la compañía como Android Auto, Android Wear, Android  TV o Chrome OS bajo un kit de desarrollo estándar (SDK)\cite{AndroidThings} que provee APIs y librerías que faciliten la creación de aplicaciones interoperables.\\
+
+Android Things esta pensado para usar pocos recursos comparados con otros sistemas operativos e implementa un protocolo propio llamado Weave con el cual se busca realizar la comunicación entre dispositivos bajo el sistema operativo Android de manera transparente y automática.\\
+
+La principal ventaja de Android Things es su robusto SDK para el desarrollo de apliaciones de forma que los programadores y desarrolladores pueden crear aplicaciones fácilmente, especialmente si se posee alguna experiencia desarrollando apliaciones para algún producto del ecosistema Android ademas de la integración que poseen las aplicaciones que se se hayan desarrollado, permitiendo que nuevos productos sean creados y probados.\\
+
+La principal desventaja que posee el sistema operativo de Google es que su esquema de desarrollo es rígido comparado con otros sistemas operativos para dispositivos embebidos o enfocados en el Internet de las Cosas, dejando de lado otros protocolos y estándares de la industria lo cual podría causar problemas con sistemas y con dispositivos legados o antiguos.
+
+\subsubsection{Amazon Echo}
+Amazon Echo es  un altavoz manos libres controlado con la voz, desarrollado por la empresa norteamericana Amazon, como una manera de llevar a los hogares su inteligencia artificial Amazon Alexa, dando la posibilidad a los usuarios de reproducir música desde servicios en la nube,  realizar y recibir llamadas y mensajes, proporcionar información, noticias, resultados deportivos, el clima y más, al instante tan solo preguntando o usando comandos de voz.\\
+
+Alexa es el asistente de voz construido por la compañía basado en inteligencia artificial alojada en la nube, por lo que siempre se hace más inteligente. Cuanto más usa Echo, más se adapta a sus patrones de habla, vocabulario y preferencias personales. Como Echo está diseñado para estar siempre conectado, las actualizaciones se entregan automáticamente, agregando de manera constante nuevos servicios y opciones de interacción con otros servicios o con otros dispositivos.\\
+
+En cuanto al aspecto de conectividad, Amazon Echo cuenta con conexión WiFi de doble banda y doble antena (MIMO) para una transmisión más rápida. Soporta redes WiFi 802.11a/b/g/n. Ademas también posee conectividad Bluetooth con soporte de perfil de distribución de audio avanzado (A2DP) para la transmisión de audio desde dispositivos móviles a Amazon Echo y AVRCP (Audio/Video Remote Control Profile) para control de voz de dispositivos móviles conectados.\cite{AmazonEcho}
+
+\subsubsection{Google Home}
+Google Home es un altavoz activado por voz fabricada por  Google para competir en el ramo de los asistentes de voz en los hogares. Utiliza la inteligencia artificial Google Assistant para poder responder a una gran cantidad de comandos.\cite{googleHome} La bocina inteligente puede determinar por la voz, cual fue el usuario que emitió algún comando u orden, permitiendo así, relacionar la información con los perfiles de usuario con sus cuentas de Google.
+
+La característica principal del Google Home es la alta integración con los servicios de Google como el correo, servicios de música, mapas y trafico, gustos, vídeos, siendo capaz de enviar la información a los dispositivos de manera conveniente. Como su competencia Amazon Echo, Google Home también provee servicio de llamadas y de mensajería a listas de contactos registrados y ya una gran cantidad de compañías  ya han anunciado que proveerán de servicios y de dispositivos que podrán ser controlados a través del altavoz.\\
+
+Google Assistant es la asistente virtual que evoluciono del uso del primer asistente creado por la compañía llamado Google Now y del agregar nuevas capacidades a la inteligencia artificial desarrollada por ellos. Esta este asistente puede acceder de a la información que se tenga  disponible de las cuentas de google con las cuales se sincroniza dando a los usuarios una experiencia bastante personalizada.
+
+Google Home utiliza conexión WiFi con soporte para 802.11b/g/n/ac bajo 2.4GHz/5Ghz para transmisión y recepción al mismo tiempo en sus antenas (MIMO), pero a diferencia de Amazon Alexa, no cuenta con conectividad Bluetooth.\\ 
+
+\subsubsection{Apple HomePod}
+El Apple HomePod es la respuesta de la compañía Apple a los altavoces Google Home y Amazon Echo. Apple HomePod esta especialmente diseñado para dos tareas, la de poder reproducir música con una gran calidad de audio y el poder integrarse con los servicios de la compañía, haciendo uso de su asistente virtual, Siri. \\
+
+Este el primer producto de Apple que se afirma en la nueva plataforma HomeKit para productos en el hogar, pero desde ya este ofrece una gran una gran cantidad de empresas y marcas cuyos productos podrán ser controlados haciendo uso de este dispositivo. El poder de la inteligencia artificial del asistente virtual Siri, brinda una importante parte de la experiencia del usuario, pues este podrá reconocer mas comandos de voz aun que los previstos en los dispositivos iOS o con MacOS.\\
+
+Apple HomePod atiene una fecha estimada de salida al mercado para diciembre de 2017, sin embargo se conocen de sus especificaciones técnicas que en el apartado de conectividad utiliza conexiones WiFI 802.11a/b/g/n/ac con capacidad MIMO y también el protocolo  AirPlay 2, el cual es el protocolo propietario de la marca. 
+
+\subsubsection{Raspberry Pi}
+Raspberry Pi es una marca de micro computadores de hardware libre, que comenzó como proyecto para llevar a la educación  de escolares ingleses conceptos de la computación, de la programación y de la electrónica, y que luego la comunidad Maker y algunas compañías adoptaron, pues vieron el potencial para crear dispositivos, sensores, actuadores, robots entre otros y para poder llevar a cabo prototipos funcionales de dispositivos y de productos muy rápidamente. Su bajo costo de \$35 por la placa mas costosa y facilidad de uso, han facilitado la adopción de este micro computador por personas en todo el mundo.\\
+
+Este es un proyecto llevado a cabo con la Raspberry Pi Foundation\cite{RaspberryPi} desde el año 2012 ofreciendo hasta el día de hoy siete modelos distintos de placas, con procesadores ARM, memoria RAM que va desde los 256MB hasta 1GB y cuya memoria es de carácter externo usando tarjetas MicroSD en la mayoría de los modelos y cuyo consumo no es mayor al de 2,5 amperios. Los modelos son:
+\begin{itemize}
+\item Raspberry Pi Modelo A: Fue el primer modelo de Raspberry Pi en salir al mercado, en el año 2012. Basado en un SoC Broadcom BCM28235, cuyo procesador es un ARM11 32 bits a 700MHz, Gráficas Broadcom VideoCore IV, con 256MB de memoria RAM, un puerto USB, una salida HDMI, un conector RCA, una entrada CSI para un modulo de cámara, y sin características de conectividad alguna por defecto. Para el almacenamiento se usan tarjetas SD. 
+\item Raspberry Pi Modelo B/B+: También del año 2012, es una variante del Modelo A, trajo consigo diversas mejoras, como la inclusión del doble de memoria RAM, pasando de 256MB a 512MB. Trajo consigo un puerto USB más y un conector Ethernet (RJ-45) Se mantuvo tanto su tamaño como su coste. No hubo variaciones en el procesador ni en la gráfica. Tiempo después se lanzo el Modelo B+, que incluyó 4 puertos USB y pasó de usar una SD a una MicroSD.
+\item Raspberry Pi 2 Modelo B: Lanzada en 2014 es el primer modelo que no incluye el mismo procesador usado en los tres anteriores: se sustituye por uno de la misma marca, pero de modelo BCM2836 con lo cual pasa de ser de un núcleo a cuatro, y de 700MHz a 900MHz, no obstante emplea la misma gráfica, la VideoCore IV. Dobla la cantidad de memoria RAM, pasando de 512MB a 1GB de memoria (también compartida con la gráfica). También incluye 40 pines GPIO, y mantiene los cuatro puertos USB. Suprime la conexión RCA.
+\item Raspberry Pi 3 Modelo B: Sale al mercado en el año 2016, renovando procesador, una vez más de la compañía Broadcom, siendo un procesador de cuatro núcleos al igual que el modelo anterior, pero pasa de 900MHz a 1.20GHz,  manteniendo la RAM en 1GB. Su mayor novedad fue la inclusión de WiFi y Bluetooth (4.1 Low Energy) sin necesidad de adaptadores.
+\item Raspberry Pi Zero: Fue el primer modelo miniaturizado de las Raspberry Pi, teniendo un tamaño un poco mayor a un Pen Drive. Lanzado en 2015 con un coste de 5 dólares, es una 40\% más potente que el primer modelo de Raspberry. Tiene un CPU Broadcom BCM2835, que funciona a 1GHz con dos núcleos. Posee 512MB de RAM, y comparte la gráfica VideoCore IV. Debido a su tamaño sustituye el puerto HDMI por MiniHDMI, manteniendo así las prestaciones. Tampoco usa USB estándar, sino que tiene dos MicroUSB, uno de alimentación y otro de datos. Posee salida RCA, pero en vez de por clavija son solo dos conectores integrados en la placa. Usa MicroSD como sistema de almacenamiento.
+\item Raspberry Pi Zero W: Es la sucesora de la Raspberry Pi Zero. la W es por Wireless, ya que la única novedad de esta placa con respecto a su antecesora es la inclusión de WiFi y Bluetooth, por lo que su precio ascendió a 11 dólares.
+\end{itemize}
+Existen gran variedad de sistemas operativos que pueden ser usados con este micro computador, la mayoría de ellos, basados en Linux, pero también con la posibilidad de instalar Windows 10 (Iot Core) o Android (Android Things).\\
+
+Una característica principal de estas placas es la existencia de 40 pines GPIO, los cuales proveen entradas y salidas digitales para el micro computador con lo que se le puede expandir su s funcionalidades con el uso de sensores (HATs o a través de circuitos eléctricos tradicionales), cuya logica puede ser creada en lenguajes de programación como Python, C++, Java, entre otros.\\
+
+El proyecto ha ganado una comunidad muy amplia al rededor del mundo, que han probado la versatilidad que posee este micro computador en proyectos de toda índole, dando a las personas la capacidad de crear soluciones basadas en el Internet de las Cosas de una forma divertida y a su vez, con calidad y robustez.
+
+\subsubsection{Arduino/Genuino}
+Arduino (Genuino a nivel internacional) es una plataforma electrónica en hardware y software libres, fáciles de usar. Está pensado para cualquier persona que haga proyectos interactivos.\cite{ArduinoOfficial} Arduino detecta el ambiente recibiendo entradas de muchos sensores, y afecta su entorno controlando luces, motores y otros actuadores. La logica de micro controlador Arduino de deberá hacer se hace escribiendo código en el lenguaje de programación Arduino (basado en C++) y utilizando el entorno de desarrollo de Arduino.\\
+
+Arduino nació en el Ivrea Interaction Design Institute como una herramienta fácil para el prototipado rápido, dirigido a estudiantes sin formación en electrónica y programación. Tan pronto como llegó a una comunidad más amplia, la junta de Arduino comenzó a cambiar para adaptarse a las nuevas necesidades y desafíos, diferenciando su oferta de simples placas de 8 bits a productos para aplicaciones IoT, portátiles, impresión 3D y dispositivos embebidos. Todas las placas de Arduino son totalmente de hardware libre, lo que permite a los usuarios construirlas independientemente y eventualmente adaptarlas a sus necesidades particulares. El software, también es de código abierto y está creciendo a través de las contribuciones de los usuarios de todo el mundo.\\
+
+Las placas Arduino están disponibles de dos formas: ensambladas o en forma de kits ``Hágalo tú mismo''. Los esquemas de diseño del hardware están disponibles bajo licencia Libre, con lo que se permite que cualquier persona pueda crear su propia placa Arduino sin necesidad de comprar una prefabricada. La primera placa Arduino fue introducida en 2005, ofreciendo un bajo costo y facilidad de uso para novatos y profesionales. Buscaba desarrollar proyectos interactivos con su entorno mediante el uso de actuadores y sensores. A partir de octubre de 2012, se incorporaron nuevos modelos de placas de desarrollo que usan micro controladores Cortex M3, ARM de 32 bits, que coexisten con los originales modelos que integran micro controladores AVR de 8 bits.\\
+
+En la actualidad, existen 23 distintas placas de micro controladores, 7 módulos complementarios, 15 Shields (placas de expansión), con lo cual se posee un ecosistema rico de diversos micro controladores para cada tarea o cada ambiente de desarrollo. 
