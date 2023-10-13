@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  4 OCT 2023 00:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  13 OCT 2023 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -325,8 +325,13 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (Capitulos/Resumen.aux) (Capitulos/Agradecimientos.aux) (Capitulos/Indices.aux
-) (Capitulos/Introduccion.aux) (Capitulos/Capitulo1.aux) (Capitulos/ProblemaDeI
-nvestigacion.aux))
+) (Capitulos/Introduccion.aux)
+(Capitulos/ProblemaDeInvestigacion.aux) (Capitulos/InternetdelasCosas.aux)
+(Capitulos/HerrramientasdeVisualizacionyControl.aux)
+(Capitulos/DiseñoeImplementación.aux) (Capitulos/EntornodePruebas.aux)
+(Capitulos/CasosdeUso.aux)
+(Capitulos/ResultadosLimitacionesyTrabajosFuturos.aux)
+(Capitulos/Conclusiones.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -431,19 +436,43 @@ v_logo.jpg>]
 \openout2 = `Capitulos/Resumen.aux'.
 
  (Capitulos/Resumen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-)
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
- [2
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+[2
 
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+) [3]
 \openout2 = `Capitulos/Agradecimientos.aux'.
 
  (Capitulos/Agradecimientos.tex
@@ -454,7 +483,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 )
 LaTeX Info: Redefining \. on input line 86.
 LaTeX Info: Redefining \% on input line 86.
- [3
+ [4
 
 
 
@@ -465,18 +494,18 @@ LaTeX Info: Redefining \% on input line 86.
  (Capitulos/Indices.tex (main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-)
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
+ [5
+
+
+
+
+])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
- [4
-
-
-
-
-] (main.lof
+ [6] (main.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -485,7 +514,7 @@ LaTeX Info: Redefining \% on input line 1.
 
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
- [5
+ [7
 
 ] (main.lot
 LaTeX Info: Redefining \. on input line 1.
@@ -497,94 +526,137 @@ LaTeX Info: Redefining \% on input line 1.
 )
 LaTeX Info: Redefining \. on input line 88.
 LaTeX Info: Redefining \% on input line 88.
- [6
+
+[8
 
 ]
 \openout2 = `Capitulos/Introduccion.aux'.
 
-
-(Capitulos/Introduccion.tex
+ (Capitulos/Introduccion.tex
 Cap\'{\i }tulo 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-) [7
+) [9
 
 
 
 
 ]
-\openout2 = `Capitulos/Capitulo1.aux'.
-
-
-No file Capitulos/Capitulo1.tex.
 \openout2 = `Capitulos/ProblemaDeInvestigacion.aux'.
 
-(Capitulos/ProblemaDeInvestigacion.tex
+ (Capitulos/ProblemaDeInvestigacion.tex
 Cap\'{\i }tulo 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-[8
+[10
 
 
 
+
+]) [11]
+\openout2 = `Capitulos/InternetdelasCosas.aux'.
+
+ (Capitulos/InternetdelasCosas.tex
+Cap\'{\i }tulo 3.
+) [12
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+\openout2 = `Capitulos/HerrramientasdeVisualizacionyControl.aux'.
 
- []
+ (Capitulos/HerrramientasdeVisualizacionyControl.tex
+Cap\'{\i }tulo 4.
+) [13
 
-[9]) [10]
+
+
+
+]
+\openout2 = `Capitulos/DiseñoeImplementación.aux'.
+
+ (Capitulos/DiseñoeImplementación.tex
+Cap\'{\i }tulo 5.
+) [14
+
+
+
+
+]
+\openout2 = `Capitulos/EntornodePruebas.aux'.
+
+ (Capitulos/EntornodePruebas.tex
+Cap\'{\i }tulo 6.
+) [15
+
+
+
+
+]
+\openout2 = `Capitulos/CasosdeUso.aux'.
+
+ (Capitulos/CasosdeUso.tex
+Cap\'{\i }tulo 7.
+) [16
+
+
+
+
+]
+\openout2 = `Capitulos/ResultadosLimitacionesyTrabajosFuturos.aux'.
+
+ (Capitulos/ResultadosLimitacionesyTrabajosFuturos.tex
+Cap\'{\i }tulo 8.
+) [17
+
+
+
+
+]
+\openout2 = `Capitulos/Conclusiones.aux'.
+
+ (Capitulos/Conclusiones.tex
+Cap\'{\i }tulo 9.
+) [18
+
+
+
+
+]
 No file main.bbl.
 (main.aux (Capitulos/Portada.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (Capitulos/Resumen.aux)
 (Capitulos/Agradecimientos.aux) (Capitulos/Indices.aux)
-(Capitulos/Introduccion.aux) (Capitulos/Capitulo1.aux)
-(Capitulos/ProblemaDeInvestigacion.aux))
+(Capitulos/Introduccion.aux) (Capitulos/ProblemaDeInvestigacion.aux)
+(Capitulos/InternetdelasCosas.aux)
+(Capitulos/HerrramientasdeVisualizacionyControl.aux)
+(Capitulos/DiseñoeImplementación.aux) (Capitulos/EntornodePruebas.aux)
+(Capitulos/CasosdeUso.aux)
+(Capitulos/ResultadosLimitacionesyTrabajosFuturos.aux)
+(Capitulos/Conclusiones.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6414 strings out of 475248
- 111641 string characters out of 5767628
- 1928801 words of memory out of 5000000
- 27821 multiletter control sequences out of 15000+600000
+ 6576 strings out of 475248
+ 120425 string characters out of 5767628
+ 1929801 words of memory out of 5000000
+ 27939 multiletter control sequences out of 15000+600000
  563832 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,73p,969b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 59i,12n,77p,1095b,710s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (10 pages, 81983 bytes).
+Output written on main.pdf (18 pages, 92536 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
+ 76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
