@@ -23,4 +23,44 @@ H.~Tschofenig~\& others.
 \newblock {Architectural Considerations in Smart Object Networking}.
 \newblock Technical report, Internet Architecture Board, Marzo 2015.
 
+\bibitem{tablaiot}
+James Manyika~\& otros.
+\newblock {The internet of Things: Mapping the Value Beyond the Hype.}
+\newblock
+  \url{http://www.mckinsey.com/insights/business_technology/the_internet_of_things_the_value_of_digitizing_the_physical_world},
+  Junio 2015.
+\newblock [Accedido: 17-06-2017].
+
+\bibitem{ibmiotindustria}
+Jen Clark.
+\newblock {What is industry 4.0?}
+\newblock \url{https://www.ibm.com/blogs/internet-of-things/industry-4-0/},
+  Octubre 2016.
+\newblock [Accedido: 18-06-2017].
+
+\bibitem{ibmiottransporte1}
+Lynne Slowey.
+\newblock {From automotive to mobility, the future of IoT for the car
+  industry}.
+\newblock
+  \url{https://www.ibm.com/blogs/internet-of-things/automotive-future-iot/},
+  Febrero 2017.
+\newblock [Accedido: 17-06-2017].
+
+\bibitem{ibmappsiot}
+Rahul.
+\newblock {IoT applications spanning across industries}.
+\newblock
+  \url{https://www.ibm.com/blogs/internet-of-things/iot-applications-industries/},
+  Abril 2017.
+\newblock [Accedido: 17-06-2017].
+
+\bibitem{ibmiotmedicina}
+Kevin Patel.
+\newblock {6 Benefits of IoT for Hospitals and Healthcare}.
+\newblock
+  \url{https://www.ibm.com/blogs/internet-of-things/6-benefits-of-iot-for-healthcare/},
+  Enero 2017.
+\newblock [Accedido: 17-06-2017].
+
 \end{thebibliography}

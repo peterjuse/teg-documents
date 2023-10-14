@@ -20,59 +20,58 @@
 \contentsline {subsection}{\numberline {3.2.4}Comunicación Dispositivo a Intercambio de Datos en Back-end}{16}{}%
 \contentsline {section}{\numberline {3.3}Aplicaciones del Internet de las Cosas}{17}{}%
 \contentsline {subsection}{\numberline {3.3.1}Hogares}{17}{}%
-\contentsline {subsection}{\numberline {3.3.2}Industrias}{17}{}%
-\contentsline {subsection}{\numberline {3.3.3}Transporte y Logistica}{17}{}%
-\contentsline {subsection}{\numberline {3.3.4}Comercio}{17}{}%
-\contentsline {subsection}{\numberline {3.3.5}Tecnologías Vestibles}{17}{}%
-\contentsline {subsection}{\numberline {3.3.6}Medicina y Salud}{17}{}%
-\contentsline {subsection}{\numberline {3.3.7}Ciudades Inteligentes}{17}{}%
-\contentsline {section}{\numberline {3.4}Interoperatividad entre Infraestructuras y Dispositivos}{17}{}%
-\contentsline {subsection}{\numberline {3.4.1}Ecosistemas}{17}{}%
-\contentsline {subsection}{\numberline {3.4.2}Restricciones}{17}{}%
-\contentsline {subsection}{\numberline {3.4.3}Riesgos}{18}{}%
-\contentsline {subsection}{\numberline {3.4.4}Sistemas Heredados}{18}{}%
-\contentsline {subsection}{\numberline {3.4.5}Configuración de dispositivos}{18}{}%
-\contentsline {section}{\numberline {3.5}Protocolos y Estándares Utilizados}{18}{}%
-\contentsline {subsection}{\numberline {3.5.1}Protocolos}{18}{}%
-\contentsline {subsubsection}{\numberline {3.5.1.1}HTTP}{18}{}%
-\contentsline {subsubsection}{\numberline {3.5.1.2}MQTT}{18}{}%
-\contentsline {subsubsection}{\numberline {3.5.1.3}IPv4 e IPv6}{18}{}%
-\contentsline {subsection}{\numberline {3.5.2}Estándares}{18}{}%
-\contentsline {subsubsection}{\numberline {3.5.2.1}Bluetooth}{18}{}%
-\contentsline {subsubsection}{\numberline {3.5.2.2}Redes Celulares}{18}{}%
-\contentsline {subsubsection}{\numberline {3.5.2.3}NFC}{18}{}%
-\contentsline {subsubsection}{\numberline {3.5.2.4}Wifi}{19}{}%
-\contentsline {subsubsection}{\numberline {3.5.2.5}Zigbee}{19}{}%
-\contentsline {subsubsection}{\numberline {3.5.2.6}Z-Wave}{19}{}%
-\contentsline {section}{\numberline {3.6}Seguridad}{19}{}%
-\contentsline {chapter}{\numberline {4}Herramientas de Monitoreo, Visualización y Control}{20}{}%
-\contentsline {section}{\numberline {4.1}Herramientas de Monitoreo}{20}{}%
-\contentsline {section}{\numberline {4.2}Herramientas de Visualización}{20}{}%
-\contentsline {section}{\numberline {4.3}Herramientas de Control}{20}{}%
-\contentsline {chapter}{\numberline {5}Diseño e Implementación}{21}{}%
-\contentsline {section}{\numberline {5.1}Diseño de la solución}{21}{}%
-\contentsline {section}{\numberline {5.2}Implementación de la solución}{21}{}%
-\contentsline {chapter}{\numberline {6} Entorno de Pruebas}{22}{}%
-\contentsline {section}{\numberline {6.1}Escenarios de pruebas}{22}{}%
-\contentsline {subsection}{\numberline {6.1.1}Dispositivos IoT}{22}{}%
-\contentsline {subsubsection}{\numberline {6.1.1.1}Raspberry Pi 3B}{22}{}%
-\contentsline {subsubsection}{\numberline {6.1.1.2}Raspberry Pi Zero}{22}{}%
-\contentsline {subsubsection}{\numberline {6.1.1.3}Arduino Uno}{22}{}%
-\contentsline {subsection}{\numberline {6.1.2}Aplicación HAMACA}{22}{}%
-\contentsline {subsubsection}{\numberline {6.1.2.1}Captura de Información}{22}{}%
-\contentsline {subsubsection}{\numberline {6.1.2.2}Visualización de datos}{22}{}%
-\contentsline {subsubsection}{\numberline {6.1.2.3}Monitoreo de Dispositivos}{22}{}%
-\contentsline {subsubsection}{\numberline {6.1.2.4}Control de Dispositivos}{23}{}%
-\contentsline {chapter}{\numberline {7}Casos de Uso}{24}{}%
-\contentsline {section}{\numberline {7.1}Laboratorios de Investigación y Desarrollo}{24}{}%
-\contentsline {subsection}{\numberline {7.1.1}Entornos Académicos}{24}{}%
-\contentsline {subsection}{\numberline {7.1.2}Entornos Industriales}{24}{}%
-\contentsline {section}{\numberline {7.2}Ambientes Domésticos}{24}{}%
-\contentsline {section}{\numberline {7.3}Oficinas}{24}{}%
-\contentsline {chapter}{\numberline {8}Resultados, Limitaciones y Trabajos Futuros}{25}{}%
-\contentsline {section}{\numberline {8.1}Resultados}{25}{}%
-\contentsline {section}{\numberline {8.2}Limitaciones}{25}{}%
-\contentsline {section}{\numberline {8.3}Contribuciones}{25}{}%
-\contentsline {section}{\numberline {8.4}Trabajos Futuros}{25}{}%
-\contentsline {chapter}{\numberline {9}Conclusiones}{26}{}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{27}{}%
+\contentsline {subsection}{\numberline {3.3.2}Industrias}{18}{}%
+\contentsline {subsection}{\numberline {3.3.3}Transporte}{18}{}%
+\contentsline {subsection}{\numberline {3.3.4}Comercio y Logística}{19}{}%
+\contentsline {subsection}{\numberline {3.3.5}Tecnologías Vestibles}{19}{}%
+\contentsline {subsection}{\numberline {3.3.6}Medicina y Salud}{19}{}%
+\contentsline {section}{\numberline {3.4}Interoperatividad entre Infraestructuras y Dispositivos}{20}{}%
+\contentsline {subsection}{\numberline {3.4.1}Ecosistemas}{20}{}%
+\contentsline {subsection}{\numberline {3.4.2}Restricciones}{20}{}%
+\contentsline {subsection}{\numberline {3.4.3}Riesgos}{20}{}%
+\contentsline {subsection}{\numberline {3.4.4}Sistemas Heredados}{20}{}%
+\contentsline {subsection}{\numberline {3.4.5}Configuración de dispositivos}{20}{}%
+\contentsline {section}{\numberline {3.5}Protocolos y Estándares Utilizados}{20}{}%
+\contentsline {subsection}{\numberline {3.5.1}Protocolos}{20}{}%
+\contentsline {subsubsection}{\numberline {3.5.1.1}HTTP}{20}{}%
+\contentsline {subsubsection}{\numberline {3.5.1.2}MQTT}{20}{}%
+\contentsline {subsubsection}{\numberline {3.5.1.3}IPv4 e IPv6}{21}{}%
+\contentsline {subsection}{\numberline {3.5.2}Estándares}{21}{}%
+\contentsline {subsubsection}{\numberline {3.5.2.1}Bluetooth}{21}{}%
+\contentsline {subsubsection}{\numberline {3.5.2.2}Redes Celulares}{21}{}%
+\contentsline {subsubsection}{\numberline {3.5.2.3}NFC}{21}{}%
+\contentsline {subsubsection}{\numberline {3.5.2.4}Wifi}{21}{}%
+\contentsline {subsubsection}{\numberline {3.5.2.5}Zigbee}{21}{}%
+\contentsline {subsubsection}{\numberline {3.5.2.6}Z-Wave}{21}{}%
+\contentsline {section}{\numberline {3.6}Seguridad}{21}{}%
+\contentsline {chapter}{\numberline {4}Herramientas de Monitoreo, Visualización y Control}{23}{}%
+\contentsline {section}{\numberline {4.1}Herramientas de Monitoreo}{23}{}%
+\contentsline {section}{\numberline {4.2}Herramientas de Visualización}{23}{}%
+\contentsline {section}{\numberline {4.3}Herramientas de Control}{23}{}%
+\contentsline {chapter}{\numberline {5}Diseño e Implementación}{24}{}%
+\contentsline {section}{\numberline {5.1}Diseño de la solución}{24}{}%
+\contentsline {section}{\numberline {5.2}Implementación de la solución}{24}{}%
+\contentsline {chapter}{\numberline {6} Entorno de Pruebas}{25}{}%
+\contentsline {section}{\numberline {6.1}Escenarios de pruebas}{25}{}%
+\contentsline {subsection}{\numberline {6.1.1}Dispositivos IoT}{25}{}%
+\contentsline {subsubsection}{\numberline {6.1.1.1}Raspberry Pi 3B}{25}{}%
+\contentsline {subsubsection}{\numberline {6.1.1.2}Raspberry Pi Zero}{25}{}%
+\contentsline {subsubsection}{\numberline {6.1.1.3}Arduino Uno}{25}{}%
+\contentsline {subsection}{\numberline {6.1.2}Aplicación HAMACA}{25}{}%
+\contentsline {subsubsection}{\numberline {6.1.2.1}Captura de Información}{25}{}%
+\contentsline {subsubsection}{\numberline {6.1.2.2}Visualización de datos}{25}{}%
+\contentsline {subsubsection}{\numberline {6.1.2.3}Monitoreo de Dispositivos}{25}{}%
+\contentsline {subsubsection}{\numberline {6.1.2.4}Control de Dispositivos}{26}{}%
+\contentsline {chapter}{\numberline {7}Casos de Uso}{27}{}%
+\contentsline {section}{\numberline {7.1}Laboratorios de Investigación y Desarrollo}{27}{}%
+\contentsline {subsection}{\numberline {7.1.1}Entornos Académicos}{27}{}%
+\contentsline {subsection}{\numberline {7.1.2}Entornos Industriales}{27}{}%
+\contentsline {section}{\numberline {7.2}Ambientes Domésticos}{27}{}%
+\contentsline {section}{\numberline {7.3}Oficinas}{27}{}%
+\contentsline {chapter}{\numberline {8}Resultados, Limitaciones y Trabajos Futuros}{28}{}%
+\contentsline {section}{\numberline {8.1}Resultados}{28}{}%
+\contentsline {section}{\numberline {8.2}Limitaciones}{28}{}%
+\contentsline {section}{\numberline {8.3}Contribuciones}{28}{}%
+\contentsline {section}{\numberline {8.4}Trabajos Futuros}{28}{}%
+\contentsline {chapter}{\numberline {9}Conclusiones}{29}{}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{30}{}%
