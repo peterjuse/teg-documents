@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  13 OCT 2023 17:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  14 OCT 2023 03:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -324,7 +324,7 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 (Capitulos/Portada.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- (Capitulos/Resumen.aux) (Capitulos/Agradecimientos.aux) (Capitulos/Indices.aux
+ (Capitulos/Agradecimientos.aux) (Capitulos/Resumen.aux) (Capitulos/Indices.aux
 ) (Capitulos/Introduccion.aux)
 (Capitulos/ProblemaDeInvestigacion.aux) (Capitulos/InternetdelasCosas.aux)
 (Capitulos/HerrramientasdeVisualizacionyControl.aux)
@@ -433,6 +433,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {C:/Users/peter/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figuras/uc
 v_logo.jpg>]
+\openout2 = `Capitulos/Agradecimientos.aux'.
+
+ (Capitulos/Agradecimientos.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 8--84
+
+ []
+
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
+[2
+
+
+
+
+]
 \openout2 = `Capitulos/Resumen.aux'.
 
  (Capitulos/Resumen.tex
@@ -450,40 +465,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
-[2
-
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-) [3]
-\openout2 = `Capitulos/Agradecimientos.aux'.
-
- (Capitulos/Agradecimientos.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
 )
 LaTeX Info: Redefining \. on input line 86.
 LaTeX Info: Redefining \% on input line 86.
- [4
+ [3
 
 
 
@@ -494,14 +479,14 @@ LaTeX Info: Redefining \% on input line 86.
  (Capitulos/Indices.tex (main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
- [5
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+ [4
 
 
 
 
-])
+] [5])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
@@ -535,41 +520,159 @@ LaTeX Info: Redefining \% on input line 88.
  (Capitulos/Introduccion.tex
 Cap\'{\i }tulo 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-) [9
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+[9
 
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 29--90
+
+ []
+
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
+[10]
 \openout2 = `Capitulos/ProblemaDeInvestigacion.aux'.
 
  (Capitulos/ProblemaDeInvestigacion.tex
 Cap\'{\i }tulo 2.
-[10
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
 
 
-]) [11]
-\openout2 = `Capitulos/InternetdelasCosas.aux'.
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
- (Capitulos/InternetdelasCosas.tex
-Cap\'{\i }tulo 3.
-) [12
+ []
+
+[11
 
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+[12]) [13]
+\openout2 = `Capitulos/InternetdelasCosas.aux'.
+
+ (Capitulos/InternetdelasCosas.tex
+Cap\'{\i }tulo 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+[14
+
+
+
+
+]
+<./Figuras/d2d.png, id=50, 664.73344pt x 172.39406pt>
+File: ./Figuras/d2d.png Graphic file (type png)
+<use ./Figuras/d2d.png>
+Package pdftex.def Info: ./Figuras/d2d.png  used on input line 29.
+(pdftex.def)             Requested size: 265.88867pt x 68.95639pt.
+<./Figuras/d2n.png, id=51, 692.5875pt x 238.64156pt>
+File: ./Figuras/d2n.png Graphic file (type png)
+<use ./Figuras/d2n.png>
+Package pdftex.def Info: ./Figuras/d2n.png  used on input line 39.
+(pdftex.def)             Requested size: 277.03009pt x 95.45493pt.
+<./Figuras/d2g.png, id=52, 676.77844pt x 479.54156pt>
+File: ./Figuras/d2g.png Graphic file (type png)
+<use ./Figuras/d2g.png>
+Package pdftex.def Info: ./Figuras/d2g.png  used on input line 48.
+(pdftex.def)             Requested size: 270.70657pt x 191.81322pt.
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
+ [15 <./Figuras/d2d.png> <./Figuras/d2n.png>]
+<./Figuras/d2b.png, id=56, 792.71156pt x 417.05812pt>
+File: ./Figuras/d2b.png Graphic file (type png)
+<use ./Figuras/d2b.png>
+Package pdftex.def Info: ./Figuras/d2b.png  used on input line 57.
+(pdftex.def)             Requested size: 317.07901pt x 166.82028pt.
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+ [16 <./Figuras/d2g.png> <./Figuras/d2b.png>]
+LaTeX Info: Redefining \. on input line 88.
+LaTeX Info: Redefining \% on input line 88.
+ [17]
+LaTeX Info: Redefining \. on input line 113.
+LaTeX Info: Redefining \% on input line 113.
+ [18])
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
+ [19]
 \openout2 = `Capitulos/HerrramientasdeVisualizacionyControl.aux'.
 
- (Capitulos/HerrramientasdeVisualizacionyControl.tex
+
+(Capitulos/HerrramientasdeVisualizacionyControl.tex
 Cap\'{\i }tulo 4.
-) [13
+) [20
 
 
 
@@ -579,7 +682,7 @@ Cap\'{\i }tulo 4.
 
  (Capitulos/DiseñoeImplementación.tex
 Cap\'{\i }tulo 5.
-) [14
+) [21
 
 
 
@@ -589,17 +692,20 @@ Cap\'{\i }tulo 5.
 
  (Capitulos/EntornodePruebas.tex
 Cap\'{\i }tulo 6.
-) [15
+) [22
 
 
 
 
 ]
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
+ [23]
 \openout2 = `Capitulos/CasosdeUso.aux'.
 
  (Capitulos/CasosdeUso.tex
 Cap\'{\i }tulo 7.
-) [16
+) [24
 
 
 
@@ -609,7 +715,7 @@ Cap\'{\i }tulo 7.
 
  (Capitulos/ResultadosLimitacionesyTrabajosFuturos.tex
 Cap\'{\i }tulo 8.
-) [17
+) [25
 
 
 
@@ -619,18 +725,23 @@ Cap\'{\i }tulo 8.
 
  (Capitulos/Conclusiones.tex
 Cap\'{\i }tulo 9.
-) [18
+) [26
 
 
 
 
-]
-No file main.bbl.
-(main.aux (Capitulos/Portada.aux)
+] (main.bbl)
+LaTeX Info: Redefining \. on input line 110.
+LaTeX Info: Redefining \% on input line 110.
+ [27
+
+
+
+] (main.aux (Capitulos/Portada.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- (Capitulos/Resumen.aux)
-(Capitulos/Agradecimientos.aux) (Capitulos/Indices.aux)
+
+(Capitulos/Agradecimientos.aux) (Capitulos/Resumen.aux) (Capitulos/Indices.aux)
 (Capitulos/Introduccion.aux) (Capitulos/ProblemaDeInvestigacion.aux)
 (Capitulos/InternetdelasCosas.aux)
 (Capitulos/HerrramientasdeVisualizacionyControl.aux)
@@ -644,19 +755,21 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6576 strings out of 475248
- 120425 string characters out of 5767628
- 1929801 words of memory out of 5000000
- 27939 multiletter control sequences out of 15000+600000
- 563832 words of font info for 55 fonts, out of 8000000 for 9000
+ 6638 strings out of 475248
+ 121728 string characters out of 5767628
+ 1934801 words of memory out of 5000000
+ 27996 multiletter control sequences out of 15000+600000
+ 564348 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,12n,77p,1095b,710s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,13n,79p,966b,726s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (18 pages, 92536 bytes).
+TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmtt12.pfb>
+Output written on main.pdf (27 pages, 332379 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 119 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

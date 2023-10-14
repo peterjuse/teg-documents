@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{IoTTrueHistory}
+Chetan Sharma.
+\newblock {Correcting The IoT History}.
+\newblock \url{https://www.chetansharma.com/correcting-the-iot-history/}.
+\newblock [Accedido: 14-10-2023].
+
+\bibitem{IoTFirstDef}
+Kamlesh Lakhwani.
+\newblock {\em {Internet of Things (IoT) : Principles, Paradigms and
+  Applications of IoT}}.
+\newblock BPB Publications, 2020.
+
+\bibitem{iotInternetSociety}
+Kare Rose \& Scott Eldridge \&~Lyman Chapin.
+\newblock {The Ïnternet of Things: An Overview - Understanding the issues and
+  Challenges of a More Connected World}.
+\newblock Technical report, The Internet Society, Octubre 2015.
+
+\bibitem{rfc7452}
+H.~Tschofenig~\& others.
+\newblock {Architectural Considerations in Smart Object Networking}.
+\newblock Technical report, Internet Architecture Board, Marzo 2015.
+
+\end{thebibliography}

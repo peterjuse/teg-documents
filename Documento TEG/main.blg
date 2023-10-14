@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: unsrt.bst
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Capitulos/Portada.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: Capitulos/Agradecimientos.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Capitulos/Resumen.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Capitulos/Indices.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: Capitulos/Introduccion.aux
+Reallocating 'name_of_file' (item size: 1) to 38 items.
+A level-1 auxiliary file: Capitulos/ProblemaDeInvestigacion.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: Capitulos/InternetdelasCosas.aux
+Reallocating 'name_of_file' (item size: 1) to 51 items.
+A level-1 auxiliary file: Capitulos/HerrramientasdeVisualizacionyControl.aux
+Reallocating 'name_of_file' (item size: 1) to 38 items.
+A level-1 auxiliary file: Capitulos/DiseñoeImplementación.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+A level-1 auxiliary file: Capitulos/EntornodePruebas.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: Capitulos/CasosdeUso.aux
+Reallocating 'name_of_file' (item size: 1) to 53 items.
+A level-1 auxiliary file: Capitulos/ResultadosLimitacionesyTrabajosFuturos.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: Capitulos/Conclusiones.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+Database file #1: Referencias/Referencias.bib
+You've used 4 entries,
+            1791 wiz_defined-function locations,
+            482 strings with 4556 characters,
+and the built_in function-call counts, 546 in all, are:
+= -- 48
+> -- 16
+< -- 0
++ -- 8
+- -- 4
+* -- 13
+:= -- 103
+add.period$ -- 13
+call.type$ -- 4
+change.case$ -- 5
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 27
+empty$ -- 62
+format.name$ -- 4
+if$ -- 120
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 2
+newline$ -- 24
+num.names$ -- 4
+pop$ -- 18
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 6
+stack$ -- 0
+substring$ -- 0
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 4
+width$ -- 5
+write$ -- 45

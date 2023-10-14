@@ -12,31 +12,33 @@
 %	Sección uno: Planteamiento del Problema
 \section{Planteamiento del Problema}
 \lhead[\thepage]{\thesection. Planteamiento del Problema}
-El evidente incremento actual en la cantidad de dispositivos inteligentes en los últimos años ha generado que estemos rodeados de sensores de toda índole, lo que representa una oportunidades de capturar información a la cual antes no se tenia acceso. Si a esa omnipresencia le agregamos el factor de conectividad presentes en dichos dispositivos vemos que estamos ante un tipo de tecnología disruptiva con el potencial para cambiar el entorno en los que todos hacemos vida. 
+El evidente incremento actual en la cantidad de dispositivos inteligentes en los últimos años ha generado que estemos rodeados de sensores de toda índole, lo que representa una oportunidades de capturar información a la cual antes no se tenia acceso. Si a esa omnipresencia le agregamos el factor de conectividad presentes en dichos dispositivos vemos que estamos ante un tipo de tecnología disruptiva con el potencial para cambiar el entorno en los que todos hacemos vida. \\
 
-El internet de las cosas, nombre que se le da a esta combinación entre dispositivos la capacidad de conexión establece que seremos capaces de automatizar muchas más tareas complejas basándonos en microdeciciones tomadas por los mismos dispositivos, haciendo uso de la información que recolectan dichos sensores y actuando en consonancia con objetivos claros, haciendo más eficientes dichos procesos, consumiendo menos recursos, alertando sobre potenciales problemas. 
+El internet de las cosas, nombre que se le da a esta combinación entre dispositivos la capacidad de conexión establece que seremos capaces de automatizar muchas más tareas complejas basándonos en microdeciciones tomadas por los mismos dispositivos, haciendo uso de la información que recolectan y actuando en consonancia con ciertos criterios, haciendo más eficientes dichos procesos, consumiendo menos recursos, alertando sobre potenciales problemas, entre otras ventajas.\\
 
-Sin embargo la cantidad de dispositivos, el volumen de información y la capacidad de computo requerido se incrementa a pasos agigantados haciendo que la capacidad de observar el flujo de información de los procesos y el control tanto automatizado como manual de ellos se vuelva una tarea compleja. A pesar de la existencia de múltiples herramientas que permiten palear parte de esa problemática, son pocas las opciones que cumplen tanto la función de monitorio, como la controlar complejos flujos de datos de manera centralizada, ademas de no ser alternativas flexibles para quienes desean adaptar determinado aspecto de la automatizaciones. 
+Sin embargo la cantidad de dispositivos, el volumen de información y la capacidad de computo requerido se incrementa a pasos agigantados haciendo que la capacidad de observar cada flujo de información de procesos y el control tanto automatizado como manual de dichos dispositivos se vuelva una tarea compleja. A pesar de la existencia de múltiples herramientas que permiten palear parte de esa problemática, son pocas las opciones que cumplen tanto la función de visualización de datos, de monitorio de recursos así como también de la controlar complejos flujos de acciones de múltiples dispositivos de manera centralizada, ademas de no existir alternativas flexibles para quienes desean adaptar determinado aspecto de la automatizaciones.
 
-Esto también significa que para quienes se encarguen de realizar inteligencia de negocios sobre dichos datos se encuentran en una posición difícil para tratar de entender los datos y que información pueden aportar a las altas gerencias. Incluso como usuarios finales en la vida cotidiana se nos hace cada vez mas complejo observar todos los datos que se capturan de nuestros dispositivos. 
+
+\subsection{Justificación}
+Dada ese situación donde es cada vez mas complejo poseer aspectos de gestión y administración de los flujos de automatización en los que se encuentran dichos dispositivos que a la larga es necesario tener a la mano una o más herramientas que permitan rescatar la observabilidad de uno de esos aspectos funcionales de las automatizaciones de procesos basados en el IoT, ya sea en el monitoreo de los sensores, en la gestión de data e información en tiempo real o histórica y por último el control de dichos dispositivos bajo rutinas predeterminadas.\\
+
+Esto también significa que para quienes se encarguen de realizar inteligencia de negocios sobre dichos datos masivos se encuentran en una posición difícil para tratar de entender el contexto de los mismos y que información pueden aportar sin tener que ser exhaustivos o aplicando métodos complejos para tratar la información. Incluso como usuarios finales en la vida cotidiana se nos hace cada vez mas complejo observar todos los datos que se capturan de nuestros dispositivos y verlos de manera centralizada.\\
 
 Es allí donde se requieren una nueva generación de herramientas de monitoreo, control, análisis  y con la capacidad de poder sustentar dichos complejos procesos automáticos y presentarlos de manera fácil e intuitiva a las personas.
 
 \subsection{Alcance}
-Para comenzar a subsanar esa brecha en las herramientas se propone la creación de un framework de desarrollo que en principio contemple una forma centralizada de monitorear y controlar dispositivos IoT, contando con la capacidad de observar los datos en tiempo real e histórico de los sensores y actuadores que se registren usando uno de los múltiples protocolos abiertos de conexión y con la capacidad de presentar dashboards acordes a las necesidades que presente el usuario final para observar dichos datos.
+Para comenzar a subsanar esa brecha en las herramientas se propone la creación de un desarrollo que en principio contemple una forma centralizada de monitorear y controlar dispositivos IoT, contando con la capacidad de observar los datos en tiempo real e histórico de los sensores y actuadores que se registren usando uno de los múltiples protocolos abiertos de conexión y con la capacidad de presentar información simplificada acordes a las necesidades que presente el usuario final para observar dichos datos. A su vez este trabajo debe servir de framework de desarrollos futuros en el área del IoT en general.
  
 \subsection{Objetivos}
 
 \subsubsection{Objetivos Generales}
-Desarrollar un software que permita observar y controlar dispositivos de forma transparente, siendo flexible en la forma en que se presente información en tiempo real como histórica de los sensores y actuadores que se registren en el. Este también debe servir como framework para futuros desarrollos que apoyen la implantación de nuevas tecnologías en el área del internet de las cosas.
+Se plantea el desarrollo de un software que permita observar y controlar dispositivos de forma transparente, intuitiva y flexible en la forma en que se presente información en tiempo real como histórica de los sensores y actuadores de dispositivos que se registren en el. Este desarrollo también debe poseer la capacidad de extender mediante módulos futuros casos de uso para implementar o extender sus capacidades iniciales a un rango mayor de dispositivos y estándares.
 
 \subsubsection{Objetivos Específicos}
 Para alcanzar el objetivo general estipulado se plantean los siguientes objetivos específicos:
 \begin{itemize} 
-\item Establecer la arquitectura adecuada para dar soporte a un sistema basado en el monitoreo/control de dispositivos IoT de manera centralizada.
-\item Construir prototipos funcionales de uno o más dispositivos IoT para la captura de datos de las variables sobre los procesos que estarán monitoreando y automatizando.
+\item Establecer la arquitectura para una solución modular adecuada para dar soporte a un sistema basado en el monitoreo/control de dispositivos IoT de manera centralizada.
+\item Construir prototipos funcionales de uno o más dispositivos IoT para la captura de datos de las variables sobre los procesos que simulen de manera realista un escenario para validar el monitoreo y gestión a traves del proyecto.
 \item Seleccionar y utilizar herramientas diseñadas para trabajar con estándares abiertos y que permita la integración de múltiples herramientas de diversas índole a lo largo del proyecto, para explotar de mejor forma la información obtenida de los dispositivos.
-\item Realizar la captura de datos de manera transparente para el usuario.
-\item Utilizar herramientas de visualización de datos adecuadas para informar los resultados obtenidos.
-\item Integrar herramientas que permitan el control de artefactos y dispositivos de manera intuitiva.
+\item Utilizar e integrar herramientas de visualización de datos de forma intuitiva, así como también que permitan el control de artefactos y dispositivos.
 \end{itemize}
