@@ -33,44 +33,44 @@ Reallocating 'name_of_file' (item size: 1) to 27 items.
 A level-1 auxiliary file: Capitulos/Conclusiones.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
 Database file #1: Referencias/Referencias.bib
-You've used 32 entries,
+You've used 35 entries,
             1791 wiz_defined-function locations,
-            610 strings with 8816 characters,
-and the built_in function-call counts, 4406 in all, are:
-= -- 401
-> -- 144
+            627 strings with 9193 characters,
+and the built_in function-call counts, 4797 in all, are:
+= -- 437
+> -- 156
 < -- 0
-+ -- 68
-- -- 36
-* -- 76
-:= -- 734
-add.period$ -- 121
-call.type$ -- 32
-change.case$ -- 37
++ -- 74
+- -- 39
+* -- 80
+:= -- 801
+add.period$ -- 132
+call.type$ -- 35
+change.case$ -- 41
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 171
-empty$ -- 542
-format.name$ -- 36
-if$ -- 1021
+cite$ -- 35
+duplicate$ -- 187
+empty$ -- 590
+format.name$ -- 39
+if$ -- 1111
 int.to.chr$ -- 0
-int.to.str$ -- 32
+int.to.str$ -- 35
 missing$ -- 2
-newline$ -- 188
-num.names$ -- 32
-pop$ -- 181
+newline$ -- 205
+num.names$ -- 35
+pop$ -- 197
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 61
+skip$ -- 66
 stack$ -- 0
 substring$ -- 0
-swap$ -- 26
+swap$ -- 28
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 32
-width$ -- 34
-write$ -- 366
+while$ -- 35
+width$ -- 37
+write$ -- 399

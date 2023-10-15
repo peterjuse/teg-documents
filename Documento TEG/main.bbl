@@ -221,4 +221,22 @@ IBM~Cognos Analytics.
   Niviembre 2022.
 \newblock [Accedido: 14-10-2023].
 
+\bibitem{arquitecturaComputador}
+john~von Neumann.
+\newblock {First Draft of a Report on the EDVAC}.
+\newblock Technical report, Moore School of Electrical Engineering, University
+  of Pennsylvania, Junio 1945.
+
+\bibitem{ArduinoOfficial}
+The~Arduino Company.
+\newblock {WHAT IS ARDUINO?}
+\newblock \url{https://www.arduino.cc}.
+\newblock [Accedido: 08-07-2017].
+
+\bibitem{RaspberryPi}
+Raspberry~Pi Foundation.
+\newblock {Raspberry Pi}.
+\newblock \url{https://www.raspberrypi.org}.
+\newblock [Accedido: 08-07-2017].
+
 \end{thebibliography}
