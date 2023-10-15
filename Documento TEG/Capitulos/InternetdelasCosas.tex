@@ -9,6 +9,7 @@
 \chapter{Internet de las Cosas}
 \markboth{Internet de las Cosas}{Internet de las Cosas}
 \section{Definición}
+\lhead[\thepage]{\thesection. Definición}
 El ``Internet de las Cosas", también conocido como IoT por sus siglas en inglés es el término utilizado para designar al conjunto de artefactos y dispositivos que poseen la capacidad de conectarse entre ellos o a otras redes como el internet de forma que pueden transmitir y recibir datos e información. De manera formal no existe una definición estandarizada sobre el concepto de IoT, pues dependiendo de la organización puede considerarse el concepto desde el punto de vista desde el cual se observe el concepto, sea desde la perspectiva de las redes, desde el punto de vista de los dispositivos o bien desde el punto de vista de los sistemas automatizados.\\
 
 La primera aparición del término fue realizada en la conferencia ``Congressional Black Caucus Foundation 15th Annual Legislative Weekend'' en Washington, D. C. en septiembre del año 1985 por parte de Peter Lewis \cite{IoTTrueHistory} en donde define que ``El Internet de las cosas, o IoT, es la integración de personas, procesos y tecnología con dispositivos y sensores conectables para permitir el monitoreo, estado, manipulación y evaluación remota de las tendencias de dichos dispositivos''\cite{IoTFirstDef}.\\
@@ -20,6 +21,7 @@ Para fines prácticos, durante esta investigación se toma el concepto de origin
 \vspace{50px}
 
 \section{Modelos de Comunicación}
+\lhead[\thepage]{\thesection. Modelos de Comunicación}
 Desde el punto de vista teórico, los dispositivos IoT pueden interconectarse de varias formas. Estos siguen el marco de desarrollo planteado por el estandar RFC-7452\cite{rfc7452} en el que se plantean 4 modelos de comunicación con características propias. Esos modelos son:
 
 \subsection{Comunicación Dispositivo a Dispositivo}
@@ -64,6 +66,7 @@ Este modelo es una forma automatizada de conexiones, en donde el dispositivo env
 \end{figure}
 
 \section{Aplicaciones del Internet de las Cosas}
+\lhead[\thepage]{\thesection. Aplicaciones del Internet de las Cosas}
 Si observamos la variedad de dispositivos distintos que encontramos tanto en la vida diaria como si pensamos en términos de los sistemas altamente industrializados, se hace evidente que la cantidad de distintos nichos donde el tener sensores o elementos actuadores hace que muchos procesos se vuelvan tanto dinámicos como reactivos. Las posibilidades de adopción dispositivos interconectados en flujos para automatizar procesos es algo que se está proporcionando la base de lo que llamamos computación ubicua.
 
 Podemos categorizar según las formas de acción y su características, varios campos donde el internet de las cosas tiene y tendrá un impacto significativo para las personas y organizaciones. En la tabla \ref{tabla:categorias_dispositivos} podemos observar alguna de esas categorías y ejemplos de tecnologías acordes\cite{tablaiot}.
@@ -129,6 +132,7 @@ También podemos ver un avance en la efectividad de tratamientos médicos sumini
 Las ciudades en el futuro se perfilan en el uso de los dispositivos IoT como parte fundamental de la infraestructura que deben tener para brindar a sus ciudadanos la mayor cantidad de satisfacción y calidad de vida posible. Desde el punto ya tocado del transporte como el monitoreo y control de recursos vitales como es el caso del acceso a agua potable, el reciclaje de materiales, los gobiernos ya diseñan en función de la capacidad de poder contar con data de sensores para poder evaluar mejores políticas ciudadanas, así como también brindar transparencia a los procesos de gestion de recursos\cite{ibmiotciudad}. 
 
 \section{Interoperatividad entre Infraestructuras y Dispositivos}
+\lhead[\thepage]{\thesection. Interoperatividad entre Infraestructuras y Dispositivos}
 Para las redes de computadoras, la interoperatividad es un elemento fundamental, incluso desde su mismo diseño, pues la idea de dispositivos conectados también requiere que se puedan comprender en un ``lenguaje" común entre las partes. Para ello existen numerosos estándares y protocolos que han surgido de forma que sean ese marco común de entendimiento entre plataformas, dispositivos y arquitecturas.\\
 
 Más allá de los aspectos técnicos, la interoperatividad tiene una influencia significativa en el impacto económico potencial de IoT. Aquellos marcos comunes, estándares y protocolos que tienen bien definido pueden fomentar la innovación y proporcionar a los fabricantes de dispositivos IoT valor agregado gracias a esas características y a su vez, aumentar el valor económico general del mercado.\\
@@ -156,6 +160,7 @@ Una arista de la interoperatividad que debe considerarse en todo momento tanto c
 La configuración de dispositivos es un proceso que muchas veces es similar en aspectos como la parte de la conectividad. Sin embargo el problema se puede observar cuando la cantidad de dispositivos a configurar es alto. Esta perspectiva puede ser desalentadora para los usuarios finales quienes tienen que asumir el tiempo para hacerlo o el coste de contratación de profesionales para poder realizar todo el proceso. 
 
 \section{Protocolos y Estándares Utilizados}
+\lhead[\thepage]{\thesection. Protocolos y Estándares Utilizados}
 Como se pudo observar en los puntos anteriores la existencia de estándares y de protocolos son parte fundamental para garantizar el correcto funcionamiento de cualquier dispositivo que entre dentro de cualquiera de las categorías del internet de las cosas. El lado de manejo de las redes como pilar de la tecnología requiere conocer y elegir el método adecuado de comunicarse. Es por ello que tanto los modelos planteados al principio de este capitulo\cite{rfc7452} como el protocolo adecuado puede cambiar diametralmente el desempeño del dispositivo.\\
 
 Sin embargo, hay un valor considerable en la extensión de la capacidad de conectarse a internet a los dispositivos más restringidos en termino de recursos que a menudo necesitan versiones optimizadas o uso especial de estos protocolos. A continuación se presentan algunos de los protocolos y estándares actuales mas importantes empleados por los dispositivos del Internet de las Cosas y que han sido considerados para la investigación y el desarrollo de este trabajo.
@@ -270,6 +275,7 @@ Bluetooth es uno de los primeros estándares de comunicación creados pensando e
 En la actualidad el estándar Bluetooth se compone de un núcleo o también llamado Bluetooth Core que contiene las directivas de comunicaciones generales e inherentes al estándar y de dos extensiones llamadas Bluetooth BR/EDR (Basic Rate/Enhanced Data Rate) optimizado para hacer uso de intercambio de streams de datos, como audio y el Bluetooth Low Energy diseñado para hacer un uso muy eficiente de la energía utilizada en la comunicación, en casos donde el intercambio de datos es pequeño y que ha sido implementado desde la versión 4.0 del estándar. Los dispositivos tiene la posibilidad de implementar ya sea Bluetooth BR/EDR o Bluetooth Low Energy o ambas de forma mixta.\\
 
 La gran ventaja de este estándar es que gran cantidad de dispositivos cuentan con la capacidad de comunicarse a través de este estándar, ademas de que permite una comunicación con un modelo dispositivo a dispositivo fácil de establecer para el usuario final. Sin embargo estas comunicaciones son de corto alcance cosa que puede afectar el desempeño entre dispositivos. El Bluetooth Low Energy abre las puertas a dispositivos que requieren manejar de manera eficiente el consumo energético de las comunicaciones pero no es aconsejado uso para el intercambio exhaustivo de información. Por otro lado, es recomendable utilizar el Bluetooth BR/EDR cuando la aplicación que se usa requiere enviar una cantidad de información importante o continuamente, pero tiene la desventaja que el consumo energético es mayor afectando negativamente la duración de los dispositivos si estos operan con una fuente estable de energía.
+
 \subsubsection{Redes Celulares}
 Los estandares celulares son las mas utilizadas en cuanto a redes inalambricas. Extendidas al rededor del mundo proveen a los dispositivos una manera sencilla de poder conectarse a servicios de voz y datos. \\
 
@@ -299,6 +305,7 @@ NFC puede funcionar en dos modos:
 \end{itemize}
 
 En cuanto a la seguridad, NFC utiliza su corta distancia de transmisión como un mecanismo de protección pues cualquier ataque deberá realizarse cerca de los dispositivos que realizan la transmisión. 
+
 \subsubsection{Wifi (802.11)} 
 WiFi es el estándar de comunicación inalambrico mas utilizado en el mundo después de las redes celulares y ha sido una selección obvia al momento de integrar comunicación dispositivos con una red. El estándar WiFI esta basado en el estadar de la IEEE 802.11\cite{ieee80211} y ha atravesado una serie de versiones que han permitido mejorar su cualidades de despliegue en termino de distancia, velocidad de transmisión, seguridad e interoperatividad.\\  
 
@@ -335,6 +342,7 @@ Una característica importante de este estándar es que  implementa redes mallad
 \end{itemize}
 
 \section{Seguridad}
+\lhead[\thepage]{\thesection. Seguridad}
 La seguridad de los dispositivos diseñados para formar parte del internet de las cosas, deben estar centrados no solamente en la recolección de datos, el despliegue de información o acciones sobre el ambiente sino en todos los eslabones que hagan parte del conjunto de tecnologías utilizadas para tales fines.\\
 
 Los aspectos fundamentales de seguridad deben ser de carácter transversal a toda la infraestructura. También debe ser abordada durante todo el ciclo de vida de los dispositivos, desde el diseño inicial, pasando por las pruebas requeridas para comprobar su correcto funcionamiento, hasta la implantación en el entorno deseado y que incluye todo lo concerniente a la comunicación, al acceso y administración de los dispositivos, equipos y servicios de la arquitectura utilizada, a los datos que pueden proveer, o todo recurso que los haga un blanco ideal para los piratas informáticos.\\

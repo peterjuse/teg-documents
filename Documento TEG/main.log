@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  15 OCT 2023 01:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  15 OCT 2023 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -612,17 +612,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  (Capitulos/InternetdelasCosas.tex
 Cap\'{\i }tulo 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
@@ -635,87 +635,76 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 <./Figuras/d2d.png, id=50, 664.73344pt x 172.39406pt>
 File: ./Figuras/d2d.png Graphic file (type png)
 <use ./Figuras/d2d.png>
-Package pdftex.def Info: ./Figuras/d2d.png  used on input line 29.
+Package pdftex.def Info: ./Figuras/d2d.png  used on input line 31.
 (pdftex.def)             Requested size: 265.88867pt x 68.95639pt.
 <./Figuras/d2n.png, id=51, 692.5875pt x 238.64156pt>
 File: ./Figuras/d2n.png Graphic file (type png)
 <use ./Figuras/d2n.png>
-Package pdftex.def Info: ./Figuras/d2n.png  used on input line 40.
+Package pdftex.def Info: ./Figuras/d2n.png  used on input line 42.
 (pdftex.def)             Requested size: 277.03009pt x 95.45493pt.
 <./Figuras/d2g.png, id=52, 676.77844pt x 479.54156pt>
 File: ./Figuras/d2g.png Graphic file (type png)
 <use ./Figuras/d2g.png>
-Package pdftex.def Info: ./Figuras/d2g.png  used on input line 50.
+Package pdftex.def Info: ./Figuras/d2g.png  used on input line 52.
 (pdftex.def)             Requested size: 270.70657pt x 191.81322pt.
-LaTeX Info: Redefining \. on input line 55.
-LaTeX Info: Redefining \% on input line 55.
  [15 <./Figuras/d2d.png> <./Figuras/d2n.png>]
 <./Figuras/d2b.png, id=56, 792.71156pt x 417.05812pt>
 File: ./Figuras/d2b.png Graphic file (type png)
 <use ./Figuras/d2b.png>
-Package pdftex.def Info: ./Figuras/d2b.png  used on input line 60.
+Package pdftex.def Info: ./Figuras/d2b.png  used on input line 62.
 (pdftex.def)             Requested size: 317.07901pt x 166.82028pt.
-LaTeX Info: Redefining \. on input line 68.
-LaTeX Info: Redefining \% on input line 68.
  [16 <./Figuras/d2g.png> <./Figuras/d2b.png>]
-Underfull \hbox (badness 2326) in paragraph at lines 81--81
+Underfull \hbox (badness 2326) in paragraph at lines 84--84
 []|\OT1/cmr/m/n/12 Espacios de tra-ba-jo y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
 []|\OT1/cmr/m/n/12 Sistemas den-tro de
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 84--84
+Underfull \hbox (badness 1596) in paragraph at lines 87--87
 \OT1/cmr/m/n/12 sis-te-ma. Di-se~nos ba-sa-dos en uso.
  []
 
 
-Overfull \hbox (0.89598pt too wide) in paragraph at lines 73--86
+Overfull \hbox (0.89598pt too wide) in paragraph at lines 76--89
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-LaTeX Info: Redefining \. on input line 101.
-LaTeX Info: Redefining \% on input line 101.
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
@@ -724,165 +713,117 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-LaTeX Info: Redefining \. on input line 115.
-LaTeX Info: Redefining \% on input line 115.
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-LaTeX Info: Redefining \. on input line 127.
-LaTeX Info: Redefining \% on input line 127.
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
-LaTeX Info: Redefining \. on input line 141.
-LaTeX Info: Redefining \% on input line 141.
 
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 27.18335pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.18335pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
-
-[20]
-LaTeX Info: Redefining \. on input line 154.
-LaTeX Info: Redefining \% on input line 154.
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 27.18335pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.18335pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
-LaTeX Info: Redefining \. on input line 166.
-LaTeX Info: Redefining \% on input line 166.
-[22]
-LaTeX Info: Redefining \. on input line 191.
-LaTeX Info: Redefining \% on input line 191.
- [23]
+[20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+[22] [23]
 <Figuras/HTTP_Request.png, id=82, 455.301pt x 220.752pt>
 File: Figuras/HTTP_Request.png Graphic file (type png)
 <use Figuras/HTTP_Request.png>
-Package pdftex.def Info: Figuras/HTTP_Request.png  used on input line 197.
+Package pdftex.def Info: Figuras/HTTP_Request.png  used on input line 202.
 (pdftex.def)             Requested size: 277.23654pt x 134.42273pt.
 <Figuras/HTTP_Response.png, id=84, 498.006pt x 324.558pt>
 File: Figuras/HTTP_Response.png Graphic file (type png)
 <use Figuras/HTTP_Response.png>
-Package pdftex.def Info: Figuras/HTTP_Response.png  used on input line 206.
+Package pdftex.def Info: Figuras/HTTP_Response.png  used on input line 211.
 (pdftex.def)             Requested size: 221.78923pt x 144.54424pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-LaTeX Info: Redefining \. on input line 217.
-LaTeX Info: Redefining \% on input line 217.
 [24 <./Figuras/HTTP_Request.png> <./Figuras/HTTP_Response.png>]
 <./Figuras/mqtt.png, id=90, 320.19624pt x 158.5925pt>
 File: ./Figuras/mqtt.png Graphic file (type png)
 <use ./Figuras/mqtt.png>
-Package pdftex.def Info: ./Figuras/mqtt.png  used on input line 220.
+Package pdftex.def Info: ./Figuras/mqtt.png  used on input line 225.
 (pdftex.def)             Requested size: 377.0444pt x 186.75273pt.
-LaTeX Info: Redefining \. on input line 231.
-LaTeX Info: Redefining \% on input line 231.
  [25 <./Figuras/mqtt.png>]
 <./Figuras/mqtt_header.jpeg, id=96, 388.45125pt x 130.4875pt>
 File: ./Figuras/mqtt_header.jpeg Graphic file (type jpg)
 <use ./Figuras/mqtt_header.jpeg>
-Package pdftex.def Info: ./Figuras/mqtt_header.jpeg  used on input line 243.
+Package pdftex.def Info: ./Figuras/mqtt_header.jpeg  used on input line 248.
 (pdftex.def)             Requested size: 399.21791pt x 134.10693pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 
  []
 
-LaTeX Info: Redefining \. on input line 251.
-LaTeX Info: Redefining \% on input line 251.
 [26 <./Figuras/mqtt_header.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
-LaTeX Info: Redefining \. on input line 271.
-LaTeX Info: Redefining \% on input line 271.
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
 
 
-Overfull \hbox (20.50699pt too wide) in paragraph at lines 278--279
+Overfull \hbox (20.50699pt too wide) in paragraph at lines 284--285
 []\OT1/cmr/m/n/12 La cuar-ta ge-ne-ra-ci^^Son de tec-no-log^^S^^Pa en te-le-co-
 mu-ni-ca-cio-nes m^^Sovi-les, abre-via-do com^^Sunmen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
  []
 
-LaTeX Info: Redefining \. on input line 283.
-LaTeX Info: Redefining \% on input line 283.
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
-
- []
-
-LaTeX Info: Redefining \. on input line 306.
-LaTeX Info: Redefining \% on input line 306.
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
 
@@ -891,45 +832,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 312--313
 
  []
 
-
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
-LaTeX Info: Redefining \. on input line 321.
-LaTeX Info: Redefining \% on input line 321.
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+
+ []
+
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
 
  []
 
-LaTeX Info: Redefining \. on input line 341.
-LaTeX Info: Redefining \% on input line 341.
-[31]
-LaTeX Info: Redefining \. on input line 351.
-LaTeX Info: Redefining \% on input line 351.
- [32])
-LaTeX Info: Redefining \. on input line 94.
-LaTeX Info: Redefining \% on input line 94.
- [33]
-LaTeX Info: Redefining \. on input line 94.
-LaTeX Info: Redefining \% on input line 94.
- [34]
+[31] [32]) [33] [34]
 \openout2 = `Capitulos/HerrramientasdeVisualizacionyControl.aux'.
 
  (Capitulos/HerrramientasdeVisualizacionyControl.tex
@@ -970,93 +908,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
-
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 27.18335pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.18335pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
 
 [36]
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 27.18335pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.18335pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
-
-[37]
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-LaTeX Info: Redefining \. on input line 63.
-LaTeX Info: Redefining \% on input line 63.
 
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 27.18335pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.18335pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
-(fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
-
-[38])
-LaTeX Info: Redefining \. on input line 96.
-LaTeX Info: Redefining \% on input line 96.
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 27.18335pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.18335pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
-(fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
+ []
 
-[39]
+[38]) [39]
 \openout2 = `Capitulos/PlacasProgramables.aux'.
 
  (Capitulos/PlacasProgramables.tex
@@ -1337,7 +1233,7 @@ Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
 es/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (53 pages, 5333152 bytes).
+Output written on main.pdf (53 pages, 5331881 bytes).
 PDF statistics:
  225 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
