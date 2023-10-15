@@ -19,6 +19,8 @@ Reallocating 'name_of_file' (item size: 1) to 33 items.
 A level-1 auxiliary file: Capitulos/InternetdelasCosas.aux
 Reallocating 'name_of_file' (item size: 1) to 51 items.
 A level-1 auxiliary file: Capitulos/HerrramientasdeVisualizacionyControl.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: Capitulos/PlacasProgramables.aux
 Reallocating 'name_of_file' (item size: 1) to 38 items.
 A level-1 auxiliary file: Capitulos/DiseñoeImplementación.aux
 Reallocating 'name_of_file' (item size: 1) to 31 items.
@@ -31,44 +33,44 @@ Reallocating 'name_of_file' (item size: 1) to 27 items.
 A level-1 auxiliary file: Capitulos/Conclusiones.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
 Database file #1: Referencias/Referencias.bib
-You've used 9 entries,
+You've used 32 entries,
             1791 wiz_defined-function locations,
-            510 strings with 5422 characters,
-and the built_in function-call counts, 1246 in all, are:
-= -- 113
-> -- 36
+            610 strings with 8816 characters,
+and the built_in function-call counts, 4406 in all, are:
+= -- 401
+> -- 144
 < -- 0
-+ -- 18
-- -- 9
-* -- 28
-:= -- 213
-add.period$ -- 33
-call.type$ -- 9
-change.case$ -- 10
++ -- 68
+- -- 36
+* -- 76
+:= -- 734
+add.period$ -- 121
+call.type$ -- 32
+change.case$ -- 37
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 52
-empty$ -- 152
-format.name$ -- 9
-if$ -- 285
+cite$ -- 32
+duplicate$ -- 171
+empty$ -- 542
+format.name$ -- 36
+if$ -- 1021
 int.to.chr$ -- 0
-int.to.str$ -- 9
+int.to.str$ -- 32
 missing$ -- 2
-newline$ -- 54
-num.names$ -- 9
-pop$ -- 48
+newline$ -- 188
+num.names$ -- 32
+pop$ -- 181
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 16
+skip$ -- 61
 stack$ -- 0
 substring$ -- 0
-swap$ -- 7
+swap$ -- 26
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 9
-width$ -- 10
-write$ -- 105
+while$ -- 32
+width$ -- 34
+write$ -- 366

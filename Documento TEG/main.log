@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  14 OCT 2023 16:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  15 OCT 2023 01:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -328,8 +328,8 @@ LaTeX Info: Redefining \% on input line 7.
 ) (Capitulos/Introduccion.aux)
 (Capitulos/ProblemaDeInvestigacion.aux) (Capitulos/InternetdelasCosas.aux)
 (Capitulos/HerrramientasdeVisualizacionyControl.aux)
-(Capitulos/DiseñoeImplementación.aux) (Capitulos/EntornodePruebas.aux)
-(Capitulos/CasosdeUso.aux)
+(Capitulos/PlacasProgramables.aux) (Capitulos/DiseñoeImplementación.aux)
+(Capitulos/EntornodePruebas.aux) (Capitulos/CasosdeUso.aux)
 (Capitulos/ResultadosLimitacionesyTrabajosFuturos.aux)
 (Capitulos/Conclusiones.aux))
 \openout1 = `main.aux'.
@@ -739,8 +739,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 LaTeX Info: Redefining \. on input line 127.
 LaTeX Info: Redefining \% on input line 127.
 [19]
-LaTeX Info: Redefining \. on input line 151.
-LaTeX Info: Redefining \% on input line 151.
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+LaTeX Info: Redefining \. on input line 141.
+LaTeX Info: Redefining \% on input line 141.
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 27.18335pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.18335pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
+
+[20]
+LaTeX Info: Redefining \. on input line 154.
+LaTeX Info: Redefining \% on input line 154.
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -750,28 +775,382 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
 
-[20])
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+LaTeX Info: Redefining \. on input line 166.
+LaTeX Info: Redefining \% on input line 166.
+[22]
+LaTeX Info: Redefining \. on input line 191.
+LaTeX Info: Redefining \% on input line 191.
+ [23]
+<Figuras/HTTP_Request.png, id=82, 455.301pt x 220.752pt>
+File: Figuras/HTTP_Request.png Graphic file (type png)
+<use Figuras/HTTP_Request.png>
+Package pdftex.def Info: Figuras/HTTP_Request.png  used on input line 197.
+(pdftex.def)             Requested size: 277.23654pt x 134.42273pt.
+<Figuras/HTTP_Response.png, id=84, 498.006pt x 324.558pt>
+File: Figuras/HTTP_Response.png Graphic file (type png)
+<use Figuras/HTTP_Response.png>
+Package pdftex.def Info: Figuras/HTTP_Response.png  used on input line 206.
+(pdftex.def)             Requested size: 221.78923pt x 144.54424pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+LaTeX Info: Redefining \. on input line 217.
+LaTeX Info: Redefining \% on input line 217.
+[24 <./Figuras/HTTP_Request.png> <./Figuras/HTTP_Response.png>]
+<./Figuras/mqtt.png, id=90, 320.19624pt x 158.5925pt>
+File: ./Figuras/mqtt.png Graphic file (type png)
+<use ./Figuras/mqtt.png>
+Package pdftex.def Info: ./Figuras/mqtt.png  used on input line 220.
+(pdftex.def)             Requested size: 377.0444pt x 186.75273pt.
+LaTeX Info: Redefining \. on input line 231.
+LaTeX Info: Redefining \% on input line 231.
+ [25 <./Figuras/mqtt.png>]
+<./Figuras/mqtt_header.jpeg, id=96, 388.45125pt x 130.4875pt>
+File: ./Figuras/mqtt_header.jpeg Graphic file (type jpg)
+<use ./Figuras/mqtt_header.jpeg>
+Package pdftex.def Info: ./Figuras/mqtt_header.jpeg  used on input line 243.
+(pdftex.def)             Requested size: 399.21791pt x 134.10693pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+LaTeX Info: Redefining \. on input line 251.
+LaTeX Info: Redefining \% on input line 251.
+[26 <./Figuras/mqtt_header.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+
+ []
+
+LaTeX Info: Redefining \. on input line 271.
+LaTeX Info: Redefining \% on input line 271.
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+
+Overfull \hbox (20.50699pt too wide) in paragraph at lines 278--279
+[]\OT1/cmr/m/n/12 La cuar-ta ge-ne-ra-ci^^Son de tec-no-log^^S^^Pa en te-le-co-
+mu-ni-ca-cio-nes m^^Sovi-les, abre-via-do com^^Sunmen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+
+ []
+
+LaTeX Info: Redefining \. on input line 283.
+LaTeX Info: Redefining \% on input line 283.
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+LaTeX Info: Redefining \. on input line 306.
+LaTeX Info: Redefining \% on input line 306.
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+
+ []
+
+LaTeX Info: Redefining \. on input line 321.
+LaTeX Info: Redefining \% on input line 321.
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+
+ []
+
+LaTeX Info: Redefining \. on input line 341.
+LaTeX Info: Redefining \% on input line 341.
+[31]
+LaTeX Info: Redefining \. on input line 351.
+LaTeX Info: Redefining \% on input line 351.
+ [32])
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
- [21]
+ [33]
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
- [22]
+ [34]
 \openout2 = `Capitulos/HerrramientasdeVisualizacionyControl.aux'.
 
  (Capitulos/HerrramientasdeVisualizacionyControl.tex
 Cap\'{\i }tulo 4.
-) [23
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+[35
 
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 27.18335pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.18335pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 27.18335pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.18335pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 27.18335pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.18335pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
+
+[38])
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 27.18335pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.18335pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
+
+[39]
+\openout2 = `Capitulos/PlacasProgramables.aux'.
+
+ (Capitulos/PlacasProgramables.tex
+Cap\'{\i }tulo 5.
+
+LaTeX Warning: Citation `arquitecturaComputador' on page 40 undefined on input 
+line 15.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+LaTeX Warning: Citation `ArduinoOfficial' on page 40 undefined on input line 25
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+<./Figuras/arduino_logo.png, id=141, 275.0275pt x 184.69pt>
+File: ./Figuras/arduino_logo.png Graphic file (type png)
+<use ./Figuras/arduino_logo.png>
+Package pdftex.def Info: ./Figuras/arduino_logo.png  used on input line 29.
+(pdftex.def)             Requested size: 96.26106pt x 64.64246pt.
+[40
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+<./Figuras/arduino_uno.jpeg, id=146, 253.94875pt x 199.74625pt>
+File: ./Figuras/arduino_uno.jpeg Graphic file (type jpg)
+<use ./Figuras/arduino_uno.jpeg>
+Package pdftex.def Info: ./Figuras/arduino_uno.jpeg  used on input line 43.
+(pdftex.def)             Requested size: 177.76291pt x 139.82141pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+
+ []
+
+[41 <./Figuras/arduino_logo.png> <./Figuras/arduino_uno.jpeg>]
+<./Figuras/raspi_logo.png, id=151, 319.1925pt x 159.59625pt>
+File: ./Figuras/raspi_logo.png Graphic file (type png)
+<use ./Figuras/raspi_logo.png>
+Package pdftex.def Info: ./Figuras/raspi_logo.png  used on input line 56.
+(pdftex.def)             Requested size: 223.43321pt x 111.7166pt.
+
+
+LaTeX Warning: Citation `RaspberryPi' on page 42 undefined on input line 62.
+
+[42 <./Figuras/raspi_logo.png>]
+<./Figuras/rpizero.png, id=157, 739.76375pt x 436.63126pt>
+File: ./Figuras/rpizero.png Graphic file (type png)
+<use ./Figuras/rpizero.png>
+Package pdftex.def Info: ./Figuras/rpizero.png  used on input line 72.
+(pdftex.def)             Requested size: 221.93083pt x 130.99039pt.
+<./Figuras/rpi4.jpg, id=158, 4202.70125pt x 2473.24pt>
+File: ./Figuras/rpi4.jpg Graphic file (type jpg)
+<use ./Figuras/rpi4.jpg>
+Package pdftex.def Info: ./Figuras/rpi4.jpg  used on input line 85.
+(pdftex.def)             Requested size: 210.14737pt x 123.66924pt.
+ [43 <./Figuras/rpizero.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+) [44 <./Figuras/rpi4.jpg>]
 \openout2 = `Capitulos/DiseñoeImplementación.aux'.
 
  (Capitulos/DiseñoeImplementación.tex
-Cap\'{\i }tulo 5.
-) [24
+Cap\'{\i }tulo 6.
+) [45
 
 
 
@@ -780,21 +1159,21 @@ Cap\'{\i }tulo 5.
 \openout2 = `Capitulos/EntornodePruebas.aux'.
 
  (Capitulos/EntornodePruebas.tex
-Cap\'{\i }tulo 6.
-) [25
+Cap\'{\i }tulo 7.
+) [46
 
 
 
 
 ]
-LaTeX Info: Redefining \. on input line 100.
-LaTeX Info: Redefining \% on input line 100.
- [26]
+LaTeX Info: Redefining \. on input line 102.
+LaTeX Info: Redefining \% on input line 102.
+ [47]
 \openout2 = `Capitulos/CasosdeUso.aux'.
 
  (Capitulos/CasosdeUso.tex
-Cap\'{\i }tulo 7.
-) [27
+Cap\'{\i }tulo 8.
+) [48
 
 
 
@@ -803,8 +1182,8 @@ Cap\'{\i }tulo 7.
 \openout2 = `Capitulos/ResultadosLimitacionesyTrabajosFuturos.aux'.
 
  (Capitulos/ResultadosLimitacionesyTrabajosFuturos.tex
-Cap\'{\i }tulo 8.
-) [28
+Cap\'{\i }tulo 9.
+) [49
 
 
 
@@ -813,14 +1192,20 @@ Cap\'{\i }tulo 8.
 \openout2 = `Capitulos/Conclusiones.aux'.
 
  (Capitulos/Conclusiones.tex
-Cap\'{\i }tulo 9.
-) [29
+Cap\'{\i }tulo 10.
+) [50
 
 
 
 
 ] (main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 35--40
+Underfull \hbox (badness 5260) in paragraph at lines 27--33
+\OT1/cmtt/m/n/12 internet _ of _ things _ the _ value _ of _ digitizing _ the _
+ physical _ world$\OT1/cmr/m/n/12 , Ju-nio
+ []
+
+
+Underfull \hbox (badness 7704) in paragraph at lines 35--40
 []\OT1/cmr/m/n/12 Jen Clark.  What is in-dustry 4.0?  $\OT1/cmtt/m/n/12 https :
  / / www . ibm . com / blogs /
  []
@@ -831,45 +1216,152 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--49
  automotive-[]future-[]iot/$\OT1/cmr/m/n/12 ,
  []
 
-)
-LaTeX Info: Redefining \. on input line 110.
-LaTeX Info: Redefining \% on input line 110.
- [30
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
+\OT1/cmtt/m/n/12 ibm . com / blogs / internet-[]of-[]things / 6-[]benefits-[]of
+-[]iot-[]for-[]healthcare/$\OT1/cmr/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--87
+[]\OT1/cmr/m/n/12 Stan Sch-nei-der.  Un-ders-tan-ding The Pro-to-cols Behind Th
+e In-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--87
+\OT1/cmr/m/n/12 ter-net Of Things.  $\OT1/cmtt/m/n/12 http : / / www . electron
+icdesign . com / iot /
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 81--87
+\OT1/cmtt/m/n/12 understanding-[]protocols-[]behind-[]internet-[]things$\OT1/cm
+r/m/n/12 , Oc-tu-bre 2013.  [Ac-
+ []
+
+LaTeX Info: Redefining \. on input line 87.
+LaTeX Info: Redefining \% on input line 87.
+[51
 
 
 
-] (main.aux (Capitulos/Portada.aux)
+]
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+[]\OT1/cmr/m/n/12 3GPP Initia-ti-ve.  W-CDMA.  $\OT1/cmtt/m/n/12 http : / / www
+ . 3gpp . org / technologies /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
+[]\OT1/cmr/m/n/12 3GPP Initia-ti-ve.  HS-PA.  $\OT1/cmtt/m/n/12 http : / / www 
+. 3gpp . org / technologies /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
+[]\OT1/cmr/m/n/12 3GPP Initia-ti-ve.  LTE.  $\OT1/cmtt/m/n/12 http : / / www . 
+3gpp . org / technologies /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--176
+[]\OT1/cmr/m/n/12 RS Com-po-nents.  11 in-ter-net of things (iot) pro-to-cols y
+ou
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--176
+\OT1/cmr/m/n/12 need to know about.  $\OT1/cmtt/m/n/12 https : / / www . rs-[]o
+nline . com / designspark /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--176
+\OT1/cmtt/m/n/12 eleven-[]internet-[]of-[]things-[]iot-[]protocols-[]you-[]need
+-[]to-[]know-[]about$\OT1/cmr/m/n/12 ,
+ []
+
+[52]
+Underfull \hbox (badness 2088) in paragraph at lines 178--185
+\OT1/cmr/m/n/12 ni-ca-ci^^Son inal^^Sambri-ca.  $\OT1/cmtt/m/n/12 https : / / e
+landroidelibre . elespanol . com / 2015 / 08 /
+ []
+
+
+Overfull \hbox (41.52428pt too wide) in paragraph at lines 178--185
+\OT1/cmtt/m/n/12 todo-[]sobre-[]zigbee-[]la-[]tecnologia-[]ultrabarata-[]para-[
+]comunicacion-[]inalambrica .
+ []
+
+
+Overfull \hbox (70.98814pt too wide) in paragraph at lines 187--194
+\OT1/cmtt/m/n/12 la-[]domotica-[]inalambrica-[]con-[]z-[]wave-[]una-[]realidad-
+[]para-[]viviendas-[]ya-[]construidas/$\OT1/cmr/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--215
+\OT1/cmtt/m/n/12 es-[]mx / learn / articles / data-[]visualization# : [] : text
+ = La % 20visualizaci %
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 217--223
+[]\OT1/cmr/m/n/12 IBM Cog-nos Analy-tics.  Vi-sua-li-za-cio-nes gr^^Safi-cas.  
+$\OT1/cmtt/m/n/12 https : / / www . ibm . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--223
+\OT1/cmtt/m/n/12 docs / es / cognos-[]analytics / 11 . 1 . 0 ? topic = SSEP7J _
+ 11 . 1 . 0 / com . ibm . swg . ba .
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 217--223
+\OT1/cmtt/m/n/12 cognos . pp _ usr _ gd . doc / c _ graphreports . htm$\OT1/cmr
+/m/n/12 , Ni-viem-bre 2022.  [Ac-ce-di-do:
+ []
+
+) [53] (main.aux (Capitulos/Portada.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (Capitulos/Agradecimientos.aux)
 (Capitulos/Resumen.aux) (Capitulos/Indices.aux) (Capitulos/Introduccion.aux)
 (Capitulos/ProblemaDeInvestigacion.aux) (Capitulos/InternetdelasCosas.aux)
 (Capitulos/HerrramientasdeVisualizacionyControl.aux)
-(Capitulos/DiseñoeImplementación.aux) (Capitulos/EntornodePruebas.aux)
-(Capitulos/CasosdeUso.aux)
+(Capitulos/PlacasProgramables.aux) (Capitulos/DiseñoeImplementación.aux)
+(Capitulos/EntornodePruebas.aux) (Capitulos/CasosdeUso.aux)
 (Capitulos/ResultadosLimitacionesyTrabajosFuturos.aux)
 (Capitulos/Conclusiones.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 6649 strings out of 475248
- 121972 string characters out of 5767628
- 1936801 words of memory out of 5000000
- 28007 multiletter control sequences out of 15000+600000
- 564348 words of font info for 57 fonts, out of 8000000 for 9000
+ 6793 strings out of 475248
+ 125908 string characters out of 5767628
+ 1937801 words of memory out of 5000000
+ 28142 multiletter control sequences out of 15000+600000
+ 565026 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,13n,79p,966b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmtt12.pfb>
-Output written on main.pdf (30 pages, 346072 bytes).
+ 60i,13n,79p,1242b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\peter\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk> <C:\Users\peter\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcbx1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Progr
+am Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (53 pages, 5333889 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
+ 230 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

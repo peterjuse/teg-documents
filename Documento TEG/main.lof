@@ -6,7 +6,17 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Modelo dispositivo a la nube}}{15}{}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Modelo dispositivo a puerta de enlace}}{16}{}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Modelo dispositivo a intercambio de datos en back-end}}{16}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Formato de un mensaje de petición HTTP}}{24}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Formato de un mensaje de respuesta HTTP}}{24}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagrama de funcionamiento del protocolo MQTT}}{25}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Formato de mensaje del protocolo MQTT}}{26}{}%
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Raspberry Pi 4 modelo B}}{41}{}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Arduino Uno R3}}{41}{}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Logo de la marca Raspberry Pi}}{42}{}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Raspberry Pi 4 modelo B}}{43}{}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Raspberry Pi 4 modelo B}}{44}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

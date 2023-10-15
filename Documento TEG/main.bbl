@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{IoTTrueHistory}
 Chetan Sharma.
@@ -62,5 +62,163 @@ Kevin Patel.
   \url{https://www.ibm.com/blogs/internet-of-things/6-benefits-of-iot-for-healthcare/},
   Enero 2017.
 \newblock [Accedido: 17-06-2017].
+
+\bibitem{ibmiotciudad}
+Bill McCabe.
+\newblock {Creating smart cities with IoT}.
+\newblock
+  \url{https://www.ibm.com/blogs/internet-of-things/creating-smart-cities-iot/},
+  Junio 2016.
+\newblock [Accedido: 17-06-2017].
+
+\bibitem{mozillahttp}
+Sergio Collado~\& otros.
+\newblock {HTTP}.
+\newblock \url{https://developer.mozilla.org/es/docs/Web/HTTP}, 2017 Mayo.
+\newblock [Accedido: 18-06-2017].
+
+\bibitem{iotprotocols}
+Stan Schneider.
+\newblock {Understanding The Protocols Behind The Internet Of Things}.
+\newblock
+  \url{http://www.electronicdesign.com/iot/understanding-protocols-behind-internet-things},
+  Octubre 2013.
+\newblock [Accedido: 18-06-2017].
+
+\bibitem{iotprocolslinkedin}
+James Stansberry.
+\newblock {The IoT communication protocols}.
+\newblock
+  \url{https://www.linkedin.com/pulse/iot-communication-protocols-james-stansberry},
+  Octubre 2015.
+\newblock [Accedido: 18-06-2017].
+
+\bibitem{rfc791}
+Information Sciences~Institute of~University~of Southern~California.
+\newblock {INTERNET PROTOCOL}.
+\newblock Technical report, Defense Advanced Research Projects Agency,
+  Septiembre 1981.
+
+\bibitem{rfc2460}
+Stephen Deering \&~Robert Hinden.
+\newblock {Internet Protocol, Version 6 (IPv6)}.
+\newblock Technical report, The Internet Society, Diciembre 1998.
+
+\bibitem{ieeebluetooth}
+The~Institute of~Electrical and Inc. Electronics~Engineers.
+\newblock Ieee 802.15 wpan task group 1 (tg1).
+\newblock \url{http://www.ieee802.org/15/pub/TG1.html }.
+\newblock [Accedido: 22-06-2017].
+
+\bibitem{itu2000}
+International~Telecommunication Union.
+\newblock {About mobile technology and IMT-2000}.
+\newblock \url{https://www.itu.int/osg/spu/imt-2000/technology.html}.
+\newblock [Accedido: 22-06-2017].
+
+\bibitem{umts}
+UMTSWorld.com.
+\newblock {3G and UMTS Frequently Asked Questions}.
+\newblock \url{http://www.umtsworld.com/umts/faq.htm#f1}.
+\newblock [Accedido: 22-06-2017].
+
+\bibitem{wcdma}
+3GPP Initiative.
+\newblock {W-CDMA}.
+\newblock \url{http://www.3gpp.org/technologies/keywords-acronyms/104-w-cdma}.
+\newblock [Accedido: 22-06-2017].
+
+\bibitem{hspa}
+3GPP Initiative.
+\newblock {HSPA}.
+\newblock \url{http://www.3gpp.org/technologies/keywords-acronyms/99-hspa}.
+\newblock [Accedido: 22-06-2017].
+
+\bibitem{LTE-advanced}
+3GPP Initiative.
+\newblock {LTE}.
+\newblock \url{http://www.3gpp.org/technologies/keywords-acronyms/98-lte}.
+\newblock [Accedido: 22-06-2017].
+
+\bibitem{ieee80216}
+The~Institute of~Electrical and Inc. Electronics~Engineers.
+\newblock {IEEE 802.16e Task Group (Mobile WirelessMAN)}.
+\newblock \url{http://www.ieee802.org/16/tge/}.
+\newblock [Accedido: 22-06-2017].
+
+\bibitem{isonfc}
+Organización~Internacional de~Estandarización.
+\newblock {ISO/IEC 18000, Part 3, Information Technology AIDC Techniques - RFID
+  for Item Management - Air Interface, Part 3 - Parameters for Air Interface
+  Communications at 13.56 MHz}.
+\newblock Technical report, Organización Internacional de Estandarización,
+  Mayo 2002.
+
+\bibitem{ieee80211}
+The~Institute of~Electrical and Inc. Electronics~Engineers.
+\newblock {IEEE 802.11 WIRELESS LOCAL AREA NETWORKS}.
+\newblock \url{http://www.ieee802.org/11/}.
+\newblock [Accedido: 22-06-2017].
+
+\bibitem{ieeezigbee}
+The~Institute of~Electrical and Inc. Electronics~Engineers.
+\newblock Ieee 802.15 wpan™ task group 4 (tg4).
+\newblock \url{http://www.ieee802.org/15/pub/TG4.html}.
+\newblock [Accedido: 22-06-2017].
+
+\bibitem{iotstandars}
+RS~Components.
+\newblock 11 internet of things (iot) protocols you need to know about.
+\newblock
+  \url{https://www.rs-online.com/designspark/eleven-internet-of-things-iot-protocols-you-need-to-know-about},
+  Abril 2015.
+\newblock [Accedido: 22-06-2017].
+
+\bibitem{androidzigbee}
+El~androide libre.
+\newblock Todo sobre zigbee, la tecnología ultrabarata para comunicación
+  inalámbrica.
+\newblock
+  \url{https://elandroidelibre.elespanol.com/2015/08/todo-sobre-zigbee-la-tecnologia-ultrabarata-para-comunicacion-inalambrica.html},
+  Agosto 2015.
+\newblock [Accedido: 22-06-2017].
+
+\bibitem{pandomzwave}
+Pentadom.
+\newblock {LA DOMÓTICA INALÁMBRICA CON Z-WAVE, UNA REALIDAD PARA VIVIENDAS
+  EXISTENTES}.
+\newblock
+  \url{http://pentadom.com/2014/03/la-domotica-inalambrica-con-z-wave-una-realidad-para-viviendas-ya-construidas/},
+  Marzo 2014.
+\newblock [Accedido: 22-06-2017].
+
+\bibitem{dhsiot}
+U.S.~Department of~Homeland~Security.
+\newblock {STRATEGIC PRINCIPLES FOR SECURING THE INTERNET OF THINGS (IoT)}.
+\newblock Technical report, U.S. Department of Homeland Security, Noviembre
+  2015.
+
+\bibitem{datosPetroleo}
+Javier Murillo.
+\newblock {Los datos son el nuevo petróleo}.
+\newblock
+  \url{https://www.forbes.com.mx/red-forbes-los-datos-son-el-nuevo-petroleo/}.
+\newblock [Accedido: 14-10-2023].
+
+\bibitem{visualizaciondef}
+LLC TABLEAU~SOFTWARE.
+\newblock {Guía de visualización de datos para principiantes: definición,
+  ejemplos y recursos de aprendizaje}.
+\newblock
+  \url{https://www.tableau.com/es-mx/learn/articles/data-visualization#:~:text=La%20visualizaci%C3%B3n%20de%20datos%20es,y%20patrones%20en%20los%20datos.}
+\newblock [Accedido: 14-10-2023].
+
+\bibitem{ibmviz}
+IBM~Cognos Analytics.
+\newblock {Visualizaciones gráficas}.
+\newblock
+  \url{https://www.ibm.com/docs/es/cognos-analytics/11.1.0?topic=SSEP7J_11.1.0/com.ibm.swg.ba.cognos.pp_usr_gd.doc/c_graphreports.htm},
+  Niviembre 2022.
+\newblock [Accedido: 14-10-2023].
 
 \end{thebibliography}
