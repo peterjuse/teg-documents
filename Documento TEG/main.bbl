@@ -239,4 +239,46 @@ Raspberry~Pi Foundation.
 \newblock \url{https://www.raspberrypi.org}.
 \newblock [Accedido: 08-07-2017].
 
+\bibitem{ALight2017}
+Roger~A Light.
+\newblock Mosquitto: server and client implementation of the {MQTT} protocol.
+\newblock {\em The Journal of Open Source Software}, 2(13), Mayo 2017.
+
+\bibitem{influxdb}
+influxdata.
+\newblock {The Time Series Database Platform Optimized for Speed and Scale}.
+\newblock \url{https://www.influxdata.com/solutions/}.
+\newblock [Accedido: 15-10-2023].
+
+\bibitem{whatspython}
+Guido~Van Rossum.
+\newblock {What is Python, Executive Summary}.
+\newblock \url{https://www.python.org/doc/essays/blurb/}, 1997.
+\newblock [Accedido: 11-06-2017].
+
+\bibitem{django}
+{Meet Django}.
+\newblock \url{https://www.djangoproject.com}.
+\newblock [Accedido 11-06-2017].
+
+\bibitem{postgresql}
+{PostgreSQL: The World's Most Advanced Open Source Relational Database}.
+\newblock \url{https://www.postgresql.org/}.
+\newblock [Accedido 15-10-2023].
+
+\bibitem{grafana}
+{Dashboard anything. Observe everything.}
+\newblock \url{https://grafana.com/grafana}.
+\newblock [Accedido 15-10-2023].
+
+\bibitem{nodered}
+{Node-RED Low-code programming for event-driven applications}.
+\newblock \url{https://nodered.org/}.
+\newblock [Accedido 15-10-2023].
+
+\bibitem{docker}
+{Overview of the get started guide}.
+\newblock \url{https://docs.docker.com/get-started/}.
+\newblock [Accedido 15-10-2023].
+
 \end{thebibliography}

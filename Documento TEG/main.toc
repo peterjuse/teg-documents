@@ -55,28 +55,30 @@
 \contentsline {section}{\numberline {5.3}Placas Raspberry Pi}{42}{}%
 \contentsline {chapter}{\numberline {6}Diseño e Implementación}{45}{}%
 \contentsline {section}{\numberline {6.1}Diseño de la solución}{45}{}%
-\contentsline {section}{\numberline {6.2}Implementación de la solución}{45}{}%
-\contentsline {chapter}{\numberline {7} Entorno de Pruebas}{46}{}%
-\contentsline {section}{\numberline {7.1}Escenarios de pruebas}{46}{}%
-\contentsline {subsection}{\numberline {7.1.1}Dispositivos IoT}{46}{}%
-\contentsline {subsubsection}{\numberline {7.1.1.1}Raspberry Pi 3B}{46}{}%
-\contentsline {subsubsection}{\numberline {7.1.1.2}Raspberry Pi Zero}{46}{}%
-\contentsline {subsubsection}{\numberline {7.1.1.3}Arduino Uno}{46}{}%
-\contentsline {subsection}{\numberline {7.1.2}Aplicación HAMACA}{46}{}%
-\contentsline {subsubsection}{\numberline {7.1.2.1}Captura de Información}{46}{}%
-\contentsline {subsubsection}{\numberline {7.1.2.2}Visualización de datos}{46}{}%
-\contentsline {subsubsection}{\numberline {7.1.2.3}Monitoreo de Dispositivos}{46}{}%
-\contentsline {subsubsection}{\numberline {7.1.2.4}Control de Dispositivos}{47}{}%
-\contentsline {chapter}{\numberline {8}Casos de Uso}{48}{}%
-\contentsline {section}{\numberline {8.1}Laboratorios de Investigación y Desarrollo}{48}{}%
-\contentsline {subsection}{\numberline {8.1.1}Entornos Académicos}{48}{}%
-\contentsline {subsection}{\numberline {8.1.2}Entornos Industriales}{48}{}%
-\contentsline {section}{\numberline {8.2}Ambientes Domésticos}{48}{}%
-\contentsline {section}{\numberline {8.3}Oficinas}{48}{}%
-\contentsline {chapter}{\numberline {9}Resultados, Limitaciones y Trabajos Futuros}{49}{}%
-\contentsline {section}{\numberline {9.1}Resultados}{49}{}%
-\contentsline {section}{\numberline {9.2}Limitaciones}{49}{}%
-\contentsline {section}{\numberline {9.3}Contribuciones}{49}{}%
-\contentsline {section}{\numberline {9.4}Trabajos Futuros}{49}{}%
-\contentsline {chapter}{\numberline {10}Conclusiones}{50}{}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{51}{}%
+\contentsline {subsection}{\numberline {6.1.1}Prototipos de Dispositivos IoT}{45}{}%
+\contentsline {subsection}{\numberline {6.1.2}Software de Visualización, monitoreo y control HAMACA}{49}{}%
+\contentsline {section}{\numberline {6.2}Implementación de la solución}{51}{}%
+\contentsline {chapter}{\numberline {7} Entorno de Pruebas}{52}{}%
+\contentsline {section}{\numberline {7.1}Escenarios de pruebas}{52}{}%
+\contentsline {subsection}{\numberline {7.1.1}Dispositivos IoT}{52}{}%
+\contentsline {subsubsection}{\numberline {7.1.1.1}Raspberry Pi 3B}{52}{}%
+\contentsline {subsubsection}{\numberline {7.1.1.2}Raspberry Pi Zero}{52}{}%
+\contentsline {subsubsection}{\numberline {7.1.1.3}Arduino Uno}{52}{}%
+\contentsline {subsection}{\numberline {7.1.2}Aplicación HAMACA}{52}{}%
+\contentsline {subsubsection}{\numberline {7.1.2.1}Captura de Información}{52}{}%
+\contentsline {subsubsection}{\numberline {7.1.2.2}Visualización de datos}{52}{}%
+\contentsline {subsubsection}{\numberline {7.1.2.3}Monitoreo de Dispositivos}{52}{}%
+\contentsline {subsubsection}{\numberline {7.1.2.4}Control de Dispositivos}{53}{}%
+\contentsline {chapter}{\numberline {8}Casos de Uso}{54}{}%
+\contentsline {section}{\numberline {8.1}Laboratorios de Investigación y Desarrollo}{54}{}%
+\contentsline {subsection}{\numberline {8.1.1}Entornos Académicos}{54}{}%
+\contentsline {subsection}{\numberline {8.1.2}Entornos Industriales}{54}{}%
+\contentsline {section}{\numberline {8.2}Ambientes Domésticos}{54}{}%
+\contentsline {section}{\numberline {8.3}Oficinas}{54}{}%
+\contentsline {chapter}{\numberline {9}Resultados, Limitaciones y Trabajos Futuros}{55}{}%
+\contentsline {section}{\numberline {9.1}Resultados}{55}{}%
+\contentsline {section}{\numberline {9.2}Limitaciones}{55}{}%
+\contentsline {section}{\numberline {9.3}Contribuciones}{55}{}%
+\contentsline {section}{\numberline {9.4}Trabajos Futuros}{55}{}%
+\contentsline {chapter}{\numberline {10}Conclusiones}{56}{}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{57}{}%

@@ -18,7 +18,14 @@
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Raspberry Pi 4 modelo B}}{43}{}%
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Raspberry Pi 4 modelo B}}{44}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces huehuehuehuhehuehuehue}}{45}{}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Prototipo de dispositivo exterior usando Arduino Uno}}{47}{}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Prototipo de dispositivo interior usando un Raspbery Pi 3 modelo B}}{47}{}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Prototipo de dispositivo de seguridad usando un Raspbery Zero}}{48}{}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Prototipo de dispositivo de cámara de inteligente usando un Raspbery Pi 3 modelo B}}{48}{}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Componentes sugeridos para la herramienta de visualización, monitoreo y control HAMACA}}{50}{}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Modelo de la base de datos HAMACA}}{50}{}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Modelo autogenerado por el framework Django}}{51}{}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Arquitectura de la solución propuesta}}{51}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

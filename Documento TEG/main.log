@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  15 OCT 2023 20:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  16 OCT 2023 01:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1029,22 +1029,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  (Capitulos/DiseñoeImplementación.tex
 Cap\'{\i }tulo 6.
-<./Figuras/rpi3javier.png, id=166, 534.798pt x 401.76767pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+[45
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+<./Figuras/arduino1.png, id=169, 531.85367pt x 475.376pt>
+File: ./Figuras/arduino1.png Graphic file (type png)
+<use ./Figuras/arduino1.png>
+Package pdftex.def Info: ./Figuras/arduino1.png  used on input line 62.
+(pdftex.def)             Requested size: 265.92618pt x 237.68741pt.
+<./Figuras/rpi3javier.png, id=170, 534.798pt x 401.76767pt>
 File: ./Figuras/rpi3javier.png Graphic file (type png)
 <use ./Figuras/rpi3javier.png>
-Package pdftex.def Info: ./Figuras/rpi3javier.png  used on input line 18.
-(pdftex.def)             Requested size: 213.9154pt x 160.70421pt.
-) [45
+Package pdftex.def Info: ./Figuras/rpi3javier.png  used on input line 71.
+(pdftex.def)             Requested size: 267.39835pt x 200.88333pt.
+[46]
+<./Figuras/rpizero_diagram.png, id=174, 573.07434pt x 344.487pt>
+File: ./Figuras/rpizero_diagram.png Graphic file (type png)
+<use ./Figuras/rpizero_diagram.png>
+Package pdftex.def Info: ./Figuras/rpizero_diagram.png  used on input line 80.
+(pdftex.def)             Requested size: 286.53647pt x 172.24307pt.
+ [47 <./Figuras/arduino1.png> <./Figuras/rpi3javier.png>]
+<./Figuras/rpipeter.png, id=180, 283.99434pt x 265.25766pt>
+File: ./Figuras/rpipeter.png Graphic file (type png)
+<use ./Figuras/rpipeter.png>
+Package pdftex.def Info: ./Figuras/rpipeter.png  used on input line 89.
+(pdftex.def)             Requested size: 170.3979pt x 159.1558pt.
+ [48 <./Figuras/rpizero_diagram.png> <./Figuras/rpipeter.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
+ []
 
- <./Figuras/rpi3javier.png>]
+[49]
+<./Figuras/componentes_hamaca.png, id=190, 973.6375pt x 261.97874pt>
+File: ./Figuras/componentes_hamaca.png Graphic file (type png)
+<use ./Figuras/componentes_hamaca.png>
+Package pdftex.def Info: ./Figuras/componentes_hamaca.png  used on input line 1
+16.
+(pdftex.def)             Requested size: 340.77823pt x 91.69392pt.
+<./Figuras/psql_hamaca_db.png, id=191, 1120.185pt x 452.69125pt>
+File: ./Figuras/psql_hamaca_db.png Graphic file (type png)
+<use ./Figuras/psql_hamaca_db.png>
+Package pdftex.def Info: ./Figuras/psql_hamaca_db.png  used on input line 131.
+(pdftex.def)             Requested size: 280.04556pt x 113.17253pt.
+<./Figuras/django_schema.jpg, id=192, 903.375pt x 419.31656pt>
+File: ./Figuras/django_schema.jpg Graphic file (type jpg)
+<use ./Figuras/django_schema.jpg>
+Package pdftex.def Info: ./Figuras/django_schema.jpg  used on input line 138.
+(pdftex.def)             Requested size: 383.93619pt x 178.21037pt.
+ [50 <./Figuras/componentes_hamaca.png> <./Figuras/psql_hamaca_db.png>]
+<./Figuras/arquitectura_hamaca.png, id=198, 1014.79124pt x 506.89375pt>
+File: ./Figuras/arquitectura_hamaca.png Graphic file (type png)
+<use ./Figuras/arquitectura_hamaca.png>
+Package pdftex.def Info: ./Figuras/arquitectura_hamaca.png  used on input line 
+152.
+(pdftex.def)             Requested size: 405.9093pt x 202.7539pt.
+)
+[51 <./Figuras/django_schema.jpg> <./Figuras/arquitectura_hamaca.png>]
 \openout2 = `Capitulos/EntornodePruebas.aux'.
 
- (Capitulos/EntornodePruebas.tex
+
+(Capitulos/EntornodePruebas.tex
 Cap\'{\i }tulo 7.
-) [46
+) [52
 
 
 
@@ -1052,12 +1115,12 @@ Cap\'{\i }tulo 7.
 ]
 LaTeX Info: Redefining \. on input line 102.
 LaTeX Info: Redefining \% on input line 102.
- [47]
+ [53]
 \openout2 = `Capitulos/CasosdeUso.aux'.
 
  (Capitulos/CasosdeUso.tex
 Cap\'{\i }tulo 8.
-) [48
+) [54
 
 
 
@@ -1067,7 +1130,7 @@ Cap\'{\i }tulo 8.
 
  (Capitulos/ResultadosLimitacionesyTrabajosFuturos.tex
 Cap\'{\i }tulo 9.
-) [49
+) [55
 
 
 
@@ -1077,7 +1140,7 @@ Cap\'{\i }tulo 9.
 
  (Capitulos/Conclusiones.tex
 Cap\'{\i }tulo 10.
-) [50
+) [56
 
 
 
@@ -1126,7 +1189,7 @@ r/m/n/12 , Oc-tu-bre 2013.  [Ac-
 
 LaTeX Info: Redefining \. on input line 87.
 LaTeX Info: Redefining \% on input line 87.
-[51
+[57
 
 
 
@@ -1166,7 +1229,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--176
 -[]to-[]know-[]about$\OT1/cmr/m/n/12 ,
  []
 
-[52]
+[58]
 Underfull \hbox (badness 2088) in paragraph at lines 178--185
 \OT1/cmr/m/n/12 ni-ca-ci^^Son inal^^Sambri-ca.  $\OT1/cmtt/m/n/12 https : / / e
 landroidelibre . elespanol . com / 2015 / 08 /
@@ -1208,7 +1271,7 @@ Underfull \hbox (badness 2846) in paragraph at lines 217--223
 /m/n/12 , Ni-viem-bre 2022.  [Ac-ce-di-do:
  []
 
-) [53] (main.aux (Capitulos/Portada.aux)
+[59]) [60] (main.aux (Capitulos/Portada.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (Capitulos/Agradecimientos.aux)
@@ -1223,12 +1286,16 @@ LaTeX Info: Redefining \% on input line 7.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 6801 strings out of 475248
- 126141 string characters out of 5767628
+ 6866 strings out of 475248
+ 128068 string characters out of 5767628
  1937801 words of memory out of 5000000
- 28151 multiletter control sequences out of 15000+600000
+ 28216 multiletter control sequences out of 15000+600000
  564685 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,13n,79p,1242b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1238,9 +1305,9 @@ Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
 es/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (53 pages, 5660207 bytes).
+Output written on main.pdf (60 pages, 6425719 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
+ 262 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
