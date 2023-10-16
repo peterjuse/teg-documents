@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  16 OCT 2023 01:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  16 OCT 2023 04:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1083,31 +1083,150 @@ File: ./Figuras/componentes_hamaca.png Graphic file (type png)
 Package pdftex.def Info: ./Figuras/componentes_hamaca.png  used on input line 1
 16.
 (pdftex.def)             Requested size: 340.77823pt x 91.69392pt.
-<./Figuras/psql_hamaca_db.png, id=191, 1120.185pt x 452.69125pt>
-File: ./Figuras/psql_hamaca_db.png Graphic file (type png)
-<use ./Figuras/psql_hamaca_db.png>
-Package pdftex.def Info: ./Figuras/psql_hamaca_db.png  used on input line 131.
-(pdftex.def)             Requested size: 280.04556pt x 113.17253pt.
-<./Figuras/django_schema.jpg, id=192, 903.375pt x 419.31656pt>
-File: ./Figuras/django_schema.jpg Graphic file (type jpg)
-<use ./Figuras/django_schema.jpg>
-Package pdftex.def Info: ./Figuras/django_schema.jpg  used on input line 138.
-(pdftex.def)             Requested size: 383.93619pt x 178.21037pt.
- [50 <./Figuras/componentes_hamaca.png> <./Figuras/psql_hamaca_db.png>]
-<./Figuras/arquitectura_hamaca.png, id=198, 1014.79124pt x 506.89375pt>
+<./Figuras/arquitectura_hamaca.png, id=191, 1014.79124pt x 506.89375pt>
 File: ./Figuras/arquitectura_hamaca.png Graphic file (type png)
 <use ./Figuras/arquitectura_hamaca.png>
 Package pdftex.def Info: ./Figuras/arquitectura_hamaca.png  used on input line 
-152.
+139.
 (pdftex.def)             Requested size: 405.9093pt x 202.7539pt.
-)
-[51 <./Figuras/django_schema.jpg> <./Figuras/arquitectura_hamaca.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+<./Figuras/sensores_recibidos.jpg, id=192, 1284.8pt x 963.6pt>
+File: ./Figuras/sensores_recibidos.jpg Graphic file (type jpg)
+<use ./Figuras/sensores_recibidos.jpg>
+Package pdftex.def Info: ./Figuras/sensores_recibidos.jpg  used on input line 1
+54.
+(pdftex.def)             Requested size: 192.71169pt x 144.53375pt.
+<./Figuras/sensores.jpg, id=193, 963.6pt x 722.7pt>
+File: ./Figuras/sensores.jpg Graphic file (type jpg)
+<use ./Figuras/sensores.jpg>
+Package pdftex.def Info: ./Figuras/sensores.jpg  used on input line 155.
+(pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
+[50 <./Figuras/componentes_hamaca.png>]
+<./Figuras/arduino_ext.jpg, id=198, 963.6pt x 722.7pt>
+File: ./Figuras/arduino_ext.jpg Graphic file (type jpg)
+<use ./Figuras/arduino_ext.jpg>
+Package pdftex.def Info: ./Figuras/arduino_ext.jpg  used on input line 166.
+(pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
+<./Figuras/sensor_agua.jpg, id=199, 722.7pt x 963.6pt>
+File: ./Figuras/sensor_agua.jpg Graphic file (type jpg)
+<use ./Figuras/sensor_agua.jpg>
+Package pdftex.def Info: ./Figuras/sensor_agua.jpg  used on input line 174.
+(pdftex.def)             Requested size: 79.49724pt x 105.99632pt.
+<./Figuras/pir_ext.jpg, id=200, 722.7pt x 963.6pt>
+File: ./Figuras/pir_ext.jpg Graphic file (type jpg)
+<use ./Figuras/pir_ext.jpg>
+Package pdftex.def Info: ./Figuras/pir_ext.jpg  used on input line 175.
+(pdftex.def)             Requested size: 79.49724pt x 105.99632pt.
+<./Figuras/temp_ext.jpg, id=201, 722.7pt x 963.6pt>
+File: ./Figuras/temp_ext.jpg Graphic file (type jpg)
+<use ./Figuras/temp_ext.jpg>
+Package pdftex.def Info: ./Figuras/temp_ext.jpg  used on input line 176.
+(pdftex.def)             Requested size: 79.49724pt x 105.99632pt.
+<./Figuras/rgb_ext.jpg, id=202, 722.7pt x 963.6pt>
+File: ./Figuras/rgb_ext.jpg Graphic file (type jpg)
+<use ./Figuras/rgb_ext.jpg>
+Package pdftex.def Info: ./Figuras/rgb_ext.jpg  used on input line 177.
+(pdftex.def)             Requested size: 79.49724pt x 105.99632pt.
+<./Figuras/fotorresistencia.jpg, id=203, 722.7pt x 963.6pt>
+File: ./Figuras/fotorresistencia.jpg Graphic file (type jpg)
+<use ./Figuras/fotorresistencia.jpg>
+Package pdftex.def Info: ./Figuras/fotorresistencia.jpg  used on input line 178
+.
+(pdftex.def)             Requested size: 79.49724pt x 105.99632pt.
+<./Figuras/ibook_data.jpg, id=204, 963.6pt x 542.025pt>
+File: ./Figuras/ibook_data.jpg Graphic file (type jpg)
+<use ./Figuras/ibook_data.jpg>
+Package pdftex.def Info: ./Figuras/ibook_data.jpg  used on input line 189.
+(pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
+ [51 <./Figuras/arquitectura_hamaca.png> <./Figuras/sensores_recibidos.jpg> <./
+Figuras/sensores.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+[52 <./Figuras/arduino_ext.jpg> <./Figuras/sensor_agua.jpg> <./Figuras/pir_ext.
+jpg> <./Figuras/temp_ext.jpg> <./Figuras/rgb_ext.jpg> <./Figuras/fotorresistenc
+ia.jpg> <./Figuras/ibook_data.jpg>]
+<./Figuras/rpi3javier_proto.jpg, id=212, 722.7pt x 963.6pt>
+File: ./Figuras/rpi3javier_proto.jpg Graphic file (type jpg)
+<use ./Figuras/rpi3javier_proto.jpg>
+Package pdftex.def Info: ./Figuras/rpi3javier_proto.jpg  used on input line 209
+.
+(pdftex.def)             Requested size: 119.24034pt x 158.98714pt.
+<./Figuras/rpi3javier_final.jpg, id=213, 1284.8pt x 722.7pt>
+File: ./Figuras/rpi3javier_final.jpg Graphic file (type jpg)
+<use ./Figuras/rpi3javier_final.jpg>
+Package pdftex.def Info: ./Figuras/rpi3javier_final.jpg  used on input line 210
+.
+(pdftex.def)             Requested size: 282.65688pt x 158.99449pt.
+ [53 <./Figuras/rpi3javier_proto.jpg> <./Figuras/rpi3javier_final.jpg>]
+<./Figuras/rpi3peter_zero_proto.jpg, id=217, 963.6pt x 542.025pt>
+File: ./Figuras/rpi3peter_zero_proto.jpg Graphic file (type jpg)
+<use ./Figuras/rpi3peter_zero_proto.jpg>
+Package pdftex.def Info: ./Figuras/rpi3peter_zero_proto.jpg  used on input line
+ 235.
+(pdftex.def)             Requested size: 192.71658pt x 108.40308pt.
+<./Figuras/rpi3peter_zero.jpg, id=218, 1284.8pt x 722.7pt>
+File: ./Figuras/rpi3peter_zero.jpg Graphic file (type jpg)
+<use ./Figuras/rpi3peter_zero.jpg>
+Package pdftex.def Info: ./Figuras/rpi3peter_zero.jpg  used on input line 236.
+(pdftex.def)             Requested size: 192.71169pt x 108.40031pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+[54 <./Figuras/rpi3peter_zero_proto.jpg> <./Figuras/rpi3peter_zero.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+
+ []
+
+<./Figuras/django_schema.jpg, id=222, 903.375pt x 419.31656pt>
+File: ./Figuras/django_schema.jpg Graphic file (type jpg)
+<use ./Figuras/django_schema.jpg>
+Package pdftex.def Info: ./Figuras/django_schema.jpg  used on input line 268.
+(pdftex.def)             Requested size: 343.28607pt x 159.34193pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+
+ []
+
+<./Figuras/psql_hamaca_db.png, id=227, 1120.185pt x 452.69125pt>
+File: ./Figuras/psql_hamaca_db.png Graphic file (type png)
+<use ./Figuras/psql_hamaca_db.png>
+Package pdftex.def Info: ./Figuras/psql_hamaca_db.png  used on input line 287.
+(pdftex.def)             Requested size: 280.04556pt x 113.17253pt.
+) [56 <./Figuras/django_schema.jpg> <./Figuras/psql_hamaca_db.png>]
 \openout2 = `Capitulos/EntornodePruebas.aux'.
 
 
 (Capitulos/EntornodePruebas.tex
 Cap\'{\i }tulo 7.
-) [52
+) [57
 
 
 
@@ -1115,12 +1234,12 @@ Cap\'{\i }tulo 7.
 ]
 LaTeX Info: Redefining \. on input line 102.
 LaTeX Info: Redefining \% on input line 102.
- [53]
+ [58]
 \openout2 = `Capitulos/CasosdeUso.aux'.
 
  (Capitulos/CasosdeUso.tex
 Cap\'{\i }tulo 8.
-) [54
+) [59
 
 
 
@@ -1130,7 +1249,7 @@ Cap\'{\i }tulo 8.
 
  (Capitulos/ResultadosLimitacionesyTrabajosFuturos.tex
 Cap\'{\i }tulo 9.
-) [55
+) [60
 
 
 
@@ -1140,7 +1259,7 @@ Cap\'{\i }tulo 9.
 
  (Capitulos/Conclusiones.tex
 Cap\'{\i }tulo 10.
-) [56
+) [61
 
 
 
@@ -1189,7 +1308,7 @@ r/m/n/12 , Oc-tu-bre 2013.  [Ac-
 
 LaTeX Info: Redefining \. on input line 87.
 LaTeX Info: Redefining \% on input line 87.
-[57
+[62
 
 
 
@@ -1229,7 +1348,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--176
 -[]to-[]know-[]about$\OT1/cmr/m/n/12 ,
  []
 
-[58]
+[63]
 Underfull \hbox (badness 2088) in paragraph at lines 178--185
 \OT1/cmr/m/n/12 ni-ca-ci^^Son inal^^Sambri-ca.  $\OT1/cmtt/m/n/12 https : / / e
 landroidelibre . elespanol . com / 2015 / 08 /
@@ -1271,7 +1390,7 @@ Underfull \hbox (badness 2846) in paragraph at lines 217--223
 /m/n/12 , Ni-viem-bre 2022.  [Ac-ce-di-do:
  []
 
-[59]) [60] (main.aux (Capitulos/Portada.aux)
+[64]) [65] (main.aux (Capitulos/Portada.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (Capitulos/Agradecimientos.aux)
@@ -1286,16 +1405,12 @@ LaTeX Info: Redefining \% on input line 7.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 6866 strings out of 475248
- 128068 string characters out of 5767628
+ 6964 strings out of 475248
+ 131233 string characters out of 5767628
  1937801 words of memory out of 5000000
- 28216 multiletter control sequences out of 15000+600000
+ 28314 multiletter control sequences out of 15000+600000
  564685 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,13n,79p,1242b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1305,9 +1420,9 @@ Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
 es/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (60 pages, 6425719 bytes).
+Output written on main.pdf (65 pages, 7928300 bytes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
+ 291 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 

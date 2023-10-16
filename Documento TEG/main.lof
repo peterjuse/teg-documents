@@ -23,9 +23,15 @@
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Prototipo de dispositivo de seguridad usando un Raspbery Zero}}{48}{}%
 \contentsline {figure}{\numberline {6.4}{\ignorespaces Prototipo de dispositivo de cámara de inteligente usando un Raspbery Pi 3 modelo B}}{48}{}%
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Componentes sugeridos para la herramienta de visualización, monitoreo y control HAMACA}}{50}{}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Modelo de la base de datos HAMACA}}{50}{}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Modelo autogenerado por el framework Django}}{51}{}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Arquitectura de la solución propuesta}}{51}{}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Arquitectura de la solución propuesta}}{51}{}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Elementos para prototipado de dispositivos}}{51}{}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Arduino Uno conectado a sensores y al iBook G4}}{52}{}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Sensores y actuadores en el exterior}}{52}{}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Datos siendo capturados en el Ibook G4}}{52}{}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Sensor IoT en el interior del hogar antes y despues de su validación}}{53}{}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Sensor IoT en el interior del hogar antes y despues de su validación}}{54}{}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Modelo autogenerado por el framework Django}}{56}{}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Modelo de la base de datos HAMACA}}{56}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
