@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  15 OCT 2023 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  15 OCT 2023 20:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1029,12 +1029,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  (Capitulos/DiseñoeImplementación.tex
 Cap\'{\i }tulo 6.
+<./Figuras/rpi3javier.png, id=166, 534.798pt x 401.76767pt>
+File: ./Figuras/rpi3javier.png Graphic file (type png)
+<use ./Figuras/rpi3javier.png>
+Package pdftex.def Info: ./Figuras/rpi3javier.png  used on input line 18.
+(pdftex.def)             Requested size: 213.9154pt x 160.70421pt.
 ) [45
 
 
 
 
-]
+ <./Figuras/rpi3javier.png>]
 \openout2 = `Capitulos/EntornodePruebas.aux'.
 
  (Capitulos/EntornodePruebas.tex
@@ -1220,10 +1225,10 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6793 strings out of 475248
- 125916 string characters out of 5767628
+ 6801 strings out of 475248
+ 126141 string characters out of 5767628
  1937801 words of memory out of 5000000
- 28143 multiletter control sequences out of 15000+600000
+ 28151 multiletter control sequences out of 15000+600000
  564685 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,13n,79p,1242b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1233,9 +1238,9 @@ Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
 es/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (53 pages, 5331881 bytes).
+Output written on main.pdf (53 pages, 5660207 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
+ 227 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

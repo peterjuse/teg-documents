@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://fritzing.org/
+HostUrl=https://fritzing-data.s3.eu-central-1.amazonaws.com/50a08fb4ec336fabda128169f0c1747e.fzz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2HCNQME5J5JNR5LX%2F20231016%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20231016T011308Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=7f73b2e098b6b74d6557837573f1f0630efcc9209afd83db9b63dd89c9e3a139
