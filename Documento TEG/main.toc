@@ -78,8 +78,8 @@
 \contentsline {section}{\numberline {8.2}Herramienta de Automatización, Monitoreo y Análisis de Componentes Y Artefactos}{69}{}%
 \contentsline {chapter}{\numberline {9}Resultados, Limitaciones y Trabajos Futuros}{72}{}%
 \contentsline {section}{\numberline {9.1}Resultados}{72}{}%
-\contentsline {section}{\numberline {9.2}Limitaciones}{72}{}%
-\contentsline {section}{\numberline {9.3}Contribuciones}{72}{}%
-\contentsline {section}{\numberline {9.4}Trabajos Futuros}{72}{}%
-\contentsline {chapter}{\numberline {10}Conclusiones}{73}{}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{74}{}%
+\contentsline {section}{\numberline {9.2}Limitaciones}{74}{}%
+\contentsline {section}{\numberline {9.3}Contribuciones}{74}{}%
+\contentsline {section}{\numberline {9.4}Trabajos Futuros}{74}{}%
+\contentsline {chapter}{\numberline {10}Conclusiones}{76}{}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{77}{}%
