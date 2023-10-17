@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T05:21:51.739Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="KGtiJ3zX2uQl5y2j69-l" version="22.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-17T05:22:47.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="tYYRS_zTMbNaRGhwZK1w" version="22.0.4" type="github" pages="4">
   <diagram name="Página-1" id="YGdWLPUlQ0OSezbroPg7">
     <mxGraphModel dx="794" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -402,10 +402,10 @@
         <mxCell id="umE646AkDp5r_KicWcx0-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="275" width="550" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="umE646AkDp5r_KicWcx0-4" value="Conectrarse al broker&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="umE646AkDp5r_KicWcx0-4" value="Conectrarse al broker&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="340" y="260" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="umE646AkDp5r_KicWcx0-10" value="Crear mensaje" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="umE646AkDp5r_KicWcx0-10" value="Crear mensaje" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="650" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="umE646AkDp5r_KicWcx0-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="umE646AkDp5r_KicWcx0-4">
@@ -414,7 +414,7 @@
             <mxPoint x="280" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="umE646AkDp5r_KicWcx0-22" value="Publicar Topico" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="umE646AkDp5r_KicWcx0-22" value="Publicar Topico" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="500" y="260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="umE646AkDp5r_KicWcx0-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="umE646AkDp5r_KicWcx0-4" target="umE646AkDp5r_KicWcx0-22">
@@ -510,7 +510,7 @@
             <mxPoint x="510" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="umE646AkDp5r_KicWcx0-53" value="Consumir mensaje" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="umE646AkDp5r_KicWcx0-53" value="Consumir mensaje" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="650" y="310" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="umE646AkDp5r_KicWcx0-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="umE646AkDp5r_KicWcx0-53" source="umE646AkDp5r_KicWcx0-22">
