@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  17 OCT 2023 01:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  17 OCT 2023 02:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1377,26 +1377,56 @@ Cap\'{\i }tulo 8.
 <./Figuras/caso_de_uso_mqtt.png, id=290, 786.94pt x 573.14125pt>
 File: ./Figuras/caso_de_uso_mqtt.png Graphic file (type png)
 <use ./Figuras/caso_de_uso_mqtt.png>
-Package pdftex.def Info: ./Figuras/caso_de_uso_mqtt.png  used on input line 15.
+Package pdftex.def Info: ./Figuras/caso_de_uso_mqtt.png  used on input line 18.
 
-(pdftex.def)             Requested size: 275.43312pt x 200.60243pt.
-<./Figuras/caso_de_uso.png, id=291, 770.88pt x 974.64125pt>
+(pdftex.def)             Requested size: 314.77042pt x 229.25243pt.
+[68
+
+
+
+
+ <./Figuras/caso_de_uso_mqtt.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+<./Figuras/caso_de_uso.png, id=295, 770.88pt x 974.64125pt>
 File: ./Figuras/caso_de_uso.png Graphic file (type png)
 <use ./Figuras/caso_de_uso.png>
-Package pdftex.def Info: ./Figuras/caso_de_uso.png  used on input line 28.
-(pdftex.def)             Requested size: 269.81204pt x 341.12955pt.
-) [68
+Package pdftex.def Info: ./Figuras/caso_de_uso.png  used on input line 38.
+(pdftex.def)             Requested size: 346.89279pt x 438.5845pt.
 
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 27.18335pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.18335pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
+(fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
 
+[69]
 
- <./Figuras/caso_de_uso_mqtt.png>] [69 <./Figuras/caso_de_uso.png>]
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 27.18335pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.18335pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
+
+[70 <./Figuras/caso_de_uso.png>])
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 27.18335pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.18335pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
+
+[71]
 \openout2 = `Capitulos/ResultadosLimitacionesyTrabajosFuturos.aux'.
 
-
-(Capitulos/ResultadosLimitacionesyTrabajosFuturos.tex
+ (Capitulos/ResultadosLimitacionesyTrabajosFuturos.tex
 Cap\'{\i }tulo 9.
-) [70
+) [72
 
 
 
@@ -1406,7 +1436,7 @@ Cap\'{\i }tulo 9.
 
  (Capitulos/Conclusiones.tex
 Cap\'{\i }tulo 10.
-) [71
+) [73
 
 
 
@@ -1455,7 +1485,7 @@ r/m/n/12 , Oc-tu-bre 2013.  [Ac-
 
 LaTeX Info: Redefining \. on input line 87.
 LaTeX Info: Redefining \% on input line 87.
-[72
+[74
 
 
 
@@ -1495,7 +1525,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--176
 -[]to-[]know-[]about$\OT1/cmr/m/n/12 ,
  []
 
-[73]
+[75]
 Underfull \hbox (badness 2088) in paragraph at lines 178--185
 \OT1/cmr/m/n/12 ni-ca-ci^^Son inal^^Sambri-ca.  $\OT1/cmtt/m/n/12 https : / / e
 landroidelibre . elespanol . com / 2015 / 08 /
@@ -1537,7 +1567,7 @@ Underfull \hbox (badness 2846) in paragraph at lines 217--223
 /m/n/12 , Ni-viem-bre 2022.  [Ac-ce-di-do:
  []
 
-[74]) [75] (main.aux (Capitulos/Portada.aux)
+[76]) [77] (main.aux (Capitulos/Portada.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (Capitulos/Agradecimientos.aux)
@@ -1571,9 +1601,9 @@ Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
 es/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (75 pages, 11856901 bytes).
+Output written on main.pdf (77 pages, 11862626 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
+ 357 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

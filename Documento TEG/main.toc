@@ -74,14 +74,12 @@
 \contentsline {subsubsection}{\numberline {7.1.2.3}Monitoreo de Dispositivos}{65}{}%
 \contentsline {subsubsection}{\numberline {7.1.2.4}Control de Dispositivos}{67}{}%
 \contentsline {chapter}{\numberline {8}Casos de Uso}{68}{}%
-\contentsline {section}{\numberline {8.1}Laboratorios de Investigación y Desarrollo}{68}{}%
-\contentsline {subsection}{\numberline {8.1.1}Entornos Académicos}{68}{}%
-\contentsline {subsection}{\numberline {8.1.2}Entornos Industriales}{68}{}%
-\contentsline {section}{\numberline {8.2}Ambientes Domésticos y Oficinas}{69}{}%
-\contentsline {chapter}{\numberline {9}Resultados, Limitaciones y Trabajos Futuros}{70}{}%
-\contentsline {section}{\numberline {9.1}Resultados}{70}{}%
-\contentsline {section}{\numberline {9.2}Limitaciones}{70}{}%
-\contentsline {section}{\numberline {9.3}Contribuciones}{70}{}%
-\contentsline {section}{\numberline {9.4}Trabajos Futuros}{70}{}%
-\contentsline {chapter}{\numberline {10}Conclusiones}{71}{}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{72}{}%
+\contentsline {section}{\numberline {8.1}Infraestructura de comunicación}{68}{}%
+\contentsline {section}{\numberline {8.2}Herramienta de Automatización, Monitoreo y Análisis de Componentes Y Artefactos}{69}{}%
+\contentsline {chapter}{\numberline {9}Resultados, Limitaciones y Trabajos Futuros}{72}{}%
+\contentsline {section}{\numberline {9.1}Resultados}{72}{}%
+\contentsline {section}{\numberline {9.2}Limitaciones}{72}{}%
+\contentsline {section}{\numberline {9.3}Contribuciones}{72}{}%
+\contentsline {section}{\numberline {9.4}Trabajos Futuros}{72}{}%
+\contentsline {chapter}{\numberline {10}Conclusiones}{73}{}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{74}{}%
