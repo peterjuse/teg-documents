@@ -253,7 +253,7 @@ Directamente sobre el sistema operativo se instalaron todos y cada uno de los pa
 \subsubsection{Configuración de Entorno}
 Una vez instalados los diversos paquetes y herramientas se procedió con la configuración de todos los elementos previos a la parte de desarrollo.
 \begin{itemize}
-\item La configuración asociada a la comunicación entre los dispositivos basados en el broker MWTT instalado. 
+\item La configuración asociada a la comunicación entre los dispositivos basados en el broker MQTT instalado. 
 \item La creación de una base de datos en InfluxDB, junto con un usuario y métodos de acceso de forma de almacenar a través del backend de la aplicación toda la data relativa a los dispositivos. 
 \item Despliegue de la herramienta de visualización y monitoreo Grafana. Configuraciones asociadas para la conexión a la fuente de datos (base de datos InfluxDB) así como también el acceso y privilegios de gestión de cuadros de mando sin la necesidad de un usuario logeado y con privilegios asociados.
 \item Despliegue de la herramienta Node-Red para el control de dispositivos. Se le armo configuraciones para poder crear interfaces basadas en cuadros de mando para poder realizar tareas de control sobre sensores y actuadores de los dispositivos. También se probaron y validaron la posibilidad de generar flujos de tareas para los dispositivos a través de esta herramienta.
@@ -262,10 +262,10 @@ Una vez instalados los diversos paquetes y herramientas se procedió con la conf
 \subsubsection{Desarrollo de la Aplicación Web HAMACA}
 Finalmente con el entorno configurado se procede a comenzar el desarrollo de la aplicación web HAMACA (siglas de ``Herramienta de Automatización, Monitoreo y Análisis de Componentes y Artefactos"). Fue diseñada como una webapp liviana y sencilla haciendo uso del framework Django para el lenguaje de programación Pyhon en su versión 3.\\
 
-Al comenzar el proyecto se creo la aplicación a partir de la plantilla de instrucciones que provee el framework, junto con la definición de utilizar Postgresql como base datos, puesto que es una respuesta más robusta que SQLite (base de datos por defecto) tanto para el soporte mismo de la aplicación como de sus futuros procesos. Es así como luego de configurada la base y siguiendo las instrucciones se genero en la base de datos de HAMACA los modelos que podemos observar en la figura \ref{fig:django_schema}.\\
+Al comenzar el proyecto se creo la aplicación a partir de la plantilla de instrucciones que provee el framework, junto con la definición de utilizar Postgresql como base datos, puesto que es una respuesta más robusta que SQLite (base de datos por defecto) tanto para el soporte mismo de la aplicación como de sus futuros procesos. Es así como luego de configurada la base y siguiendo las instrucciones se genero en la base de datos de HAMACA los modelos que podemos observar en la figura \ref{fig:django_schema}.
 \begin{figure}[!htb]
 \centering
-\includegraphics[scale=0.38]{./Figuras/django_schema.jpg}
+\includegraphics[scale=0.28]{./Figuras/django_schema.jpg}
 \caption{Modelo autogenerado por el framework Django}
 \label{fig:django_schema}
 \vspace*{-10pt}
@@ -273,18 +273,64 @@ Al comenzar el proyecto se creo la aplicación a partir de la plantilla de instr
 
 En el argot de Django, este primer paso se le llama migración. Con ello se comienzo con el desarollo del primer modulo de control y acceso a la aplicación basado en los aspectos de roles y privilegios del que se dispone en el framework. También se estructuran las bases para un desarrollo modular en el que se fueron integrando progresiva e incrimentalmente nuevos elementos entre los cuales se encuentran las librerías comunes, templates para los aspectos visuales, los elementos estáticos como las fuentes para los textos, gráficos, colores, etc.\\
 
-El primer modulo desarrollado fue el de las configuraciones, el cual contiene las herramientas de gestión de la aplicación, como la administración de usuarios, así como la capacidad de cambar la ubicación de las herramientas integradas, sea que se encuentren de manera local o en algún lugar que pueda ser accedido por este desarrollo.\\ 
+El primer modulo desarrollado fue el de acceso a la aplicación (figura \ref{fig:login_ui}) y el de configuraciones (figura \ref{fig:hamaca_config}), el cual contiene las herramientas de gestión de la aplicación, como la administración de usuarios, así como la capacidad de cambar la ubicación de las herramientas integradas, sea que se encuentren de manera local o en algún lugar que pueda ser accedido por este desarrollo.\\
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.285]{./Figuras/login_ui.png}
+\caption{Interfaz de inicio de sesión para los usuarios}
+\label{fig:login_ui}
+\vspace*{-10pt}
+\end{figure}
 
-A partir del punto anterior se creo un modulo de Monitoreo el cual contiene la lógica para integrar de manera adecuada la herramienta Grafana para visualización y monitoreo de datos, de forma que los usuarios puedan crear sus cuadros de mando de una manera sencilla y directa.\\
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.21]{./Figuras/hamaca_config.png}
+\caption{Interfaz de configuración de la aplicación}
+\label{fig:hamaca_config}
+\vspace*{-10pt}
+\end{figure}
 
-De manera análoga se creo un modulo de control y un home que contienen la lógica de la integración de la herramienta Node-Red para llevar a cabo las labores de controlar y gestionar flujos de trabajo complejos con los dispositivos. El home de la aplicación particularmente se convierte en un punto donde se muestran los cuadros de mando creados para manipular (e incluso observar) sensores y actuadores de aquellos dispositivos que registremos en los flujos para mostrar.\\
+A partir del punto anterior se creo un modulo de Monitoreo el cual contiene la lógica para integrar de manera adecuada la herramienta Grafana para visualización y monitoreo de datos, de forma que los usuarios puedan crear sus cuadros de mando de una manera sencilla y directa (figura \ref{fig:hamaca_grafana}).\\
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.21]{./Figuras/hamaca_grafana.png}
+\caption{Interfaz de visualización de datos con la herramienta Grafana embebida}
+\label{fig:hamaca_grafana}
+\vspace*{-10pt}
+\end{figure}
 
-Por último pero no menos importante se creo un apartado de redes en el cual se pueden observar los registros de las comunicaciones realizadas entre los dispositivos y el broker, así como otras métricas asociadas a ello.\\
+De manera análoga se creo un modulo de control y un home que contienen la lógica de la integración de la herramienta Node-Red para llevar a cabo las labores de controlar y gestionar flujos de trabajo complejos con los dispositivos (figura \ref{fig:hamaca_nodered}). El home de la aplicación particularmente se convierte en un punto donde se muestran los cuadros de mando creados para manipular (e incluso observar) sensores y actuadores de aquellos dispositivos que registremos en los flujos para mostrar (figura \ref{fig:hamaca_home}).\\
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.21]{./Figuras/hamaca_nodered.png}
+\caption{Interfaz de flujos de automatización con la herramienta Node-Red embebida}
+\label{fig:hamaca_nodered}
+\vspace*{-10pt}
+\end{figure}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.2]{./Figuras/hamaca_home.png}
+\caption{Interfaz de control de dispositivos a través del dashboard de Node-Red}
+\label{fig:hamaca_home}
+\vspace*{-10pt}
+\end{figure}
+
+Por último pero no menos importante se creo un apartado de redes en el cual se pueden observar los registros de las comunicaciones realizadas entre los dispositivos y el broker, así como otras métricas asociadas a ello (figura \ref{fig:hamaca_redes}).
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.2]{./Figuras/hamaca_redes.png}
+\caption{Interfaz de la aplicación para la configuración y visualización de métricas de red}
+\label{fig:hamaca_redes}
+\vspace*{-10pt}
+\end{figure}
 
 Luego del desarrollo de cada modulo y aunque no todos los módulos interactuan con la base de datos se realizo nuevamente el proceso de migración, de forma que la base de datos se adaptara a los requerimientos nuevos de los módulos existentes. Así la base de datos se le agregaron dos nuevas tablas como se pueden observar en la figura \ref{fig:psql_hamaca_db}
 \begin{figure}[!htb]
 \centering
-\includegraphics[scale=0.25]{./Figuras/psql_hamaca_db.png}
+\includegraphics[scale=0.19]{./Figuras/psql_hamaca_db.png}
 \caption{Modelo de la base de datos HAMACA}
 \label{fig:psql_hamaca_db}
 \vspace*{-10pt}
