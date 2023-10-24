@@ -105,7 +105,7 @@ Para ello y examinando las diversas opciones de tecnologías estudiadas e invest
 
 \item Dada la naturaleza no estructurada de los datos enviados por los dispositivos IoT, se requiere una base de datos que pueda almacenar fácilmente dichos valores. Se tiene que tener en cuenta que esta base de datos debería estar orientada a la utilización de datos históricos y en tiempo real (dimensión de tiempo). Es por ello que basados en la investigación previa realizada y teniendo en cuenta la naturaleza de los datos y las tareas que se esperan del sistema manejador de base de datos, se toma la decisión de usar InfluxDB\cite{influxdb}, que es una base de datos orientada a series de tiempo con alta integración con otras herramientas disponibles en el mercado.
 
-\item  Una herramienta web que sea capaz de desplegar la información de sensores, actuadores tanto de manera histórica como en tiempo real, ademas de gestionar y centralizar el control de dispositivos y rutinas extras, con la posibilidad de tener acceso a ella basado en registro de usuarios y que estos sean capaces de crear cuadros de mando adaptados a las necesidades de sus dispositivos y requerimientos. Esta parte de la propuesta busca no crear todo una suite desde 0 sino aprovechar herramientas ya existentes para ello. Teniendo en cuenta eso, se decide en primer lugar crear una webapp usando el lenguaje de programación Python\cite{whatspython} en su version 3 con el framework Django\cite{django} bajo una base de datos Postgresql\cite{postgresql} para almacenamientos de los datos referentes a esta aplicación. En cuanto al tema de visualización y monitoreo se establece el uso integrado de la aplicación web Grafana\cite{grafana} y del mismo modo, para el control de dispositivos y de flujos de trabajos se acepta finalmente el uso de la herramienta web Node-Red\cite{nodered}
+\item  Una herramienta web que sea capaz de desplegar la información de sensores, actuadores tanto de manera histórica como en tiempo real, además de gestionar y centralizar el control de dispositivos y rutinas extras, con la posibilidad de tener acceso a ella basado en registro de usuarios y que estos sean capaces de crear cuadros de mando adaptados a las necesidades de sus dispositivos y requerimientos. Esta parte de la propuesta busca no crear todo una suite desde 0 sino aprovechar herramientas ya existentes para ello. Teniendo en cuenta eso, se decide en primer lugar crear una webapp usando el lenguaje de programación Python\cite{whatspython} en su version 3 con el framework Django\cite{django} bajo una base de datos Postgresql\cite{postgresql} para almacenamientos de los datos referentes a esta aplicación. En cuanto al tema de visualización y monitoreo se establece el uso integrado de la aplicación web Grafana\cite{grafana} y del mismo modo, para el control de dispositivos y de flujos de trabajos se acepta finalmente el uso de la herramienta web Node-Red\cite{nodered}
 
 \end{itemize}
 
@@ -158,7 +158,7 @@ El proceso partió por obtener y organizar los elementos requeridos para la crea
 \vspace*{-10pt}
 \end{figure}
 
-Una vez organizados, se construyo uno a uno cada prototipo de dispositivo, comenzando por el prototipo de dispositivo para exteriores. Tomado el arduino uno y los sensores conectados a el, junto con la computadora iBook G4 como interfaz de despliegue del código a la placa programable y para captura y envío de los datos se procedió a desarrollar dos scripts:
+Una vez organizados, se construyó uno a uno cada prototipo de dispositivo, comenzando por el prototipo de dispositivo para exteriores. Tomado el arduino uno y los sensores conectados a el, junto con la computadora iBook G4 como interfaz de despliegue del código a la placa programable y para captura y envío de los datos se procedió a desarrollar dos scripts:
 \begin{itemize}
 \item Un primer script en el lenguaje de programación Arduino con los drivers y la lógica de control de la placa programable  para los sensores y actuadores que fueron tomados según el diseño convenido anteriormente (figuras \ref{fig:arduino_ext} y \ref{fig:sensores_ext}).
 \begin{figure}[!htb]
@@ -197,9 +197,9 @@ Finalmente el dispositivo y el computador fueron colocados geográficamente en e
 
 El siguiente paso de manera similar consistió en construir el prototipo funcional del dispositivo IoT para ser interior del hogar. El dispositivo elegido para esta tarea fue uno de los dos Raspberry Pi 3 modelo B disponibles, así como la lista de sensores asociados para completar la tarea. De esta forma se llevaron las siguientes labores:
 \begin{itemize}
-\item Se realizo la colocación de todos los sensores en un protoboard y de allí fue conectados al Raspberry Pi.
+\item Se realizó la colocación de todos los sensores en un protoboard y de allí fue conectados al Raspberry Pi.
 
-\item Se instalo el sistema operativo Raspbian al dispositivo y se dejo preparado para utilizar una configuración headless, es decir, sin uso de monitor, solo acceso remoto.
+\item Se instaló el sistema operativo Raspbian al dispositivo y se dejó preparado para utilizar una configuración headless, es decir, sin uso de monitor, solo acceso remoto.
 
 \item Se desarrollaron scripts en el lenguaje de programación Python por cada sensor y actuador utilizado. 
 
@@ -214,19 +214,19 @@ El siguiente paso de manera similar consistió en construir el prototipo funcion
 \end{figure}
 \end{itemize} 
 
-Luego, se continuo con los dos prototipos que representan elementos de seguridad. Para ellos se utilizaron el Raspberry Pi Zero y el Raspberry Pi 3 modelo B restante. Para poder dejar activos los elementos correspondientes a ellos se siguieron los siguientes pasos:
+Luego, se continuó con los dos prototipos que representan elementos de seguridad. Para ellos se utilizaron el Raspberry Pi Zero y el Raspberry Pi 3 modelo B restante. Para poder dejar activos los elementos correspondientes a ellos se siguieron los siguientes pasos:
 \begin{itemize}
-\item  Se realizo la colocación de todos los sensores y actuadores en un protoboard y de allí fue conectados al Raspberry Pi Zero.
+\item  Se realizó la colocación de todos los sensores y actuadores en un protoboard y de allí fue conectados al Raspberry Pi Zero.
 
-\item Se instalo el sistema operativo Raspbian al dispositivo y se dejo preparado para utilizar una configuración headless, es decir, sin uso de monitor, solo acceso remoto.
+\item Se instaló el sistema operativo Raspbian al dispositivo y se dejó preparado para utilizar una configuración headless, es decir, sin uso de monitor, solo acceso remoto.
 
-\item Se realizo la conexión directa del Raspberry Pi Zero al Raspberry Pi 3 modelo B para proveer de conectividad a la red al dispositivo. 
+\item Se realizó la conexión directa del Raspberry Pi Zero al Raspberry Pi 3 modelo B para proveer de conectividad a la red al dispositivo. 
 
 \item Se desarrollaron scripts en el lenguaje de programación Python por cada sensor y actuador utilizado en Raspberry Pi zero.
 
 \item Se desarrolló un modelo de inteligencia artificial en el lenguaje de programación Python para usar la cámara acoplada al Raspberry Pi 3 modelo B de forma que reconociera las caras de los habitantes que entrasen al hogar.  
 
-\item Se instalaron los elementos necesarios para dar futuro soporte al despliegue de la aplicación web HAMACA en el Raspberry Pi 3 modelo B, así como también se creo un punto de acceso para los dispositivos se pudieran conectar a el de manera independiente de la red del hogar. 
+\item Se instalaron los elementos necesarios para dar futuro soporte al despliegue de la aplicación web HAMACA en el Raspberry Pi 3 modelo B, así como también se creó un punto de acceso para los dispositivos se pudieran conectar a el de manera independiente de la red del hogar. 
 \end{itemize}
 
 Al finalizar el desarrollo del prototipo de dispositivo este fue situado validado y colocado en la entrada del hogar (figura \ref{fig:rpi3peter_zero}), cuestión que fuera centro neuralgico de los sensores de seguridad. Aparte la capacidad de computo del Raspberry Pi 3 modelo B también estaría a disposición siendo el elemento de computo definido para la siguiente etapa de la implementación.
@@ -241,14 +241,14 @@ Al finalizar el desarrollo del prototipo de dispositivo este fue situado validad
 
 
 \subsection{Implementación de la Aplicación Web HAMACA}
-Por el lado de la aplicación web HAMACA, el proceso de implementación fue llevado a cabo siguiendo los lineamientos de las metodologías ágiles, con entregables incrementales, rápidas iteraciones con nuevas características y corrección de errores. Se estimo inicialmente un periodo de desarrollo de aproximadamente un mes y medio para tener todos los aspectos necesarios para cubrir los objetivos planteados y dar una propuesta de solución al problema de investigación.
+Por el lado de la aplicación web HAMACA, el proceso de implementación fue llevado a cabo siguiendo los lineamientos de las metodologías ágiles, con entregables incrementales, rápidas iteraciones con nuevas características y corrección de errores. Se estimó inicialmente un período de desarrollo de aproximadamente un mes y medio para tener todos los aspectos necesarios para cubrir los objetivos planteados y dar una propuesta de solución al problema de investigación.
 
 Los pasos que se siguieron para poder desarrollar y desplegar la webapp fueron los siguientes:
 
 \subsubsection{Infraestructura}
 Por el lado de la infraestructura, al tener como elemento de computo para despliegue un Raspberry Pi 3 Modelo B, el sistema operativo base utilizado fue raspbian, un flavor de Debian, una opción popular y fácil de utilizar para los desarrollos de software.\\
 
-Directamente sobre el sistema operativo se instalaron todos y cada uno de los paquetes, base de datos (InfluxDB y Postgresql), herramientas a integrar (Grafana y Node-Red), la implementación de MQTT, así como también el ambiente de Python 3 para manejar la webapp.  Este proceso cambio para luego dejar la mayor cantidad de elementos posibles para ser utilizados bajo el esquema de contenedores docker, siendo migrados a esa forma la base de datos InfluxDB, y las herramientas Grafana y Node-Red. Lo cual permite un despliegue mucho más rápido en cualquier ambiente nuevo, así como modularizar el proyecto de una mejor forma.
+Directamente sobre el sistema operativo se instalaron todos y cada uno de los paquetes, base de datos (InfluxDB y Postgresql), herramientas a integrar (Grafana y Node-Red), la implementación de MQTT, así como también el ambiente de Python 3 para manejar la webapp.  Este proceso cambió para luego dejar la mayor cantidad de elementos posibles para ser utilizados bajo el esquema de contenedores docker, siendo migrados a esa forma la base de datos InfluxDB, y las herramientas Grafana y Node-Red. Lo cual permite un despliegue mucho más rápido en cualquier ambiente nuevo, así como modularizar el proyecto de una mejor forma.
 
 \subsubsection{Configuración de Entorno}
 Una vez instalados los diversos paquetes y herramientas se procedió con la configuración de todos los elementos previos a la parte de desarrollo.
@@ -256,13 +256,13 @@ Una vez instalados los diversos paquetes y herramientas se procedió con la conf
 \item La configuración asociada a la comunicación entre los dispositivos basados en el broker MQTT instalado. 
 \item La creación de una base de datos en InfluxDB, junto con un usuario y métodos de acceso de forma de almacenar a través del backend de la aplicación toda la data relativa a los dispositivos. 
 \item Despliegue de la herramienta de visualización y monitoreo Grafana. Configuraciones asociadas para la conexión a la fuente de datos (base de datos InfluxDB) así como también el acceso y privilegios de gestión de cuadros de mando sin la necesidad de un usuario logeado y con privilegios asociados.
-\item Despliegue de la herramienta Node-Red para el control de dispositivos. Se le armo configuraciones para poder crear interfaces basadas en cuadros de mando para poder realizar tareas de control sobre sensores y actuadores de los dispositivos. También se probaron y validaron la posibilidad de generar flujos de tareas para los dispositivos a través de esta herramienta.
+\item Despliegue de la herramienta Node-Red para el control de dispositivos. Se le armó configuraciones para poder crear interfaces basadas en cuadros de mando para poder realizar tareas de control sobre sensores y actuadores de los dispositivos. También se probaron y validaron la posibilidad de generar flujos de tareas para los dispositivos a través de esta herramienta.
 \end{itemize}
 
 \subsubsection{Desarrollo de la Aplicación Web HAMACA}
 Finalmente con el entorno configurado se procede a comenzar el desarrollo de la aplicación web HAMACA (siglas de ``Herramienta de Automatización, Monitoreo y Análisis de Componentes y Artefactos"). Fue diseñada como una webapp liviana y sencilla haciendo uso del framework Django para el lenguaje de programación Pyhon en su versión 3.\\
 
-Al comenzar el proyecto se creo la aplicación a partir de la plantilla de instrucciones que provee el framework, junto con la definición de utilizar Postgresql como base datos, puesto que es una respuesta más robusta que SQLite (base de datos por defecto) tanto para el soporte mismo de la aplicación como de sus futuros procesos. Es así como luego de configurada la base y siguiendo las instrucciones se genero en la base de datos de HAMACA los modelos que podemos observar en la figura \ref{fig:django_schema}.
+Al comenzar el proyecto se creó la aplicación a partir de la plantilla de instrucciones que provee el framework, junto con la definición de utilizar Postgresql como base datos, puesto que es una respuesta más robusta que SQLite (base de datos por defecto) tanto para el soporte mismo de la aplicación como de sus futuros procesos. Es así como luego de configurada la base y siguiendo las instrucciones se genero en la base de datos de HAMACA los modelos que podemos observar en la figura \ref{fig:django_schema}.
 \begin{figure}[!htb]
 \centering
 \includegraphics[scale=0.28]{./Figuras/django_schema.jpg}
@@ -290,7 +290,7 @@ El primer modulo desarrollado fue el de acceso a la aplicación (figura \ref{fig
 \vspace*{-10pt}
 \end{figure}
 
-A partir del punto anterior se creo un modulo de Monitoreo el cual contiene la lógica para integrar de manera adecuada la herramienta Grafana para visualización y monitoreo de datos, de forma que los usuarios puedan crear sus cuadros de mando de una manera sencilla y directa (figura \ref{fig:hamaca_grafana}).\\
+A partir del punto anterior se creó un modulo de Monitoreo el cual contiene la lógica para integrar de manera adecuada la herramienta Grafana para visualización y monitoreo de datos, de forma que los usuarios puedan crear sus cuadros de mando de una manera sencilla y directa (figura \ref{fig:hamaca_grafana}).\\
 \begin{figure}[!htb]
 \centering
 \includegraphics[scale=0.21]{./Figuras/hamaca_grafana.png}
@@ -299,7 +299,7 @@ A partir del punto anterior se creo un modulo de Monitoreo el cual contiene la l
 \vspace*{-10pt}
 \end{figure}
 
-De manera análoga se creo un modulo de control y un home que contienen la lógica de la integración de la herramienta Node-Red para llevar a cabo las labores de controlar y gestionar flujos de trabajo complejos con los dispositivos (figura \ref{fig:hamaca_nodered}). El home de la aplicación particularmente se convierte en un punto donde se muestran los cuadros de mando creados para manipular (e incluso observar) sensores y actuadores de aquellos dispositivos que registremos en los flujos para mostrar (figura \ref{fig:hamaca_home}).\\
+De manera análoga se creó un modulo de control y un home que contienen la lógica de la integración de la herramienta Node-Red para llevar a cabo las labores de controlar y gestionar flujos de trabajo complejos con los dispositivos (figura \ref{fig:hamaca_nodered}). El home de la aplicación particularmente se convierte en un punto donde se muestran los cuadros de mando creados para manipular (e incluso observar) sensores y actuadores de aquellos dispositivos que registremos en los flujos para mostrar (figura \ref{fig:hamaca_home}).\\
 
 \begin{figure}[!htb]
 \centering
@@ -317,7 +317,7 @@ De manera análoga se creo un modulo de control y un home que contienen la lógi
 \vspace*{-10pt}
 \end{figure}
 
-Por último pero no menos importante se creo un apartado de redes en el cual se pueden observar los registros de las comunicaciones realizadas entre los dispositivos y el broker, así como otras métricas asociadas a ello (figura \ref{fig:hamaca_redes}).
+Por último pero no menos importante se creó un apartado de redes en el cual se pueden observar los registros de las comunicaciones realizadas entre los dispositivos y el broker, así como otras métricas asociadas a ello (figura \ref{fig:hamaca_redes}).
 
 \begin{figure}[!htb]
 \centering
@@ -327,7 +327,7 @@ Por último pero no menos importante se creo un apartado de redes en el cual se 
 \vspace*{-10pt}
 \end{figure}
 
-Luego del desarrollo de cada modulo y aunque no todos los módulos interactuan con la base de datos se realizo nuevamente el proceso de migración, de forma que la base de datos se adaptara a los requerimientos nuevos de los módulos existentes. Así la base de datos se le agregaron dos nuevas tablas como se pueden observar en la figura \ref{fig:psql_hamaca_db}
+Luego del desarrollo de cada modulo y aunque no todos los módulos interactuan con la base de datos se realizó nuevamente el proceso de migración, de forma que la base de datos se adaptara a los requerimientos nuevos de los módulos existentes. Así la base de datos se le agregaron dos nuevas tablas como se pueden observar en la figura \ref{fig:psql_hamaca_db}
 \begin{figure}[!htb]
 \centering
 \includegraphics[scale=0.19]{./Figuras/psql_hamaca_db.png}

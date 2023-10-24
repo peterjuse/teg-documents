@@ -43,7 +43,7 @@
 \contentsline {figure}{\numberline {7.2}{\ignorespaces A la izquierda el sensor de temperatura y humedad DHT11 y a la derecha el sensor de temperatura DS1820}}{63}{}%
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Captura de datos por parte del backend de la aplicación web}}{64}{}%
 \contentsline {figure}{\numberline {7.4}{\ignorespaces Estadísticas de mensajería del broker MQTT}}{64}{}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Consulta para construcción de grafico usando la integración de Grafana}}{65}{}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Consulta para construcción de gráficos usando la integración de Grafana}}{65}{}%
 \contentsline {figure}{\numberline {7.6}{\ignorespaces Cuadro de Mando con indicadores de la integración con Grafana}}{66}{}%
 \contentsline {figure}{\numberline {7.7}{\ignorespaces Cuadro de Mando con indicadores e interfaces de control de dispositivos}}{66}{}%
 \contentsline {figure}{\numberline {7.8}{\ignorespaces Flujos creados dentro de la integración de Node-Red para automatizar tareas}}{67}{}%
