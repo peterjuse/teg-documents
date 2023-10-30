@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  24 OCT 2023 19:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  29 OCT 2023 23:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -559,17 +559,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
 [10
 
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
@@ -597,6 +597,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--90
 LaTeX Info: Redefining \. on input line 90.
 LaTeX Info: Redefining \% on input line 90.
 [11]
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
+ [12]
 \openout2 = `Capitulos/ProblemaDeInvestigacion.aux'.
 
  (Capitulos/ProblemaDeInvestigacion.tex
@@ -616,7 +619,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[12
+[13
 
 
 
@@ -626,202 +629,202 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-[13]) [14]
+[14]) [15]
 \openout2 = `Capitulos/InternetdelasCosas.aux'.
 
  (Capitulos/InternetdelasCosas.tex
 Cap\'{\i }tulo 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-[15
+[16
 
 
 
 
 ]
-<./Figuras/d2d.png, id=54, 664.73344pt x 172.39406pt>
+<./Figuras/d2d.png, id=57, 664.73344pt x 172.39406pt>
 File: ./Figuras/d2d.png Graphic file (type png)
 <use ./Figuras/d2d.png>
-Package pdftex.def Info: ./Figuras/d2d.png  used on input line 31.
-(pdftex.def)             Requested size: 252.60133pt x 65.5104pt.
-<./Figuras/d2n.png, id=55, 692.5875pt x 238.64156pt>
+Package pdftex.def Info: ./Figuras/d2d.png  used on input line 32.
+(pdftex.def)             Requested size: 282.51305pt x 73.2678pt.
+<./Figuras/d2n.png, id=58, 692.5875pt x 238.64156pt>
 File: ./Figuras/d2n.png Graphic file (type png)
 <use ./Figuras/d2n.png>
-Package pdftex.def Info: ./Figuras/d2n.png  used on input line 42.
-(pdftex.def)             Requested size: 263.18597pt x 90.68472pt.
-<./Figuras/d2g.png, id=56, 676.77844pt x 479.54156pt>
+Package pdftex.def Info: ./Figuras/d2n.png  used on input line 43.
+(pdftex.def)             Requested size: 294.35107pt x 101.42313pt.
+<./Figuras/d2g.png, id=59, 676.77844pt x 479.54156pt>
 File: ./Figuras/d2g.png Graphic file (type png)
 <use ./Figuras/d2g.png>
-Package pdftex.def Info: ./Figuras/d2g.png  used on input line 52.
-(pdftex.def)             Requested size: 257.17848pt x 182.22768pt.
- [16 <./Figuras/d2d.png> <./Figuras/d2n.png>]
-<./Figuras/d2b.png, id=60, 792.71156pt x 417.05812pt>
+Package pdftex.def Info: ./Figuras/d2g.png  used on input line 53.
+(pdftex.def)             Requested size: 287.6322pt x 203.80612pt.
+ [17 <./Figuras/d2d.png> <./Figuras/d2n.png>]
+<./Figuras/d2b.png, id=63, 792.71156pt x 417.05812pt>
 File: ./Figuras/d2b.png Graphic file (type png)
 <use ./Figuras/d2b.png>
-Package pdftex.def Info: ./Figuras/d2b.png  used on input line 62.
-(pdftex.def)             Requested size: 301.23352pt x 158.48372pt.
- [17 <./Figuras/d2g.png> <./Figuras/d2b.png>]
-Underfull \hbox (badness 2326) in paragraph at lines 84--84
+Package pdftex.def Info: ./Figuras/d2b.png  used on input line 63.
+(pdftex.def)             Requested size: 336.904pt x 177.25053pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+[18 <./Figuras/d2g.png> <./Figuras/d2b.png>]
+Underfull \hbox (badness 2326) in paragraph at lines 85--85
 []|\OT1/cmr/m/n/12 Espacios de tra-ba-jo y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
 []|\OT1/cmr/m/n/12 Sistemas den-tro de
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 87--87
+Underfull \hbox (badness 1596) in paragraph at lines 88--88
 \OT1/cmr/m/n/12 sis-te-ma. Di-se~nos ba-sa-dos en uso.
  []
 
 
-Overfull \hbox (0.89598pt too wide) in paragraph at lines 76--89
+Overfull \hbox (0.89598pt too wide) in paragraph at lines 77--90
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
- []
-
-[21] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 [23] [24]
-<Figuras/HTTP_Request.png, id=86, 455.301pt x 220.752pt>
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+[25]
+<Figuras/HTTP_Request.png, id=90, 455.301pt x 220.752pt>
 File: Figuras/HTTP_Request.png Graphic file (type png)
 <use Figuras/HTTP_Request.png>
-Package pdftex.def Info: Figuras/HTTP_Request.png  used on input line 202.
+Package pdftex.def Info: Figuras/HTTP_Request.png  used on input line 203.
 (pdftex.def)             Requested size: 277.23654pt x 134.42273pt.
-<Figuras/HTTP_Response.png, id=88, 498.006pt x 324.558pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+<Figuras/HTTP_Response.png, id=92, 498.006pt x 324.558pt>
 File: Figuras/HTTP_Response.png Graphic file (type png)
 <use Figuras/HTTP_Response.png>
-Package pdftex.def Info: Figuras/HTTP_Response.png  used on input line 211.
+Package pdftex.def Info: Figuras/HTTP_Response.png  used on input line 212.
 (pdftex.def)             Requested size: 221.78923pt x 144.54424pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
-
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-[25 <./Figuras/HTTP_Request.png> <./Figuras/HTTP_Response.png>]
-<./Figuras/mqtt.png, id=95, 320.19624pt x 158.5925pt>
+<./Figuras/mqtt.png, id=96, 320.19624pt x 158.5925pt>
 File: ./Figuras/mqtt.png Graphic file (type png)
 <use ./Figuras/mqtt.png>
 Package pdftex.def Info: ./Figuras/mqtt.png  used on input line 225.
 (pdftex.def)             Requested size: 377.0444pt x 186.75273pt.
- [26 <./Figuras/mqtt.png>]
-<./Figuras/mqtt_header.jpeg, id=100, 388.45125pt x 130.4875pt>
-File: ./Figuras/mqtt_header.jpeg Graphic file (type jpg)
-<use ./Figuras/mqtt_header.jpeg>
-Package pdftex.def Info: ./Figuras/mqtt_header.jpeg  used on input line 248.
-(pdftex.def)             Requested size: 399.21791pt x 134.10693pt.
+[27 <./Figuras/HTTP_Request.png> <./Figuras/HTTP_Response.png>] [28 <./Figuras/
+mqtt.png>]
+<./Figuras/mqtt_header.jpg, id=106, 809.0225pt x 273.02pt>
+File: ./Figuras/mqtt_header.jpg Graphic file (type jpg)
+<use ./Figuras/mqtt_header.jpg>
+Package pdftex.def Info: ./Figuras/mqtt_header.jpg  used on input line 248.
+(pdftex.def)             Requested size: 399.21791pt x 134.72664pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 255--256
 
  []
 
-[27 <./Figuras/mqtt_header.jpeg>]
+[29 <./Figuras/mqtt_header.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
-[28]
+
 Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
 
-
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
@@ -837,12 +840,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
  []
 
-[29]
+
 Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
-
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
@@ -852,12 +855,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 312--313
 
  []
 
-[30]
+
 Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
-
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
@@ -867,7 +870,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
  []
 
-[31]
+
 Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
@@ -877,7 +880,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
-
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
@@ -887,7 +890,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 348--349
 
  []
 
-[32] [33]) [34] [35]
+[34] [35]) [36]
 \openout2 = `Capitulos/HerrramientasdeVisualizacionyControl.aux'.
 
  (Capitulos/HerrramientasdeVisualizacionyControl.tex
@@ -912,7 +915,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-[36
+[37
 
 
 
@@ -937,7 +940,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-[37]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
@@ -952,7 +955,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-[38]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
@@ -972,7 +975,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-[39]) [40]
+[40]) [41]
 \openout2 = `Capitulos/PlacasProgramables.aux'.
 
  (Capitulos/PlacasProgramables.tex
@@ -992,7 +995,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-<./Figuras/arduino_logo.png, id=145, 275.0275pt x 184.69pt>
+<./Figuras/arduino_logo.png, id=148, 275.0275pt x 184.69pt>
 File: ./Figuras/arduino_logo.png Graphic file (type png)
 <use ./Figuras/arduino_logo.png>
 Package pdftex.def Info: ./Figuras/arduino_logo.png  used on input line 28.
@@ -1002,7 +1005,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[41
+[42
 
 
 
@@ -1012,29 +1015,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-<./Figuras/arduino_uno.jpeg, id=149, 253.94875pt x 199.74625pt>
+<./Figuras/arduino_uno.jpeg, id=152, 253.94875pt x 199.74625pt>
 File: ./Figuras/arduino_uno.jpeg Graphic file (type jpg)
 <use ./Figuras/arduino_uno.jpeg>
 Package pdftex.def Info: ./Figuras/arduino_uno.jpeg  used on input line 42.
 (pdftex.def)             Requested size: 177.76291pt x 139.82141pt.
-[42 <./Figuras/arduino_logo.png> <./Figuras/arduino_uno.jpeg>]
-<./Figuras/raspi_logo.png, id=154, 319.1925pt x 159.59625pt>
+[43 <./Figuras/arduino_logo.png> <./Figuras/arduino_uno.jpeg>]
+<./Figuras/raspi_logo.png, id=158, 319.1925pt x 159.59625pt>
 File: ./Figuras/raspi_logo.png Graphic file (type png)
 <use ./Figuras/raspi_logo.png>
 Package pdftex.def Info: ./Figuras/raspi_logo.png  used on input line 55.
 (pdftex.def)             Requested size: 207.47266pt x 103.73631pt.
- [43 <./Figuras/raspi_logo.png>]
-<./Figuras/rpizero.png, id=161, 739.76375pt x 436.63126pt>
+ [44 <./Figuras/raspi_logo.png>]
+<./Figuras/rpizero.png, id=164, 739.76375pt x 436.63126pt>
 File: ./Figuras/rpizero.png Graphic file (type png)
 <use ./Figuras/rpizero.png>
 Package pdftex.def Info: ./Figuras/rpizero.png  used on input line 71.
 (pdftex.def)             Requested size: 184.94048pt x 109.15755pt.
-<./Figuras/rpi4.jpg, id=162, 4202.70125pt x 2473.24pt>
+<./Figuras/rpi4.jpg, id=165, 4202.70125pt x 2473.24pt>
 File: ./Figuras/rpi4.jpg Graphic file (type jpg)
 <use ./Figuras/rpi4.jpg>
 Package pdftex.def Info: ./Figuras/rpi4.jpg  used on input line 84.
 (pdftex.def)             Requested size: 210.14737pt x 123.66924pt.
- [44 <./Figuras/rpizero.png>]
+ [45 <./Figuras/rpizero.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
@@ -1044,7 +1047,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-) [45 <./Figuras/rpi4.jpg>]
+) [46 <./Figuras/rpi4.jpg>]
 \openout2 = `Capitulos/DiseñoeImplementación.aux'.
 
  (Capitulos/DiseñoeImplementación.tex
@@ -1054,7 +1057,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-[46
+[47
 
 
 
@@ -1064,201 +1067,204 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-<./Figuras/arduino1.png, id=173, 531.85367pt x 475.376pt>
+<./Figuras/arduino1.png, id=176, 531.85367pt x 475.376pt>
 File: ./Figuras/arduino1.png Graphic file (type png)
 <use ./Figuras/arduino1.png>
 Package pdftex.def Info: ./Figuras/arduino1.png  used on input line 62.
 (pdftex.def)             Requested size: 265.92618pt x 237.68741pt.
-<./Figuras/rpi3javier.png, id=174, 534.798pt x 401.76767pt>
+<./Figuras/rpi3javier.png, id=177, 534.798pt x 401.76767pt>
 File: ./Figuras/rpi3javier.png Graphic file (type png)
 <use ./Figuras/rpi3javier.png>
 Package pdftex.def Info: ./Figuras/rpi3javier.png  used on input line 71.
 (pdftex.def)             Requested size: 267.39835pt x 200.88333pt.
-[47]
-<./Figuras/rpizero_diagram.png, id=178, 573.07434pt x 344.487pt>
+[48]
+<./Figuras/rpizero_diagram.png, id=181, 573.07434pt x 344.487pt>
 File: ./Figuras/rpizero_diagram.png Graphic file (type png)
 <use ./Figuras/rpizero_diagram.png>
 Package pdftex.def Info: ./Figuras/rpizero_diagram.png  used on input line 80.
 (pdftex.def)             Requested size: 286.53647pt x 172.24307pt.
- [48 <./Figuras/arduino1.png> <./Figuras/rpi3javier.png>]
-<./Figuras/rpipeter.png, id=184, 283.99434pt x 265.25766pt>
+ [49 <./Figuras/arduino1.png> <./Figuras/rpi3javier.png>]
+<./Figuras/rpipeter.png, id=188, 283.99434pt x 265.25766pt>
 File: ./Figuras/rpipeter.png Graphic file (type png)
 <use ./Figuras/rpipeter.png>
 Package pdftex.def Info: ./Figuras/rpipeter.png  used on input line 89.
-(pdftex.def)             Requested size: 170.3979pt x 159.1558pt.
- [49 <./Figuras/rpizero_diagram.png> <./Figuras/rpipeter.png>]
+(pdftex.def)             Requested size: 141.99681pt x 132.6285pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-
+[50 <./Figuras/rpizero_diagram.png> <./Figuras/rpipeter.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
-[50]
 <./Figuras/componentes_hamaca.png, id=194, 973.6375pt x 261.97874pt>
 File: ./Figuras/componentes_hamaca.png Graphic file (type png)
 <use ./Figuras/componentes_hamaca.png>
 Package pdftex.def Info: ./Figuras/componentes_hamaca.png  used on input line 1
 16.
 (pdftex.def)             Requested size: 340.77823pt x 91.69392pt.
-<./Figuras/arquitectura_hamaca.png, id=195, 1014.79124pt x 506.89375pt>
+[51]
+<./Figuras/arquitectura_hamaca.png, id=198, 1014.79124pt x 506.89375pt>
 File: ./Figuras/arquitectura_hamaca.png Graphic file (type png)
 <use ./Figuras/arquitectura_hamaca.png>
 Package pdftex.def Info: ./Figuras/arquitectura_hamaca.png  used on input line 
 139.
-(pdftex.def)             Requested size: 405.9093pt x 202.7539pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-
- []
-
-<./Figuras/sensores_recibidos.jpg, id=196, 1284.8pt x 963.6pt>
+(pdftex.def)             Requested size: 284.1396pt x 141.92928pt.
+ [52 <./Figuras/componentes_hamaca.png> <./Figuras/arquitectura_hamaca.png>]
+<./Figuras/sensores_recibidos.jpg, id=204, 1284.8pt x 963.6pt>
 File: ./Figuras/sensores_recibidos.jpg Graphic file (type jpg)
 <use ./Figuras/sensores_recibidos.jpg>
 Package pdftex.def Info: ./Figuras/sensores_recibidos.jpg  used on input line 1
 54.
 (pdftex.def)             Requested size: 192.71169pt x 144.53375pt.
-<./Figuras/sensores.jpg, id=197, 963.6pt x 722.7pt>
+<./Figuras/sensores.jpg, id=205, 963.6pt x 722.7pt>
 File: ./Figuras/sensores.jpg Graphic file (type jpg)
 <use ./Figuras/sensores.jpg>
 Package pdftex.def Info: ./Figuras/sensores.jpg  used on input line 155.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
-[51 <./Figuras/componentes_hamaca.png>]
-<./Figuras/arduino_ext.jpg, id=202, 963.6pt x 722.7pt>
+<./Figuras/arduino_ext.jpg, id=206, 963.6pt x 722.7pt>
 File: ./Figuras/arduino_ext.jpg Graphic file (type jpg)
 <use ./Figuras/arduino_ext.jpg>
 Package pdftex.def Info: ./Figuras/arduino_ext.jpg  used on input line 166.
-(pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
-<./Figuras/sensor_agua.jpg, id=203, 722.7pt x 963.6pt>
+(pdftex.def)             Requested size: 173.4405pt x 130.08038pt.
+<./Figuras/sensor_agua.jpg, id=207, 722.7pt x 963.6pt>
 File: ./Figuras/sensor_agua.jpg Graphic file (type jpg)
 <use ./Figuras/sensor_agua.jpg>
-Package pdftex.def Info: ./Figuras/sensor_agua.jpg  used on input line 174.
+Package pdftex.def Info: ./Figuras/sensor_agua.jpg  used on input line 173.
 (pdftex.def)             Requested size: 79.49724pt x 105.99632pt.
-<./Figuras/pir_ext.jpg, id=204, 722.7pt x 963.6pt>
+<./Figuras/pir_ext.jpg, id=208, 722.7pt x 963.6pt>
 File: ./Figuras/pir_ext.jpg Graphic file (type jpg)
 <use ./Figuras/pir_ext.jpg>
-Package pdftex.def Info: ./Figuras/pir_ext.jpg  used on input line 175.
+Package pdftex.def Info: ./Figuras/pir_ext.jpg  used on input line 174.
 (pdftex.def)             Requested size: 79.49724pt x 105.99632pt.
-<./Figuras/temp_ext.jpg, id=205, 722.7pt x 963.6pt>
+<./Figuras/temp_ext.jpg, id=209, 722.7pt x 963.6pt>
 File: ./Figuras/temp_ext.jpg Graphic file (type jpg)
 <use ./Figuras/temp_ext.jpg>
-Package pdftex.def Info: ./Figuras/temp_ext.jpg  used on input line 176.
+Package pdftex.def Info: ./Figuras/temp_ext.jpg  used on input line 175.
 (pdftex.def)             Requested size: 79.49724pt x 105.99632pt.
-<./Figuras/rgb_ext.jpg, id=206, 722.7pt x 963.6pt>
+<./Figuras/rgb_ext.jpg, id=210, 722.7pt x 963.6pt>
 File: ./Figuras/rgb_ext.jpg Graphic file (type jpg)
 <use ./Figuras/rgb_ext.jpg>
-Package pdftex.def Info: ./Figuras/rgb_ext.jpg  used on input line 177.
+Package pdftex.def Info: ./Figuras/rgb_ext.jpg  used on input line 176.
 (pdftex.def)             Requested size: 79.49724pt x 105.99632pt.
-<./Figuras/fotorresistencia.jpg, id=207, 722.7pt x 963.6pt>
+<./Figuras/fotorresistencia.jpg, id=211, 722.7pt x 963.6pt>
 File: ./Figuras/fotorresistencia.jpg Graphic file (type jpg)
 <use ./Figuras/fotorresistencia.jpg>
-Package pdftex.def Info: ./Figuras/fotorresistencia.jpg  used on input line 178
+Package pdftex.def Info: ./Figuras/fotorresistencia.jpg  used on input line 177
 .
 (pdftex.def)             Requested size: 79.49724pt x 105.99632pt.
-<./Figuras/ibook_data.jpg, id=208, 963.6pt x 542.025pt>
+<./Figuras/ibook_data.jpg, id=212, 963.6pt x 542.025pt>
 File: ./Figuras/ibook_data.jpg Graphic file (type jpg)
 <use ./Figuras/ibook_data.jpg>
-Package pdftex.def Info: ./Figuras/ibook_data.jpg  used on input line 189.
-(pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
- [52 <./Figuras/arquitectura_hamaca.png> <./Figuras/sensores_recibidos.jpg> <./
-Figuras/sensores.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Package pdftex.def Info: ./Figuras/ibook_data.jpg  used on input line 186.
+(pdftex.def)             Requested size: 289.08223pt x 162.60875pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
-[53 <./Figuras/arduino_ext.jpg> <./Figuras/sensor_agua.jpg> <./Figuras/pir_ext.
-jpg> <./Figuras/temp_ext.jpg> <./Figuras/rgb_ext.jpg> <./Figuras/fotorresistenc
-ia.jpg> <./Figuras/ibook_data.jpg>]
+[53 <./Figuras/sensores_recibidos.jpg> <./Figuras/sensores.jpg>]
 <./Figuras/rpi3javier_proto.jpg, id=216, 722.7pt x 963.6pt>
 File: ./Figuras/rpi3javier_proto.jpg Graphic file (type jpg)
 <use ./Figuras/rpi3javier_proto.jpg>
-Package pdftex.def Info: ./Figuras/rpi3javier_proto.jpg  used on input line 209
+Package pdftex.def Info: ./Figuras/rpi3javier_proto.jpg  used on input line 206
 .
 (pdftex.def)             Requested size: 119.24034pt x 158.98714pt.
 <./Figuras/rpi3javier_final.jpg, id=217, 1284.8pt x 722.7pt>
 File: ./Figuras/rpi3javier_final.jpg Graphic file (type jpg)
 <use ./Figuras/rpi3javier_final.jpg>
-Package pdftex.def Info: ./Figuras/rpi3javier_final.jpg  used on input line 210
+Package pdftex.def Info: ./Figuras/rpi3javier_final.jpg  used on input line 207
 .
 (pdftex.def)             Requested size: 282.65688pt x 158.99449pt.
- [54 <./Figuras/rpi3javier_proto.jpg> <./Figuras/rpi3javier_final.jpg>]
+ [54 <./Figuras/arduino_ext.jpg> <./Figuras/sensor_agua.jpg> <./Figuras/pir_ext
+.jpg> <./Figuras/temp_ext.jpg> <./Figuras/rgb_ext.jpg> <./Figuras/fotorresisten
+cia.jpg> <./Figuras/ibook_data.jpg>]
 <./Figuras/rpi3peter_zero_proto.jpg, id=221, 963.6pt x 542.025pt>
 File: ./Figuras/rpi3peter_zero_proto.jpg Graphic file (type jpg)
 <use ./Figuras/rpi3peter_zero_proto.jpg>
 Package pdftex.def Info: ./Figuras/rpi3peter_zero_proto.jpg  used on input line
- 235.
+ 232.
 (pdftex.def)             Requested size: 192.71658pt x 108.40308pt.
 <./Figuras/rpi3peter_zero.jpg, id=222, 1284.8pt x 722.7pt>
 File: ./Figuras/rpi3peter_zero.jpg Graphic file (type jpg)
 <use ./Figuras/rpi3peter_zero.jpg>
-Package pdftex.def Info: ./Figuras/rpi3peter_zero.jpg  used on input line 236.
+Package pdftex.def Info: ./Figuras/rpi3peter_zero.jpg  used on input line 233.
 (pdftex.def)             Requested size: 192.71169pt x 108.40031pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
-[55 <./Figuras/rpi3peter_zero_proto.jpg> <./Figuras/rpi3peter_zero.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+[55 <./Figuras/rpi3javier_proto.jpg> <./Figuras/rpi3javier_final.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
-<./Figuras/django_schema.jpg, id=227, 903.375pt x 419.31656pt>
+[56 <./Figuras/rpi3peter_zero_proto.jpg> <./Figuras/rpi3peter_zero.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
+
+ []
+
+<./Figuras/django_schema.jpg, id=230, 903.375pt x 419.31656pt>
 File: ./Figuras/django_schema.jpg Graphic file (type jpg)
 <use ./Figuras/django_schema.jpg>
-Package pdftex.def Info: ./Figuras/django_schema.jpg  used on input line 268.
+Package pdftex.def Info: ./Figuras/django_schema.jpg  used on input line 265.
 (pdftex.def)             Requested size: 252.94327pt x 117.40782pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
-[56 <./Figuras/django_schema.jpg>]
 <./Figuras/login_ui.png, id=231, 912.40875pt x 700.6175pt>
 File: ./Figuras/login_ui.png Graphic file (type png)
 <use ./Figuras/login_ui.png>
-Package pdftex.def Info: ./Figuras/login_ui.png  used on input line 279.
+Package pdftex.def Info: ./Figuras/login_ui.png  used on input line 276.
 (pdftex.def)             Requested size: 260.0392pt x 199.67805pt.
-<./Figuras/hamaca_config.png, id=232, 1926.19624pt x 902.37125pt>
+[57 <./Figuras/django_schema.jpg>]
+<./Figuras/hamaca_config.png, id=235, 1926.19624pt x 902.37125pt>
 File: ./Figuras/hamaca_config.png Graphic file (type png)
 <use ./Figuras/hamaca_config.png>
-Package pdftex.def Info: ./Figuras/hamaca_config.png  used on input line 287.
+Package pdftex.def Info: ./Figuras/hamaca_config.png  used on input line 284.
 (pdftex.def)             Requested size: 404.51315pt x 189.50356pt.
-<./Figuras/hamaca_grafana.png, id=233, 1911.14pt x 918.43124pt>
+<./Figuras/hamaca_grafana.png, id=236, 1911.14pt x 918.43124pt>
 File: ./Figuras/hamaca_grafana.png Graphic file (type png)
 <use ./Figuras/hamaca_grafana.png>
-Package pdftex.def Info: ./Figuras/hamaca_grafana.png  used on input line 296.
+Package pdftex.def Info: ./Figuras/hamaca_grafana.png  used on input line 293.
 (pdftex.def)             Requested size: 401.35124pt x 192.87625pt.
- [57 <./Figuras/login_ui.png> <./Figuras/hamaca_config.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
-<./Figuras/hamaca_nodered.png, id=239, 1914.15125pt x 925.4575pt>
+<./Figuras/hamaca_nodered.png, id=237, 1914.15125pt x 925.4575pt>
 File: ./Figuras/hamaca_nodered.png Graphic file (type png)
 <use ./Figuras/hamaca_nodered.png>
-Package pdftex.def Info: ./Figuras/hamaca_nodered.png  used on input line 306.
+Package pdftex.def Info: ./Figuras/hamaca_nodered.png  used on input line 303.
 (pdftex.def)             Requested size: 401.98363pt x 194.3518pt.
-<./Figuras/hamaca_home.png, id=240, 1921.1775pt x 908.39375pt>
+<./Figuras/hamaca_home.png, id=238, 1921.1775pt x 908.39375pt>
 File: ./Figuras/hamaca_home.png Graphic file (type png)
 <use ./Figuras/hamaca_home.png>
-Package pdftex.def Info: ./Figuras/hamaca_home.png  used on input line 314.
+Package pdftex.def Info: ./Figuras/hamaca_home.png  used on input line 311.
 (pdftex.def)             Requested size: 384.2287pt x 181.67552pt.
-<./Figuras/hamaca_redes.png, id=241, 1920.17375pt x 898.35625pt>
+[58 <./Figuras/login_ui.png> <./Figuras/hamaca_config.png>]
+
+LaTeX Warning: Text page 59 contains only floats.
+
+[59 <./Figuras/hamaca_grafana.png> <./Figuras/hamaca_nodered.png> <./Figuras/ha
+maca_home.png>]
+<./Figuras/hamaca_redes.png, id=250, 1920.17375pt x 898.35625pt>
 File: ./Figuras/hamaca_redes.png Graphic file (type png)
 <use ./Figuras/hamaca_redes.png>
-Package pdftex.def Info: ./Figuras/hamaca_redes.png  used on input line 324.
+Package pdftex.def Info: ./Figuras/hamaca_redes.png  used on input line 321.
 (pdftex.def)             Requested size: 384.02795pt x 179.66806pt.
-[58 <./Figuras/hamaca_grafana.png> <./Figuras/hamaca_nodered.png>]
-<./Figuras/psql_hamaca_db.png, id=247, 1120.185pt x 452.69125pt>
+<./Figuras/psql_hamaca_db.png, id=251, 1120.185pt x 452.69125pt>
 File: ./Figuras/psql_hamaca_db.png Graphic file (type png)
 <use ./Figuras/psql_hamaca_db.png>
-Package pdftex.def Info: ./Figuras/psql_hamaca_db.png  used on input line 333.
+Package pdftex.def Info: ./Figuras/psql_hamaca_db.png  used on input line 330.
 (pdftex.def)             Requested size: 212.83736pt x 86.01222pt.
-) [59 <./Figuras/hamaca_home.png> <./Figuras/hamaca_redes.png> <./Figuras/psql_
-hamaca_db.png>]
+) [60 <./Figuras/hamaca_redes.png> <./Figuras/psql_hamaca_db.png>]
 \openout2 = `Capitulos/EntornodePruebas.aux'.
 
  (Capitulos/EntornodePruebas.tex
@@ -1288,7 +1294,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-[60
+[61
 
 
 
@@ -1298,17 +1304,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-<./Figuras/IA_Pedro.jpeg, id=257, 642.4pt x 481.8pt>
+<./Figuras/IA_Pedro.jpeg, id=261, 642.4pt x 481.8pt>
 File: ./Figuras/IA_Pedro.jpeg Graphic file (type jpg)
 <use ./Figuras/IA_Pedro.jpeg>
 Package pdftex.def Info: ./Figuras/IA_Pedro.jpeg  used on input line 40.
 (pdftex.def)             Requested size: 128.47772pt x 96.35829pt.
-<./Figuras/IA_Coromoto.jpeg, id=258, 642.4pt x 481.8pt>
+<./Figuras/IA_Coromoto.jpeg, id=262, 642.4pt x 481.8pt>
 File: ./Figuras/IA_Coromoto.jpeg Graphic file (type jpg)
 <use ./Figuras/IA_Coromoto.jpeg>
 Package pdftex.def Info: ./Figuras/IA_Coromoto.jpeg  used on input line 41.
 (pdftex.def)             Requested size: 128.47772pt x 96.35829pt.
-[61]
+[62]
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
@@ -1317,13 +1323,13 @@ File: ./Figuras/temp_ext.jpg Graphic file (type jpg)
 <use ./Figuras/temp_ext.jpg>
 Package pdftex.def Info: ./Figuras/temp_ext.jpg  used on input line 58.
 (pdftex.def)             Requested size: 130.08038pt x 173.4405pt.
-<./Figuras/ds1820.jpg, id=263, 490.83376pt x 453.695pt>
+<./Figuras/ds1820.jpg, id=266, 490.83376pt x 453.695pt>
 File: ./Figuras/ds1820.jpg Graphic file (type jpg)
 <use ./Figuras/ds1820.jpg>
 Package pdftex.def Info: ./Figuras/ds1820.jpg  used on input line 59.
 (pdftex.def)             Requested size: 186.51875pt x 172.40588pt.
-[62 <./Figuras/IA_Pedro.jpeg> <./Figuras/IA_Coromoto.jpeg>]
-<./Figuras/captura_data.png, id=267, 1927.2pt x 1084.05pt>
+[63 <./Figuras/IA_Pedro.jpeg> <./Figuras/IA_Coromoto.jpeg>]
+<./Figuras/captura_data.png, id=270, 1927.2pt x 1084.05pt>
 File: ./Figuras/captura_data.png Graphic file (type png)
 <use ./Figuras/captura_data.png>
 Package pdftex.def Info: ./Figuras/captura_data.png  used on input line 79.
@@ -1332,7 +1338,7 @@ File: ./Figuras/hamaca_redes.png Graphic file (type png)
 <use ./Figuras/hamaca_redes.png>
 Package pdftex.def Info: ./Figuras/hamaca_redes.png  used on input line 88.
 (pdftex.def)             Requested size: 384.02795pt x 179.66806pt.
- [63 <./Figuras/ds1820.jpg>]
+ [64 <./Figuras/ds1820.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
@@ -1342,8 +1348,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-[64 <./Figuras/captura_data.png>]
-<./Figuras/consulta_grafana.png, id=275, 1910.13625pt x 916.42375pt>
+[65 <./Figuras/captura_data.png>]
+<./Figuras/consulta_grafana.png, id=278, 1910.13625pt x 916.42375pt>
 File: ./Figuras/consulta_grafana.png Graphic file (type png)
 <use ./Figuras/consulta_grafana.png>
 Package pdftex.def Info: ./Figuras/consulta_grafana.png  used on input line 105
@@ -1354,7 +1360,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
-<./Figuras/hamaca_grafana_panel.png, id=276, 1911.14pt x 925.4575pt>
+<./Figuras/hamaca_grafana_panel.png, id=279, 1911.14pt x 925.4575pt>
 File: ./Figuras/hamaca_grafana_panel.png Graphic file (type png)
 <use ./Figuras/hamaca_grafana_panel.png>
 Package pdftex.def Info: ./Figuras/hamaca_grafana_panel.png  used on input line
@@ -1365,8 +1371,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-[65 <./Figuras/consulta_grafana.png>]
-<./Figuras/node_red_ui.png, id=281, 847.66687pt x 712.91344pt>
+[66 <./Figuras/consulta_grafana.png>]
+<./Figuras/node_red_ui.png, id=284, 847.66687pt x 712.91344pt>
 File: ./Figuras/node_red_ui.png Graphic file (type png)
 <use ./Figuras/node_red_ui.png>
 Package pdftex.def Info: ./Figuras/node_red_ui.png  used on input line 129.
@@ -1376,7 +1382,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
-[66 <./Figuras/hamaca_grafana_panel.png> <./Figuras/node_red_ui.png>]
+[67 <./Figuras/hamaca_grafana_panel.png> <./Figuras/node_red_ui.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
@@ -1385,18 +1391,18 @@ File: ./Figuras/hamaca_nodered.png Graphic file (type png)
 <use ./Figuras/hamaca_nodered.png>
 Package pdftex.def Info: ./Figuras/hamaca_nodered.png  used on input line 145.
 (pdftex.def)             Requested size: 430.69466pt x 208.23308pt.
-) [67]
+) [68]
 \openout2 = `Capitulos/CasosdeUso.aux'.
 
  (Capitulos/CasosdeUso.tex
 Cap\'{\i }tulo 8.
-<./Figuras/caso_de_uso_mqtt.png, id=291, 786.94pt x 573.14125pt>
+<./Figuras/caso_de_uso_mqtt.png, id=294, 786.94pt x 573.14125pt>
 File: ./Figuras/caso_de_uso_mqtt.png Graphic file (type png)
 <use ./Figuras/caso_de_uso_mqtt.png>
 Package pdftex.def Info: ./Figuras/caso_de_uso_mqtt.png  used on input line 18.
 
 (pdftex.def)             Requested size: 314.77042pt x 229.25243pt.
-[68
+[69
 
 
 
@@ -1406,7 +1412,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-<./Figuras/caso_de_uso.png, id=296, 770.88pt x 974.64125pt>
+<./Figuras/caso_de_uso.png, id=299, 770.88pt x 974.64125pt>
 File: ./Figuras/caso_de_uso.png Graphic file (type png)
 <use ./Figuras/caso_de_uso.png>
 Package pdftex.def Info: ./Figuras/caso_de_uso.png  used on input line 39.
@@ -1419,7 +1425,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
 
-[69]
+[70]
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
 (fancyhdr)                Make it at least 27.18335pt, for example:
@@ -1428,7 +1434,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
 
-[70 <./Figuras/caso_de_uso.png>])
+[71 <./Figuras/caso_de_uso.png>])
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
 (fancyhdr)                Make it at least 27.18335pt, for example:
@@ -1437,7 +1443,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-11.18335pt}.
 
-[71]
+[72]
 \openout2 = `Capitulos/ResultadosLimitacionesyTrabajosFuturos.aux'.
 
  (Capitulos/ResultadosLimitacionesyTrabajosFuturos.tex
@@ -1467,7 +1473,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-[72
+[73
 
 
 
@@ -1492,7 +1498,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[73]
+[74]
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
@@ -1507,7 +1513,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-[74]
+[75]
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
@@ -1517,7 +1523,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-) [75]
+) [76]
 \openout2 = `Capitulos/Conclusiones.aux'.
 
  (Capitulos/Conclusiones.tex
@@ -1537,7 +1543,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-) [76
+) [77
 
 
 
@@ -1566,109 +1572,109 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--65
 -[]iot-[]for-[]healthcare/$\OT1/cmr/m/n/12 ,
  []
 
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
+[78
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--87
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 93--99
 []\OT1/cmr/m/n/12 Stan Sch-nei-der.  Un-ders-tan-ding The Pro-to-cols Behind Th
 e In-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--87
+Underfull \hbox (badness 10000) in paragraph at lines 93--99
 \OT1/cmr/m/n/12 ter-net Of Things.  $\OT1/cmtt/m/n/12 http : / / www . electron
 icdesign . com / iot /
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 81--87
+Underfull \hbox (badness 2189) in paragraph at lines 93--99
 \OT1/cmtt/m/n/12 understanding-[]protocols-[]behind-[]internet-[]things$\OT1/cm
 r/m/n/12 , Oc-tu-bre 2013.  [Ac-
  []
 
-LaTeX Info: Redefining \. on input line 87.
-LaTeX Info: Redefining \% on input line 87.
-[77
 
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 126--130
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
 []\OT1/cmr/m/n/12 3GPP Initia-ti-ve.  W-CDMA.  $\OT1/cmtt/m/n/12 http : / / www
  . 3gpp . org / technologies /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--136
+Underfull \hbox (badness 10000) in paragraph at lines 144--148
 []\OT1/cmr/m/n/12 3GPP Initia-ti-ve.  HS-PA.  $\OT1/cmtt/m/n/12 http : / / www 
 . 3gpp . org / technologies /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--142
+Underfull \hbox (badness 10000) in paragraph at lines 150--154
 []\OT1/cmr/m/n/12 3GPP Initia-ti-ve.  LTE.  $\OT1/cmtt/m/n/12 http : / / www . 
 3gpp . org / technologies /
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--176
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 182--188
 []\OT1/cmr/m/n/12 RS Com-po-nents.  11 in-ter-net of things (iot) pro-to-cols y
 ou
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--176
+Underfull \hbox (badness 10000) in paragraph at lines 182--188
 \OT1/cmr/m/n/12 need to know about.  $\OT1/cmtt/m/n/12 https : / / www . rs-[]o
 nline . com / designspark /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--176
+Underfull \hbox (badness 10000) in paragraph at lines 182--188
 \OT1/cmtt/m/n/12 eleven-[]internet-[]of-[]things-[]iot-[]protocols-[]you-[]need
 -[]to-[]know-[]about$\OT1/cmr/m/n/12 ,
  []
 
-[78]
-Underfull \hbox (badness 2088) in paragraph at lines 178--185
+
+Underfull \hbox (badness 2088) in paragraph at lines 190--197
 \OT1/cmr/m/n/12 ni-ca-ci^^Son inal^^Sambri-ca.  $\OT1/cmtt/m/n/12 https : / / e
 landroidelibre . elespanol . com / 2015 / 08 /
  []
 
 
-Overfull \hbox (41.52428pt too wide) in paragraph at lines 178--185
+Overfull \hbox (41.52428pt too wide) in paragraph at lines 190--197
 \OT1/cmtt/m/n/12 todo-[]sobre-[]zigbee-[]la-[]tecnologia-[]ultrabarata-[]para-[
 ]comunicacion-[]inalambrica .
  []
 
 
-Overfull \hbox (70.98814pt too wide) in paragraph at lines 187--194
+Overfull \hbox (70.98814pt too wide) in paragraph at lines 199--206
 \OT1/cmtt/m/n/12 la-[]domotica-[]inalambrica-[]con-[]z-[]wave-[]una-[]realidad-
 []para-[]viviendas-[]ya-[]construidas/$\OT1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--215
+Underfull \hbox (badness 10000) in paragraph at lines 221--227
 \OT1/cmtt/m/n/12 es-[]mx / learn / articles / data-[]visualization# : [] : text
  = La % 20visualizaci %
  []
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 217--223
+Underfull \hbox (badness 1389) in paragraph at lines 229--235
 []\OT1/cmr/m/n/12 IBM Cog-nos Analy-tics.  Vi-sua-li-za-cio-nes gr^^Safi-cas.  
 $\OT1/cmtt/m/n/12 https : / / www . ibm . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--223
+Underfull \hbox (badness 10000) in paragraph at lines 229--235
 \OT1/cmtt/m/n/12 docs / es / cognos-[]analytics / 11 . 1 . 0 ? topic = SSEP7J _
  11 . 1 . 0 / com . ibm . swg . ba .
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 217--223
+Underfull \hbox (badness 2846) in paragraph at lines 229--235
 \OT1/cmtt/m/n/12 cognos . pp _ usr _ gd . doc / c _ graphreports . htm$\OT1/cmr
 /m/n/12 , Ni-viem-bre 2022.  [Ac-ce-di-do:
  []
 
-[79]) [80] (main.aux (Capitulos/Portada.aux)
+[80]) [81] (main.aux (Capitulos/Portada.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (Capitulos/Agradecimientos.aux)
@@ -1690,21 +1696,21 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  7087 strings out of 475248
- 135080 string characters out of 5767628
- 1937801 words of memory out of 5000000
+ 135061 string characters out of 5767628
+ 1936801 words of memory out of 5000000
  28437 multiletter control sequences out of 15000+600000
  564685 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,13n,79p,1244b,726s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,13n,79p,1212b,726s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\peter\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
 es/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (80 pages, 11877465 bytes).
+Output written on main.pdf (81 pages, 11895319 bytes).
 PDF statistics:
- 367 PDF objects out of 1000 (max. 8388607)
+ 370 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

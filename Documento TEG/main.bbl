@@ -71,11 +71,23 @@ Bill McCabe.
   Junio 2016.
 \newblock [Accedido: 17-06-2017].
 
+\bibitem{rfc1945}
+Henrik Nielsen, Roy~T. Fielding, and Tim Berners-Lee.
+\newblock {Hypertext Transfer Protocol -- HTTP/1.0}.
+\newblock RFC 1945, May 1996.
+
 \bibitem{mozillahttp}
 Sergio Collado~\& otros.
 \newblock {HTTP}.
 \newblock \url{https://developer.mozilla.org/es/docs/Web/HTTP}, 2017 Mayo.
 \newblock [Accedido: 18-06-2017].
+
+\bibitem{rfc9431}
+Cigdem Sengul and Anthony Kirby.
+\newblock {Message Queuing Telemetry Transport (MQTT) and Transport Layer
+  Security (TLS) Profile of Authentication and Authorization for Constrained
+  Environments (ACE) Framework}.
+\newblock RFC 9431, July 2023.
 
 \bibitem{iotprotocols}
 Stan Schneider.
