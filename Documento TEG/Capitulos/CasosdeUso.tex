@@ -9,28 +9,28 @@
 \chapter{Casos de Uso}
 \markboth{Casos de Uso}{Casos de Uso}
 
-\section{Infraestructura de comunicación}
-\lhead[\thepage]{\thesection. Laboratorios de Investigación y Desarrollo}
-Para la solución prevista, específicamente los componentes de que requieren comunicarse usando MQTT como protocolo, es decir, los prototipos de dispositivos IoT y la apliación web HAMACA se establece lo siguiente:
+\section{Infraestructura de Comunicación}
+\lhead[\thepage]{\thesection. Infraestructura de Comunicación}
+En la solución prevista, específicamente hablando de los componentes que requieren comunicarse usando MQTT como protocolo y el broker, es decir, los dispositivos IoT y la apliación web HAMACA se establece lo siguiente:
 
 \begin{figure}[htb]
-\centering
-\includegraphics[scale=0.4]{./Figuras/caso_de_uso_mqtt.png}
-\caption{Diagrama de caso de uso para la comuniación MQTT}
-\label{fig:caso_de_uso_mqtt}
 \vspace*{-10pt}
+\centering
+\includegraphics[scale=0.65]{./Figuras/caso_de_uso_mqtt.png}
+\caption{Diagrama de caso de uso para la comunicación vía MQTT}
+\label{fig:caso_de_uso_mqtt}
 \end{figure}
 
 El detalle de cada caso es el siguiente:
 \begin{itemize}
-\item Conectarse al broker: Este caso de uso hace referencia a negociar la conexión entre un dispositivo y el broker MQTT utilizado, en este caso, bajo la implementación Mosquitto. Para poder conectarse solo se necesita la dirección del servicio, se encuentre o no de manera local en la red. Ambos actores pueden realizar esta acción
-\item Publicar Tópico: Para poder comenzar a comunicarse, se tiene que definir un tópico para que pueda ser escuchado/leído por cualquier dispositivo con acceso a el. 
+\item Conectar dispositivo: Este caso de uso hace referencia a negociar la conexión entre un dispositivo y el broker MQTT utilizado, en este caso, bajo la implementación Mosquitto. Para poder conectarse solo se necesita la dirección del servicio, se encuentre o no de manera local en la red. Ambos actores pueden realizar esta acción.
+\item Publicar Tópico: Para poder comenzar a comunicarse, se tiene que definir un tópico para que pueda ser escuchado/leído por cualquier dispositivo con acceso. 
 \item Crear mensaje: Simplemente se envia un mensaje MQTT con el tópico definido y el contenido útil de dicho mensaje
 \item Consumir mensaje: MQTT sigue le paradigma de publicación, suscripción por lo que es posible que cualquiera que este suscrito a un tópico será capaz de leer el mensaje y este no estará más disponible. 
 \end{itemize}
 
-\section{Herramienta de Automatización, Monitoreo y Análisis de Componentes Y Artefactos}
-\lhead[\thepage]{\thesection. Herramienta de Automatización, Monitoreo y Análisis de Componentes Y Artefactos}
+\section{Aplicación Web}
+\lhead[\thepage]{\thesection. Aplicación Web}
 Para el caso de la aplicación web HAMACA, se consideraron dos tipos de usuarios que interectuaran con ella. El primer es un usuario administrador que tiene privilegios por sobre todas las acciones disponibles y un usuario final cualquiera que solo podrá gestionar las acciones que tengan que ver con la visualización, monitoreo y control de dispositivos IoT, sus sensores, actuadores y la data asociada a ellos como se puede ver en el diagrama de la figura \ref{fig:caso_de_uso}\\
 
 \begin{figure}[!htb]
@@ -39,7 +39,7 @@ Para el caso de la aplicación web HAMACA, se consideraron dos tipos de usuarios
 \includegraphics[scale=0.45]{./Figuras/caso_de_uso.png}
 \caption{Diagrama de caso de uso para la aplicación web HAMACA}
 \label{fig:caso_de_uso}
-\vspace*{-10pt}
+\vspace*{-5pt}
 \end{figure}
 
 A continuación se explica cada acción dentro del caso de uso:

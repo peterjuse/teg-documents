@@ -12,9 +12,9 @@ En este capitulo se presenta a partir del problema planteado una solución basad
 
 Todas las tecnologías aquí presentadas son software y hardware libre por lo que pueden ser adaptadas rápidamente según los requerimientos funcionales del problema y cumplen con legislativa local para poder ser exploradas a fondo. 
 
-%	Sección uno: Diseño de la Solución
-\section{Diseño de la Solución}
-\lhead[\thepage]{\thesection. Diseño de la Solución}
+%	Sección uno: Diseño
+\section{Diseño}
+\lhead[\thepage]{\thesection. Diseño}
 El diseño propuesto para examinar la solución al problema planteado pasa por dos etapas:
 \begin{itemize}
 \item Prototipos de uno o más dispositivos IoT que sean capaces de generar información real de su entorno, explorando los métodos más adecuados para poder llevar a cabo la tarea de transmitir información, así como explorar las posibilidades de procesamiento de cada dispositivo.
@@ -56,7 +56,7 @@ Dado que los dispositivos Raspberry Pi pueden usar un sistema operativo completo
 Siendo la idea examinar variables y comportamientos de dispositivos en un ambiente de un hogar inteligente junto con la variedad de placas programables, sensores y actuadores disponible se sugieren la creación de 4 prototipos de dispositivos IoT distintos:
 
 \begin{itemize}
-\item Un prototipo de dispositivo IoT usando Arduino Uno (junto al computador iBook G4) para representar un artefacto que se coloque en exteriores para obtener y representar variables ambientales y de recursos comunes en esas áreas. Para ello se destinan un sensor PIR HC-501, un sensor de test de nivel de agua Robodo Sen18, Un sensor de temperatura DS1820, un Led RGB para representar de manera visual la temperatura y una fotorresistencia LDR de 10K (véase figura: \ref{fig:arduino1}).
+\item Un prototipo de dispositivo IoT usando Arduino Uno (junto al computador iBook G4) para representar un artefacto que se coloque en exteriores para obtener y representar variables ambientales y de recursos comunes en esas áreas. Para ello se destinan un sensor PIR HC-501, un sensor de test de nivel de agua Robodo Sen18, un sensor de temperatura DS1820, un led RGB para representar de manera visual la temperatura y una fotorresistencia LDR de 10K (véase figura: \ref{fig:arduino1}).
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{./Figuras/arduino1.png}
@@ -109,7 +109,7 @@ Para ello y examinando las diversas opciones de tecnologías estudiadas e invest
 
 \end{itemize}
 
-Con estos componentes definidos y después de discutir sobre la mejor manera de desplegar este conjunto de tecnologías, buscando facilidad de operación y manutención así como la portabilidad y la independencia de plataformas se decide utilizar la mayor cantidad de componentes posibles como contenedores. Para ello el uso de docker\cite{docker}, comenzando por las integraciones y otros componentes esenciales (figura \ref{fig:componentes_hamaca}).\\
+Con estos componentes definidos y después de discutir sobre la mejor manera de desplegar este conjunto de tecnologías, buscando facilidad de operación y manutención así como la portabilidad y la independencia de plataformas se decide utilizar la mayor cantidad de componentes posibles como contenedores. Para ello el uso de docker\cite{docker}, comenzando por las integraciones y otros componentes esenciales (figura \ref{fig:componentes_hamaca}). Finalmente con estos componentes se establecen las siguientes directrices:
 
 \begin{figure}[!htb]
 \centering
@@ -119,13 +119,13 @@ Con estos componentes definidos y después de discutir sobre la mejor manera de 
 \vspace*{-10pt}
 \end{figure}
 
-Finalmente con estos componentes se establecen las siguientes directrices:
+
 \begin{itemize}
 
 \item Se usara Mosquitto como Broker MQTT para las comunicaciones entre los dispositivos y aquel elemento que lleve la información a la base de datos. Este estará centralizado en el mismo dispositivo donde se alojará la aplicación web, aunque se recalca el hecho que pueden existir multiples brokers bajo la arquitectura de MQTT, así como también que el broker puede ser configurado de manera externa.
 
 
-\item La aplicación HAMACA seguirá el paradigma cliente-servidor, con un front-end marcado y distinto a su back-end. La aplicación web solo dependerá de la base de datos PostgreSQL para almacenar variables de configuración, estadísticas de uso y aquellas que den soporte a la autenticación y gestión de usuarios.
+\item La aplicación web HAMACA seguirá el paradigma cliente-servidor, con un front-end marcado y distinto a su back-end. La aplicación web solo dependerá de la base de datos PostgreSQL para almacenar variables de configuración, estadísticas de uso y aquellas que den soporte a la autenticación y gestión de usuarios.
 
 
 \item La Base de datos InfluxDB solo ha de ser consultada por la integración a Grafana para la visualización y monitoreo óptimo de los datos haciendo uso de los dashboards configurables dentro de la aplicación. Grafana será embebido en la aplicación web HAMACA en su frontend. Al igual forma que la implementación de MQTT este puede existir en otro punto de red pero se sugiere el despliegue en el mismo dispositivo. 
@@ -151,10 +151,10 @@ Siguiendo lo convenido en la sección anterior se dispuso la misma estructura or
 El proceso partió por obtener y organizar los elementos requeridos para la creación de los prototipos funcionales, es decir, las placas programables, los sensores, los actuadores, elementos de construcción de electrónicos (cables, resistencias, estaño, dispositivos de almacenamiento, protoboards, etc) y las herramientas físicas (pela cables, piqueta, soldador, tester, etc)  de manera de tener en recaudo todo lo concerniente con el desarrollo físico de los dispositivos (véase figura \ref{fig:sensores_recibidos}).\\
 \begin{figure}[!htb]
 \centering
-\includegraphics[scale=0.15]{./Figuras/sensores_recibidos.jpg}
-\includegraphics[scale=0.2]{./Figuras/sensores.jpg}
+\includegraphics[scale=0.165]{./Figuras/sensores_recibidos.jpg}
+\includegraphics[scale=0.22]{./Figuras/sensores.jpg}
 \caption{Elementos para prototipado de dispositivos}
-\label{fig:sensores_recibidos}
+\label{fig:sensores_recibido11s}
 \vspace*{-10pt}
 \end{figure}
 
@@ -163,12 +163,12 @@ Una vez organizados, se construyó uno a uno cada prototipo de dispositivo, come
 \item Un primer script en el lenguaje de programación Arduino con los drivers y la lógica de control de la placa programable  para los sensores y actuadores que fueron tomados según el diseño convenido anteriormente (figuras \ref{fig:arduino_ext} y \ref{fig:sensores_ext}).
 \begin{figure}[!htb]
 \centering
-\includegraphics[scale=0.18]{./Figuras/arduino_ext.jpg}
+\includegraphics[scale=0.225]{./Figuras/arduino_ext.jpg}
 \caption{Arduino Uno conectado a sensores y al iBook G4}
 \label{fig:arduino_ext}
 \end{figure}
 
-\begin{figure}[htb]
+\begin{figure}[!htb]
 \centering
 \includegraphics[scale=0.11]{./Figuras/sensor_agua.jpg}
 \includegraphics[scale=0.11]{./Figuras/pir_ext.jpg}
@@ -180,14 +180,14 @@ Una vez organizados, se construyó uno a uno cada prototipo de dispositivo, come
 \vspace*{-10pt}
 \end{figure}
 
-\item Un segundo script en el lenguaje de programación Python con la capacidad de leer los datos seriales provenientes del Arduino Uno y con la capacidad de enviarlos a través del protocolo MQTT al broker (véase figura \ref{fig:ibook_data}).
-\begin{figure}[htb]
-\centering
-\includegraphics[scale=0.3]{./Figuras/ibook_data.jpg}
-\caption{Datos siendo capturados en el Ibook G4}
-\label{fig:ibook_data}
-\vspace*{-10pt}
-\end{figure}
+\item Un segundo script en el lenguaje de programación Python con la capacidad de leer los datos seriales provenientes del Arduino Uno y con la capacidad de enviarlos a través del protocolo MQTT al broker %(véase figura \ref{fig:ibook_data}).
+%\begin{figure}[htb]
+%\centering
+%\includegraphics[scale=0.3]{./Figuras/ibook_data.jpg}
+%\caption{Datos siendo capturados en el Ibook G4}
+%\label{fig:ibook_data}
+%\vspace*{-10pt}
+%\end{figure}
 
 \end{itemize}
 Finalmente el dispositivo y el computador fueron colocados geográficamente en el balcón del apartamento para simular con la mayor precisión posible un ambiente exterior propiamente dicho.\\
@@ -200,7 +200,7 @@ El siguiente paso de manera similar consistió en construir el prototipo funcion
 
 \item Scripts en el lenguaje de programación Python por cada sensor y actuador utilizado. 
 
-\item Construcción de una carcasa alrededor del dispositivo y el protoboard con la ayuda de bloques de lego como se puede observar en la \ref{fig:rpi3javier_indoor}. Su disposición final geográficamente fue situado en la mitad del apartamento en la biblioteca 
+\item Construcción de una carcasa alrededor del dispositivo y el protoboard con la ayuda de bloques de lego como se puede observar en la figura \ref{fig:rpi3javier_indoor}. Su disposición final geográficamente fue situado en el centro del apartamento.
 \begin{figure}[!htb]
 \centering
 \includegraphics[scale=0.165]{./Figuras/rpi3javier_proto.jpg}
@@ -213,15 +213,15 @@ El siguiente paso de manera similar consistió en construir el prototipo funcion
 
 Luego, se continuó con los dos prototipos que representan elementos de seguridad. Para ellos se utilizaron el Raspberry Pi Zero y el Raspberry Pi 3 modelo B restante. Para poder dejar activos los elementos correspondientes a ellos se siguieron los siguientes pasos:
 \begin{itemize}
-\item  Se realizó la colocación de todos los sensores y actuadores en un protoboard y de allí fue conectados al Raspberry Pi Zero.
+\item  Colocación de todos los sensores y actuadores en un protoboard y al  Raspberry Pi Zero.
 
-\item Se instaló el sistema operativo Raspbian al dispositivo y se dejó preparado para utilizar una configuración headless, es decir, sin uso de monitor, solo acceso remoto.
+\item Instalación del sistema operativo Raspbian al dispositivo y se dejó preparado para utilizar una configuración headless, es decir, sin uso de monitor, solo acceso remoto.
 
-\item Se realizó la conexión directa del Raspberry Pi Zero al Raspberry Pi 3 modelo B para proveer de conectividad a la red al dispositivo. 
+\item Conexión directa del Raspberry Pi Zero al Raspberry Pi 3 modelo B para proveer de conectividad a la red al dispositivo. 
 
-\item Se desarrollaron scripts en el lenguaje de programación Python por cada sensor y actuador utilizado en Raspberry Pi zero.
+\item Desarrollo de scripts en el lenguaje de programación Python por cada sensor y actuador utilizado en Raspberry Pi zero.
 
-\item Se desarrolló un modelo de inteligencia artificial en el lenguaje de programación Python para usar la cámara acoplada al Raspberry Pi 3 modelo B de forma que reconociera las caras de los habitantes que entrasen al hogar.  
+\item Desarrollo de un modelo de inteligencia artificial en el lenguaje de programación Python para usar la cámara acoplada al Raspberry Pi 3 modelo B de forma que reconociera las caras de los habitantes que entrasen al hogar.  
 
 \item Se instalaron los elementos necesarios para dar futuro soporte al despliegue de la aplicación web HAMACA en el Raspberry Pi 3 modelo B, así como también se creó un punto de acceso para los dispositivos se pudieran conectar a el de manera independiente de la red del hogar. 
 \end{itemize}
@@ -229,9 +229,9 @@ Luego, se continuó con los dos prototipos que representan elementos de segurida
 Al finalizar el desarrollo del prototipo de dispositivo este fue situado validado y colocado en la entrada del hogar (figura \ref{fig:rpi3peter_zero}), cuestión que fuera centro neuralgico de los sensores de seguridad. Aparte la capacidad de cómputo del Raspberry Pi 3 modelo B también estaría a disposición siendo el elemento de cómputo definido para la siguiente etapa de la implementación.
 \begin{figure}[!htb]
 \centering
-\includegraphics[scale=0.2]{./Figuras/rpi3peter_zero_proto.jpg}
-\includegraphics[scale=0.15]{./Figuras/rpi3peter_zero.jpg}
-\caption{Sensor IoT en el interior del hogar antes y despues de su validación}
+\includegraphics[scale=0.22]{./Figuras/rpi3peter_zero_proto.jpg}
+\includegraphics[scale=0.17]{./Figuras/rpi3peter_zero.jpg}
+\caption{Sensor IoT en el interior del hogar antes y después de su validación}
 \label{fig:rpi3peter_zero}
 \vspace*{-10pt}
 \end{figure}
@@ -262,59 +262,65 @@ Finalmente con el entorno configurado se procedió con el desarrollo de la aplic
 Al comenzar el proyecto se creó la aplicación a partir de la plantilla de instrucciones que provee el framework, junto con la definición de utilizar PostgreSQL como base datos, puesto que es una respuesta más robusta que SQLite (base de datos por defecto) tanto para el soporte mismo de la aplicación como de sus futuros procesos. Es así como luego de configurada la base y siguiendo las instrucciones se generó en la base de datos de HAMACA los modelos que podemos observar en la figura \ref{fig:django_schema}.
 \begin{figure}[!htb]
 \centering
-\includegraphics[scale=0.28]{./Figuras/django_schema.jpg}
+\includegraphics[scale=0.505]{./Figuras/django_schema.jpg}
 \caption{Modelo autogenerado por el framework Django}
 \label{fig:django_schema}
-\vspace*{-10pt}
+%\vspace*{-5pt}
 \end{figure}
 
-En el argot de Django, este primer paso se le llama migración. Con ello se comienzo con el desarollo del primer modulo de control y acceso a la aplicación basado en los aspectos de roles y privilegios del que se dispone en el framework. También se estructuran las bases para un desarrollo modular en el que se fueron integrando progresiva e incrimentalmente nuevos elementos entre los cuales se encuentran las librerías comunes, templates para los aspectos visuales, los elementos estáticos como las fuentes para los textos, gráficos y colores\\
+En el argot de Django, este primer paso se le llama migración. Con ello se comienzo con el desarrollo del primer modulo de control y acceso a la aplicación basado en los aspectos de roles y privilegios del que se dispone en el framework.\\
 
-El primer módulo desarrollado fue el de acceso a la aplicación (figura \ref{fig:login_ui}) y el de configuraciones (figura \ref{fig:hamaca_config}), el cual contiene las herramientas de gestión de la aplicación, como la administración de usuarios, así como la capacidad de cambar la ubicación de las herramientas integradas, sea que se encuentren de manera local o en algún lugar que pueda ser accedido por este desarrollo.\\
-\begin{figure}[!htb]
-\centering
-\includegraphics[scale=0.285]{./Figuras/login_ui.png}
-\caption{Interfaz de inicio de sesión para los usuarios}
-\label{fig:login_ui}
-\vspace*{-10pt}
-\end{figure}
+Es en este punto donde también se estructuran las bases para un desarrollo modular en el que se fueron integrando progresiva e incrimentalmente nuevos elementos entre los cuales se encuentran las librerías comunes, plantillas para los aspectos visuales, los elementos estáticos como las fuentes para los textos, gráficos y colores.\\ 
 
-\begin{figure}[!htb]
+Se comenzó con un primer módulo desarrollado para el acceso a la aplicación 
+%(figura \ref{fig:login_ui}) 
+junto con las de configuraciones (figura \ref{fig:hamaca_config}), el cual contiene las herramientas de gestión de la aplicación, como la administración de usuarios, así como la capacidad de cambar la ubicación de las herramientas integradas, sea que se encuentren de manera local o en algún lugar que pueda ser accedido por este desarrollo.\\
+%\begin{figure}[!htb]
+%\centering
+%\includegraphics[scale=0.2]{./Figuras/login_ui.png}
+%\caption{Interfaz de inicio de sesión para los usuarios}
+%\label{fig:login_ui}
+%\vspace*{-10pt}
+%\end{figure}
+
+\begin{figure}[htb]
 \centering
-\includegraphics[scale=0.21]{./Figuras/hamaca_config.png}
+\includegraphics[scale=0.2]{./Figuras/hamaca_config.png}
 \caption{Interfaz de configuración de la aplicación}
 \label{fig:hamaca_config}
 \vspace*{-10pt}
 \end{figure}
 
-A partir del punto anterior se creó un modulo de Monitoreo el cual contiene la lógica para integrar de manera adecuada la herramienta Grafana para visualización y monitoreo de datos, de forma que los usuarios puedan crear sus cuadros de mando de una manera sencilla y directa (figura \ref{fig:hamaca_grafana}).\\
-\begin{figure}[!htb]
-\centering
-\includegraphics[scale=0.21]{./Figuras/hamaca_grafana.png}
-\caption{Interfaz de visualización de datos con la herramienta Grafana embebida}
-\label{fig:hamaca_grafana}
-\vspace*{-10pt}
-\end{figure}
+A partir del punto anterior se creó un modulo de Monitoreo el cual contiene la lógica para integrar de manera adecuada la herramienta Grafana para visualización y monitoreo de datos, de forma que los usuarios puedan crear sus cuadros de mando de una manera sencilla y directa.\\ %(figura \ref{fig:hamaca_grafana}).\\
 
-De manera análoga se creó un modulo de control y un home que contienen la lógica de la integración de la herramienta Node-Red para llevar a cabo las labores de controlar y gestionar flujos de trabajo complejos con los dispositivos (figura \ref{fig:hamaca_nodered}). El home de la aplicación particularmente se convierte en un punto donde se muestran los cuadros de mando creados para manipular (e incluso observar) sensores y actuadores de aquellos dispositivos que registremos en los flujos para mostrar (figura \ref{fig:hamaca_home}).\\
+%\begin{figure}[!htb]
+%\centering
+%\includegraphics[scale=0.23]{./Figuras/hamaca_grafana.png}
+%\caption{Interfaz de visualización de datos con la herramienta Grafana embebida}
+%\label{fig:hamaca_grafana}
+%\vspace*{-10pt}
+%\end{figure}
 
-\begin{figure}[!htb]
-\centering
-\includegraphics[scale=0.21]{./Figuras/hamaca_nodered.png}
-\caption{Interfaz de flujos de automatización con la herramienta Node-Red embebida}
-\label{fig:hamaca_nodered}
-\vspace*{-10pt}
-\end{figure}
+De manera análoga se creó un modulo de control y un home que contienen la lógica de la integración de la herramienta Node-Red para llevar a cabo las labores de controlar y gestionar flujos de trabajo complejos con los dispositivos.\\
+%(figura \ref{fig:hamaca_nodered}).\\ 
 
-\begin{figure}[!htb]
-\centering
-\includegraphics[scale=0.2]{./Figuras/hamaca_home.png}
-\caption{Interfaz de control de dispositivos a través del dashboard de Node-Red}
-\label{fig:hamaca_home}
-\vspace*{-10pt}
-\end{figure}
+%\begin{figure}[!htb]
+%\centering
+%\includegraphics[scale=0.21]{./Figuras/hamaca_nodered.png}
+%\caption{Interfaz de flujos de automatización con la herramienta Node-Red embebida}
+%\label{fig:hamaca_nodered}
+%\vspace*{-10pt}
+%\end{figure}
 
-Por último pero no menos importante se creó un apartado de redes en el cual se pueden observar los registros de las comunicaciones realizadas entre los dispositivos y el broker, así como otras métricas asociadas a ello (figura \ref{fig:hamaca_redes}).
+El home de la aplicación particularmente se convierte en un punto donde se muestran los cuadros de mando creados para manipular (e incluso observar) sensores y actuadores de aquellos dispositivos que registremos en los flujos para mostrar. Por último pero no menos importante se creó un apartado de redes en el cual se pueden observar los registros de las comunicaciones realizadas entre los dispositivos y el broker, así como otras métricas asociadas a ello (figura  \ref{fig:hamaca_redes}).\\
+
+%\begin{figure}[!htb]
+%\centering
+%\includegraphics[scale=0.2]{./Figuras/hamaca_home.png}
+%\caption{Interfaz de control de dispositivos a través del dashboard de Node-Red}
+%\label{fig:hamaca_home}
+%\vspace*{-10pt}
+%\end{figure}
 
 \begin{figure}[!htb]
 \centering
@@ -327,7 +333,7 @@ Por último pero no menos importante se creó un apartado de redes en el cual se
 Luego del desarrollo de cada modulo y aunque no todos los módulos interactuan con la base de datos se realizó nuevamente el proceso de migración, de forma que la base de datos se adaptara a los requerimientos nuevos de los módulos existentes. Así la base de datos se le agregaron dos nuevas tablas como se pueden observar en la figura \ref{fig:psql_hamaca_db}
 \begin{figure}[!htb]
 \centering
-\includegraphics[scale=0.19]{./Figuras/psql_hamaca_db.png}
+\includegraphics[scale=0.35]{./Figuras/psql_hamaca_db.png}
 \caption{Modelo de la base de datos HAMACA}
 \label{fig:psql_hamaca_db}
 \vspace*{-10pt}

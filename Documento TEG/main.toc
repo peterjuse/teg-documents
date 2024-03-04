@@ -4,82 +4,82 @@
 \contentsline {chapter}{Lista de figuras}{7}{}%
 \contentsline {chapter}{Lista de tablas}{9}{}%
 \contentsline {chapter}{\numberline {1}Introducción}{10}{}%
-\contentsline {chapter}{\numberline {2}Problema de Investigación}{13}{}%
-\contentsline {section}{\numberline {2.1}Planteamiento del Problema}{13}{}%
-\contentsline {subsection}{\numberline {2.1.1}Justificación}{13}{}%
-\contentsline {subsection}{\numberline {2.1.2}Alcance}{14}{}%
-\contentsline {subsection}{\numberline {2.1.3}Objetivos}{14}{}%
-\contentsline {subsubsection}{\numberline {2.1.3.1}Objetivos Generales}{14}{}%
-\contentsline {subsubsection}{\numberline {2.1.3.2}Objetivos Específicos}{14}{}%
-\contentsline {chapter}{\numberline {3}Internet de las Cosas}{16}{}%
-\contentsline {section}{\numberline {3.1}Definición}{16}{}%
-\contentsline {section}{\numberline {3.2}Modelos de Comunicación}{17}{}%
-\contentsline {subsection}{\numberline {3.2.1}Comunicación Dispositivo a Dispositivo}{17}{}%
-\contentsline {subsection}{\numberline {3.2.2}Comunicación Dispositivo a la Nube}{17}{}%
-\contentsline {subsection}{\numberline {3.2.3}Comunicación Dispositivo a Puerta de Enlace}{17}{}%
-\contentsline {subsection}{\numberline {3.2.4}Comunicación Dispositivo a Intercambio de Datos en Back-end}{18}{}%
-\contentsline {section}{\numberline {3.3}Aplicaciones del Internet de las Cosas}{19}{}%
-\contentsline {subsection}{\numberline {3.3.1}Hogares}{19}{}%
-\contentsline {subsection}{\numberline {3.3.2}Industrias}{20}{}%
-\contentsline {subsection}{\numberline {3.3.3}Transporte}{21}{}%
-\contentsline {subsection}{\numberline {3.3.4}Comercio y Logística}{21}{}%
-\contentsline {subsection}{\numberline {3.3.5}Tecnologías Vestibles}{22}{}%
-\contentsline {subsection}{\numberline {3.3.6}Medicina y Salud}{22}{}%
-\contentsline {subsection}{\numberline {3.3.7}Ciudades Inteligentes}{22}{}%
-\contentsline {section}{\numberline {3.4}Interoperatividad entre Infraestructuras y Dispositivos}{23}{}%
-\contentsline {subsection}{\numberline {3.4.1}Ecosistemas}{23}{}%
-\contentsline {subsection}{\numberline {3.4.2}Riesgos}{24}{}%
-\contentsline {subsection}{\numberline {3.4.3}Sistemas Heredados}{24}{}%
-\contentsline {subsection}{\numberline {3.4.4}Configuración de dispositivos}{24}{}%
-\contentsline {section}{\numberline {3.5}Protocolos y Estándares}{25}{}%
-\contentsline {subsection}{\numberline {3.5.1}Protocolos}{25}{}%
-\contentsline {subsubsection}{\numberline {3.5.1.1}HTTP}{25}{}%
-\contentsline {subsubsection}{\numberline {3.5.1.2}MQTT}{27}{}%
-\contentsline {subsubsection}{\numberline {3.5.1.3}IPv4 e IPv6}{29}{}%
-\contentsline {subsection}{\numberline {3.5.2}Estándares}{30}{}%
-\contentsline {subsubsection}{\numberline {3.5.2.1}Bluetooth}{30}{}%
-\contentsline {subsubsection}{\numberline {3.5.2.2}Redes Celulares}{31}{}%
-\contentsline {subsubsection}{\numberline {3.5.2.3}NFC}{32}{}%
-\contentsline {subsubsection}{\numberline {3.5.2.4}WiFi (802.11)}{32}{}%
-\contentsline {subsubsection}{\numberline {3.5.2.5}Zigbee}{33}{}%
-\contentsline {subsubsection}{\numberline {3.5.2.6}Z-Wave}{33}{}%
-\contentsline {section}{\numberline {3.6}Seguridad}{34}{}%
-\contentsline {chapter}{\numberline {4}Herramientas de Monitoreo, Visualización y Control}{37}{}%
-\contentsline {section}{\numberline {4.1}Herramientas de Visualización}{38}{}%
-\contentsline {subsection}{\numberline {4.1.1}Métodos utilizados para visualizar datos}{39}{}%
-\contentsline {section}{\numberline {4.2}Herramientas de Monitoreo}{40}{}%
-\contentsline {section}{\numberline {4.3}Herramientas de Control}{40}{}%
-\contentsline {chapter}{\numberline {5}Placas Programables}{42}{}%
-\contentsline {section}{\numberline {5.1}Definición}{42}{}%
-\contentsline {section}{\numberline {5.2}Placas Arduino}{42}{}%
-\contentsline {section}{\numberline {5.3}Placas Raspberry Pi}{44}{}%
-\contentsline {chapter}{\numberline {6}Diseño e Implementación}{47}{}%
-\contentsline {section}{\numberline {6.1}Diseño de la Solución}{47}{}%
-\contentsline {subsection}{\numberline {6.1.1}Prototipos de Dispositivos IoT}{47}{}%
-\contentsline {subsection}{\numberline {6.1.2}Software de Visualización, Monitoreo y Control}{51}{}%
-\contentsline {section}{\numberline {6.2}Implementación de la solución}{53}{}%
-\contentsline {subsection}{\numberline {6.2.1}Implementación de los prototipos de dispositivos IoT}{53}{}%
-\contentsline {subsection}{\numberline {6.2.2}Implementación de la Aplicación Web HAMACA}{56}{}%
-\contentsline {subsubsection}{\numberline {6.2.2.1}Infraestructura}{56}{}%
-\contentsline {subsubsection}{\numberline {6.2.2.2}Configuración de Entorno}{56}{}%
-\contentsline {subsubsection}{\numberline {6.2.2.3}Desarrollo de la Aplicación Web HAMACA}{57}{}%
-\contentsline {chapter}{\numberline {7} Entorno de Pruebas}{61}{}%
-\contentsline {section}{\numberline {7.1}Escenarios de pruebas}{61}{}%
-\contentsline {subsection}{\numberline {7.1.1}Prototipos de Dispositivos IoT}{61}{}%
-\contentsline {subsubsection}{\numberline {7.1.1.1}Variedad en los Dispositivos}{62}{}%
-\contentsline {subsubsection}{\numberline {7.1.1.2}Variedad en los sensores}{63}{}%
-\contentsline {subsection}{\numberline {7.1.2}Aplicación HAMACA}{64}{}%
-\contentsline {subsubsection}{\numberline {7.1.2.1}Captura de Información}{64}{}%
-\contentsline {subsubsection}{\numberline {7.1.2.2}Visualización de datos}{65}{}%
-\contentsline {subsubsection}{\numberline {7.1.2.3}Monitoreo de Dispositivos}{66}{}%
-\contentsline {subsubsection}{\numberline {7.1.2.4}Control de Dispositivos}{68}{}%
-\contentsline {chapter}{\numberline {8}Casos de Uso}{69}{}%
-\contentsline {section}{\numberline {8.1}Infraestructura de comunicación}{69}{}%
-\contentsline {section}{\numberline {8.2}Herramienta de Automatización, Monitoreo y Análisis de Componentes Y Artefactos}{70}{}%
-\contentsline {chapter}{\numberline {9}Resultados, Limitaciones y Trabajos Futuros}{73}{}%
-\contentsline {section}{\numberline {9.1}Resultados}{73}{}%
-\contentsline {section}{\numberline {9.2}Limitaciones}{75}{}%
-\contentsline {section}{\numberline {9.3}Contribuciones}{75}{}%
-\contentsline {section}{\numberline {9.4}Trabajos Futuros}{75}{}%
-\contentsline {chapter}{\numberline {10}Conclusiones}{77}{}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{78}{}%
+\contentsline {chapter}{\numberline {2}Problema de Investigación}{12}{}%
+\contentsline {section}{\numberline {2.1}Planteamiento del Problema}{12}{}%
+\contentsline {subsection}{\numberline {2.1.1}Justificación}{12}{}%
+\contentsline {subsection}{\numberline {2.1.2}Alcance}{13}{}%
+\contentsline {subsection}{\numberline {2.1.3}Objetivos}{13}{}%
+\contentsline {subsubsection}{\numberline {2.1.3.1}Objetivos Generales}{13}{}%
+\contentsline {subsubsection}{\numberline {2.1.3.2}Objetivos Específicos}{13}{}%
+\contentsline {chapter}{\numberline {3}Internet de las Cosas}{15}{}%
+\contentsline {section}{\numberline {3.1}Definición}{15}{}%
+\contentsline {section}{\numberline {3.2}Modelos de Comunicación}{16}{}%
+\contentsline {subsection}{\numberline {3.2.1}Comunicación Dispositivo a Dispositivo}{16}{}%
+\contentsline {subsection}{\numberline {3.2.2}Comunicación Dispositivo a la Nube}{16}{}%
+\contentsline {subsection}{\numberline {3.2.3}Comunicación Dispositivo a Puerta de Enlace}{16}{}%
+\contentsline {subsection}{\numberline {3.2.4}Comunicación Dispositivo a Intercambio de Datos en Back-end}{17}{}%
+\contentsline {section}{\numberline {3.3}Aplicaciones del Internet de las Cosas}{18}{}%
+\contentsline {subsection}{\numberline {3.3.1}Hogares}{18}{}%
+\contentsline {subsection}{\numberline {3.3.2}Industrias}{19}{}%
+\contentsline {subsection}{\numberline {3.3.3}Transporte}{20}{}%
+\contentsline {subsection}{\numberline {3.3.4}Comercio y Logística}{20}{}%
+\contentsline {subsection}{\numberline {3.3.5}Tecnologías Vestibles}{21}{}%
+\contentsline {subsection}{\numberline {3.3.6}Medicina y Salud}{21}{}%
+\contentsline {subsection}{\numberline {3.3.7}Ciudades Inteligentes}{21}{}%
+\contentsline {section}{\numberline {3.4}Interoperatividad entre Infraestructuras y Dispositivos}{22}{}%
+\contentsline {subsection}{\numberline {3.4.1}Ecosistemas}{22}{}%
+\contentsline {subsection}{\numberline {3.4.2}Riesgos}{23}{}%
+\contentsline {subsection}{\numberline {3.4.3}Sistemas Heredados}{23}{}%
+\contentsline {subsection}{\numberline {3.4.4}Configuración de dispositivos}{23}{}%
+\contentsline {section}{\numberline {3.5}Protocolos y Estándares}{24}{}%
+\contentsline {subsection}{\numberline {3.5.1}Protocolos}{24}{}%
+\contentsline {subsubsection}{\numberline {3.5.1.1}HTTP}{24}{}%
+\contentsline {subsubsection}{\numberline {3.5.1.2}MQTT}{26}{}%
+\contentsline {subsubsection}{\numberline {3.5.1.3}IPv4 e IPv6}{28}{}%
+\contentsline {subsection}{\numberline {3.5.2}Estándares}{29}{}%
+\contentsline {subsubsection}{\numberline {3.5.2.1}Bluetooth}{29}{}%
+\contentsline {subsubsection}{\numberline {3.5.2.2}Redes Celulares}{30}{}%
+\contentsline {subsubsection}{\numberline {3.5.2.3}NFC}{31}{}%
+\contentsline {subsubsection}{\numberline {3.5.2.4}WiFi (802.11)}{31}{}%
+\contentsline {subsubsection}{\numberline {3.5.2.5}Zigbee}{32}{}%
+\contentsline {subsubsection}{\numberline {3.5.2.6}Z-Wave}{32}{}%
+\contentsline {section}{\numberline {3.6}Seguridad}{33}{}%
+\contentsline {chapter}{\numberline {4}Herramientas de Monitoreo, Visualización y Control}{36}{}%
+\contentsline {section}{\numberline {4.1}Herramientas de Visualización}{37}{}%
+\contentsline {subsection}{\numberline {4.1.1}Métodos utilizados para visualizar datos}{38}{}%
+\contentsline {section}{\numberline {4.2}Herramientas de Monitoreo}{39}{}%
+\contentsline {section}{\numberline {4.3}Herramientas de Control}{39}{}%
+\contentsline {chapter}{\numberline {5}Placas Programables}{41}{}%
+\contentsline {section}{\numberline {5.1}Definición}{41}{}%
+\contentsline {section}{\numberline {5.2}Placas Arduino}{41}{}%
+\contentsline {section}{\numberline {5.3}Placas Raspberry Pi}{43}{}%
+\contentsline {chapter}{\numberline {6}Diseño e Implementación}{46}{}%
+\contentsline {section}{\numberline {6.1}Diseño}{46}{}%
+\contentsline {subsection}{\numberline {6.1.1}Prototipos de Dispositivos IoT}{46}{}%
+\contentsline {subsection}{\numberline {6.1.2}Software de Visualización, Monitoreo y Control}{50}{}%
+\contentsline {section}{\numberline {6.2}Implementación de la solución}{52}{}%
+\contentsline {subsection}{\numberline {6.2.1}Implementación de los prototipos de dispositivos IoT}{52}{}%
+\contentsline {subsection}{\numberline {6.2.2}Implementación de la Aplicación Web HAMACA}{55}{}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}Infraestructura}{55}{}%
+\contentsline {subsubsection}{\numberline {6.2.2.2}Configuración de Entorno}{55}{}%
+\contentsline {subsubsection}{\numberline {6.2.2.3}Desarrollo de la Aplicación Web HAMACA}{56}{}%
+\contentsline {chapter}{\numberline {7} Entorno de Pruebas}{59}{}%
+\contentsline {section}{\numberline {7.1}Escenarios de pruebas}{59}{}%
+\contentsline {subsection}{\numberline {7.1.1}Prototipos de Dispositivos IoT}{59}{}%
+\contentsline {subsubsection}{\numberline {7.1.1.1}Variedad en los Dispositivos}{60}{}%
+\contentsline {subsubsection}{\numberline {7.1.1.2}Variedad en los sensores}{61}{}%
+\contentsline {subsection}{\numberline {7.1.2}Aplicación HAMACA}{62}{}%
+\contentsline {subsubsection}{\numberline {7.1.2.1}Captura de Información}{62}{}%
+\contentsline {subsubsection}{\numberline {7.1.2.2}Visualización de datos}{63}{}%
+\contentsline {subsubsection}{\numberline {7.1.2.3}Monitoreo de Dispositivos}{64}{}%
+\contentsline {subsubsection}{\numberline {7.1.2.4}Control de Dispositivos}{66}{}%
+\contentsline {chapter}{\numberline {8}Casos de Uso}{67}{}%
+\contentsline {section}{\numberline {8.1}Infraestructura de Comunicación}{67}{}%
+\contentsline {section}{\numberline {8.2}Aplicación Web}{68}{}%
+\contentsline {chapter}{\numberline {9}Resultados, Limitaciones y Trabajos Futuros}{71}{}%
+\contentsline {section}{\numberline {9.1}Resultados}{71}{}%
+\contentsline {section}{\numberline {9.2}Limitaciones}{73}{}%
+\contentsline {section}{\numberline {9.3}Contribuciones}{73}{}%
+\contentsline {section}{\numberline {9.4}Trabajos Futuros}{73}{}%
+\contentsline {chapter}{\numberline {10}Conclusión}{75}{}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{76}{}%
