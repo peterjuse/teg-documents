@@ -72,32 +72,32 @@
 \contentsline {subsection}{\numberline {6.3.7}Node-Red}{53}{}%
 \contentsline {subsection}{\numberline {6.3.8}Docker}{53}{}%
 \contentsline {section}{\numberline {6.4}Adaptación del Marco Metodológico}{53}{}%
-\contentsline {chapter}{\numberline {7}Diseño e Implementación}{55}{}%
-\contentsline {section}{\numberline {7.1}Diseño}{55}{}%
-\contentsline {subsection}{\numberline {7.1.1}Software de Visualización, Monitoreo y Control}{57}{}%
-\contentsline {section}{\numberline {7.2}Implementación de la solución}{59}{}%
-\contentsline {subsection}{\numberline {7.2.1}Implementación de los prototipos de dispositivos IoT}{60}{}%
-\contentsline {subsection}{\numberline {7.2.2}Implementación de la Aplicación Web HAMACA}{62}{}%
-\contentsline {subsubsection}{\numberline {7.2.2.1}Infraestructura}{63}{}%
-\contentsline {subsubsection}{\numberline {7.2.2.2}Configuración de Entorno}{63}{}%
-\contentsline {subsubsection}{\numberline {7.2.2.3}Desarrollo de la Aplicación Web HAMACA}{64}{}%
-\contentsline {chapter}{\numberline {8} Entorno de Pruebas}{67}{}%
-\contentsline {section}{\numberline {8.1}Escenarios de pruebas}{67}{}%
-\contentsline {subsection}{\numberline {8.1.1}Prototipos de Dispositivos IoT}{67}{}%
-\contentsline {subsubsection}{\numberline {8.1.1.1}Variedad en los Dispositivos}{68}{}%
-\contentsline {subsubsection}{\numberline {8.1.1.2}Variedad en los sensores}{69}{}%
-\contentsline {subsection}{\numberline {8.1.2}Aplicación HAMACA}{70}{}%
-\contentsline {subsubsection}{\numberline {8.1.2.1}Captura de Información}{70}{}%
-\contentsline {subsubsection}{\numberline {8.1.2.2}Visualización de datos}{71}{}%
-\contentsline {subsubsection}{\numberline {8.1.2.3}Monitoreo de Dispositivos}{72}{}%
-\contentsline {subsubsection}{\numberline {8.1.2.4}Control de Dispositivos}{74}{}%
-\contentsline {chapter}{\numberline {9}Casos de Uso}{75}{}%
-\contentsline {section}{\numberline {9.1}Infraestructura de Comunicación}{75}{}%
-\contentsline {section}{\numberline {9.2}Aplicación Web}{76}{}%
-\contentsline {chapter}{\numberline {10}Resultados, Limitaciones y Trabajos Futuros}{79}{}%
-\contentsline {section}{\numberline {10.1}Resultados}{79}{}%
-\contentsline {section}{\numberline {10.2}Limitaciones}{81}{}%
-\contentsline {section}{\numberline {10.3}Contribuciones}{81}{}%
-\contentsline {section}{\numberline {10.4}Trabajos Futuros}{81}{}%
-\contentsline {chapter}{\numberline {11}Conclusión}{83}{}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{84}{}%
+\contentsline {chapter}{\numberline {7}Diseño e Implementación}{56}{}%
+\contentsline {section}{\numberline {7.1}Diseño}{56}{}%
+\contentsline {subsection}{\numberline {7.1.1}Software de Visualización, Monitoreo y Control}{58}{}%
+\contentsline {section}{\numberline {7.2}Implementación de la solución}{60}{}%
+\contentsline {subsection}{\numberline {7.2.1}Implementación de los prototipos de dispositivos IoT}{61}{}%
+\contentsline {subsection}{\numberline {7.2.2}Implementación de la Aplicación Web HAMACA}{63}{}%
+\contentsline {subsubsection}{\numberline {7.2.2.1}Infraestructura}{64}{}%
+\contentsline {subsubsection}{\numberline {7.2.2.2}Configuración de Entorno}{64}{}%
+\contentsline {subsubsection}{\numberline {7.2.2.3}Desarrollo de la Aplicación Web HAMACA}{65}{}%
+\contentsline {chapter}{\numberline {8} Entorno de Pruebas}{68}{}%
+\contentsline {section}{\numberline {8.1}Escenarios de pruebas}{68}{}%
+\contentsline {subsection}{\numberline {8.1.1}Prototipos de Dispositivos IoT}{68}{}%
+\contentsline {subsubsection}{\numberline {8.1.1.1}Variedad en los Dispositivos}{69}{}%
+\contentsline {subsubsection}{\numberline {8.1.1.2}Variedad en los sensores}{70}{}%
+\contentsline {subsection}{\numberline {8.1.2}Aplicación HAMACA}{71}{}%
+\contentsline {subsubsection}{\numberline {8.1.2.1}Captura de Información}{71}{}%
+\contentsline {subsubsection}{\numberline {8.1.2.2}Visualización de datos}{72}{}%
+\contentsline {subsubsection}{\numberline {8.1.2.3}Monitoreo de Dispositivos}{73}{}%
+\contentsline {subsubsection}{\numberline {8.1.2.4}Control de Dispositivos}{75}{}%
+\contentsline {chapter}{\numberline {9}Casos de Uso}{76}{}%
+\contentsline {section}{\numberline {9.1}Infraestructura de Comunicación}{76}{}%
+\contentsline {section}{\numberline {9.2}Aplicación Web}{77}{}%
+\contentsline {chapter}{\numberline {10}Resultados, Limitaciones y Trabajos Futuros}{80}{}%
+\contentsline {section}{\numberline {10.1}Resultados}{80}{}%
+\contentsline {section}{\numberline {10.2}Limitaciones}{82}{}%
+\contentsline {section}{\numberline {10.3}Contribuciones}{82}{}%
+\contentsline {section}{\numberline {10.4}Trabajos Futuros}{82}{}%
+\contentsline {chapter}{\numberline {11}Conclusión}{84}{}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{85}{}%
