@@ -11,7 +11,7 @@
 
 \section{Scrum}
 \lhead[\thepage]{\thesection. Scrum}
-Scrum es una metodología ágil y flexible para gestionar el desarrollo de software. Se basa en construir primero la funcionalidad de mayor valor para el cliente y en los principios de inspección continua, adaptación, auto-gestión e innovación.\cite{scrumsofteng} En Scrum se aplican de manera regular un conjunto de buenas prácticas para trabajar colaborativamente y obtener el mejor resultado posible de un proyecto.\\
+Scrum es una metodología ágil y flexible para gestionar el desarrollo de software. Se basa en construir primero la funcionalidad de mayor valor para el cliente y en los principios de inspección continua, adaptación, auto-gestión e innovación\cite{scrumsofteng}.En Scrum se aplican de manera regular un conjunto de buenas prácticas para trabajar colaborativamente y obtener el mejor resultado posible de un proyecto.\\
 
 Es parte de la filosofía de Scrum el poder realizar entregas parciales y regulares del producto final, priorizadas por el beneficio que aportan al receptor del proyecto. Por ello, Scrum está especialmente indicado para proyectos en entornos complejos, donde se necesita obtener resultados rápidamente, con requisitos son cambiantes o poco definidos, donde la innovación, la competitividad, la flexibilidad y la productividad son fundamentales.\\
 
@@ -31,10 +31,10 @@ Un software de control de versiones es un aquel que permite registrar y gestiona
 
 Esto permite tener:
 \begin{itemize}
-\item Flujos de trabajo organizados:
-\item Descripción de versiones:
-\item Colaboración:
-\item Historial de cambios: 
+\item Flujos de trabajo organizados: A través del uso de versiones se pueden crear nuevos elementos siguiendo metodologías de desarrollo.
+\item Descripción de versiones: Cada versión viene acompañada de una descripción que permite reconocer el cambio realizado en el proyecto.
+\item Colaboración: Permite que las personas puedan trabajar de manera independiente en el mismo proyecto sin temor de interferir en el trabajo de otros desarrolladores.
+\item Historial de cambios: Se tiene una lista completa de los cambios realizados a través del tiempo en el proyecto permitiendo en cualquier momento volver a versiones previas.
 \end{itemize}
 
 \subsection{Git}
@@ -42,10 +42,10 @@ Git es un sistema de control de versiones moderno, distribuido y seguro que fue 
 
 Entre sus características principales se destacan:
 \begin{itemize}
-\item Arquitectura distribuida:
-\item Flexibilidad:
-\item Seguridad:
-\item Rendimiento:
+\item Arquitectura distribuida: Cada copia del proyecto se sincroniza con el resto de manera distribuida.
+\item Flexibilidad: Permite adaptar la manera en que se hacen los cambios según la metodología de desarrollo que sigue el proyecto. 
+\item Seguridad: Permite identificar quien o quienes realizan cambios sobre el proyecto. Ademas admite la posibilidad de poder administrar quienes tienen acceso de lectura y escritura sobre los proyectos.
+\item Rendimiento: Solo los cambios realizados son sincronizados a través de las copias del proyecto por lo que es eficiente en el envío y recepción de los datos en la red. 
 \end{itemize}
 
 \subsubsection{Git-Flow}
@@ -99,19 +99,23 @@ Entre los sensores y actuadores a integrar a esos dispositivos se ha contado con
 
 Por otro lado para el desarrollo de software se hizo uso de un computador con las siguientes características:
 \begin{itemize}
-\item CPU
-\item RAM
-\item Almacenamiento
-\item Sistema Operativo
+\item CPU Intel Core Duo a 2,0 GHz
+\item 4 GB RAM DDR2
+\item 256 GB HDD Sata
+\item Sistema operativo Mac OS X Yosemite
 \end{itemize}
 
 Finalmente el software desarrollado fue desplegado en uno de los dispositivos Raspberry Pi 3 modelo B cuyas características son:
 \begin{itemize}
-\item CPU
-\item RAM
-\item Almacenamiento
-\item Sistema Operativo
+\item CPU ARM Cortex-A53 Quad core a 1,2 GHz
+\item 1 GB de RAM LPDDR2
+\item 64 GB microSD 
+\item Sistema operativo Raspbian (Basado en Debian 8) 
 \end{itemize}
+
+\section{Herramientas de Desarrollo}
+\lhead[\thepage]{\thesection. Herramientas de Desarrollo}
+A continuación se detalla aquellas herramientas de hardware y de software utiizados durante el desarrollo de este trabajo de investigación.
 
 \subsection{Python}
 Python es un lenguaje de programación de alto nivel, multiplaforma,  débilmente tipado de propósito general, multiparadigma e interpretado\cite{whatspython}, creado por Guido Van Rossum. Su filosofía se basa en el poder crear código que sea muy legible, con una sintaxis simple, utilizando indentaciones para delimitar bloques de código, mas corto y potente que en otros lenguajes de programación.\cite{Guido}\\
@@ -172,41 +176,41 @@ Con ello definido, se presentan las siguientes actividades para el desarrollo y 
 
 \begin{table}[!htb]
 \centering
-\begin{tabular}{| m{4.5cm}| m{5cm}| m{4.5cm}|}
+\begin{tabular}{| m{6.5cm}| m{3.5cm}| m{4cm}|}
 \hline
 \multicolumn{3}{|c|}{Actividades de desarrollo} \\
 \hline 
-\centering Actividad & \centering Descripción & \centering Tiempo Estimado \tabularnewline \hline
+\centering Actividad & \centering Tiempo Estimado & \centering Sprint \tabularnewline \hline
 
-Diseño y prototipado de dispositivos & 2 & dos semanas/un sprint \\ \hline
+Levantamiento de requerimientos & Una semana & Sprint 1 \\ \hline
 
-Desarrollo de scripts de sensores, actuadores y comunicación de datos & 2 & dos semanas/un sprint \\ \hline
+Instalación y despliegue de Infraestructura & Una semana & Sprint 1 \\ \hline
 
-Captura de datos de dispositivos & 2 & doce semanas/seis sprint \\ \hline
+Diseño y prototipado de dispositivos & Una semana & Sprint 2 \\ \hline
 
-Instalación y despliegue de Infraestructura & 2 & una semana/medio sprint \\ \hline
+Desarrollo de scripts de sensores, actuadores y comunicación de datos & Dos semanas & Sprint 2 y sprint 3\\ \hline
 
-Desarrollo de entorno back-end para proceso de obtención de datos & 2 & una semana/medio sprint  \\ \hline
+Desarrollo de entorno back-end para proceso de obtención de datos & Una semana & Sprint 3  \\ \hline
 
-Documentación de proceso de obtención de datos & 2 & una semana/medio sprint \\ \hline
+Captura de datos de dispositivos & Doce semanas & Sprint 4 a sprint 10 \\ \hline
 
-Diseño de aplicación web & 2 & una semana/medio sprint \\ \hline
+Documentación de proceso de obtención de datos & Una semana & Sprint 4 \\ \hline
 
-Implementación base de aplicación web (módulo inicial, templates base) & 2 & una semana/medio sprint \\ \hline
+Diseño de aplicación web & Una semana & Sprint 4 \\ \hline
 
-Desarrollo de módulo de gestión de aplicación & 2 & una semana/medio sprint \\ \hline
+Implementación base de aplicación web (módulo inicial, templates base) & Una semana & Sprint 5 \\ \hline
 
-Desarrollo de módulo de visualización de datos & 2 & una semana/medio sprint \\ \hline
+Desarrollo de módulo de gestión de aplicación & Una semana & Sprint 5 \\ \hline
 
-Desarrollo de módulo de control y automatización de flujos de dispositivos & 2 & una semana/medio sprint \\ \hline
+Desarrollo de módulo de visualización de datos & Una semana & Sprint 6\\ \hline
 
-Desarrollo de módulo de comunicación y redes & 2 & una semana/medio sprint \\ \hline
+Desarrollo de módulo de control y automatización de flujos de dispositivos & Una semana & Sprint 6\\ \hline
 
-Documentación de aplicación web & 2 & una semana/medio sprint \\ \hline
+Desarrollo de módulo de comunicación y redes & Una semana & Sprint 7\\ \hline
 
-Pruebas end to end del proyecto de investigación & 2 & cuatro semanas/dos sprint \\ \hline
+Documentación de aplicación web & Una semana & Sprint 7\\ \hline
 
-Recolección de resultados & 2 & dos semanas/un sprint \\ \hline
+Pruebas end to end y recolección de resultados del proyecto de investigación & Dos semanas & Sprint 8\\ \hline
 
 \end{tabular}
 \caption{Actividades sugeridas para el desarrollo del trabajo especial de grado}

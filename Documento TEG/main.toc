@@ -59,19 +59,20 @@
 \contentsline {section}{\numberline {6.1}Scrum}{48}{}%
 \contentsline {section}{\numberline {6.2}Control de Versiones de Software}{49}{}%
 \contentsline {subsection}{\numberline {6.2.1}Git}{49}{}%
-\contentsline {subsubsection}{\numberline {6.2.1.1}Git-Flow}{49}{}%
+\contentsline {subsubsection}{\numberline {6.2.1.1}Git-Flow}{50}{}%
 \contentsline {section}{\numberline {6.3}Herramientas de Desarrollo}{50}{}%
 \contentsline {subsection}{\numberline {6.3.1}Herramientas de Hardware}{50}{}%
-\contentsline {subsection}{\numberline {6.3.2}Python}{51}{}%
-\contentsline {subsection}{\numberline {6.3.3}Django}{52}{}%
-\contentsline {subsection}{\numberline {6.3.4}Bases de datos}{52}{}%
-\contentsline {subsubsection}{\numberline {6.3.4.1}Postgresql}{52}{}%
-\contentsline {subsubsection}{\numberline {6.3.4.2}InfluxDB}{52}{}%
-\contentsline {subsection}{\numberline {6.3.5}Eclipse Mosquitto}{53}{}%
-\contentsline {subsection}{\numberline {6.3.6}Grafana}{53}{}%
-\contentsline {subsection}{\numberline {6.3.7}Node-Red}{53}{}%
-\contentsline {subsection}{\numberline {6.3.8}Docker}{53}{}%
-\contentsline {section}{\numberline {6.4}Adaptación del Marco Metodológico}{53}{}%
+\contentsline {section}{\numberline {6.4}Herramientas de Desarrollo}{52}{}%
+\contentsline {subsection}{\numberline {6.4.1}Python}{52}{}%
+\contentsline {subsection}{\numberline {6.4.2}Django}{52}{}%
+\contentsline {subsection}{\numberline {6.4.3}Bases de datos}{52}{}%
+\contentsline {subsubsection}{\numberline {6.4.3.1}Postgresql}{53}{}%
+\contentsline {subsubsection}{\numberline {6.4.3.2}InfluxDB}{53}{}%
+\contentsline {subsection}{\numberline {6.4.4}Eclipse Mosquitto}{53}{}%
+\contentsline {subsection}{\numberline {6.4.5}Grafana}{53}{}%
+\contentsline {subsection}{\numberline {6.4.6}Node-Red}{53}{}%
+\contentsline {subsection}{\numberline {6.4.7}Docker}{53}{}%
+\contentsline {section}{\numberline {6.5}Adaptación del Marco Metodológico}{54}{}%
 \contentsline {chapter}{\numberline {7}Diseño e Implementación}{56}{}%
 \contentsline {section}{\numberline {7.1}Diseño}{56}{}%
 \contentsline {subsection}{\numberline {7.1.1}Software de Visualización, Monitoreo y Control}{58}{}%

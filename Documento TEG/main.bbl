@@ -1,5 +1,13 @@
 \begin{thebibliography}{10}
 
+\bibitem{tablaiot}
+James Manyika~\& otros.
+\newblock {The internet of Things: Mapping the Value Beyond the Hype.}
+\newblock
+  \url{http://www.mckinsey.com/insights/business_technology/the_internet_of_things_the_value_of_digitizing_the_physical_world},
+  Junio 2015.
+\newblock [Accedido: 17-06-2017].
+
 \bibitem{IoTTrueHistory}
 Chetan Sharma.
 \newblock {Correcting The IoT History}.
@@ -22,14 +30,6 @@ Kare Rose \& Scott Eldridge \&~Lyman Chapin.
 H.~Tschofenig~\& others.
 \newblock {Architectural Considerations in Smart Object Networking}.
 \newblock Technical report, Internet Architecture Board, Marzo 2015.
-
-\bibitem{tablaiot}
-James Manyika~\& otros.
-\newblock {The internet of Things: Mapping the Value Beyond the Hype.}
-\newblock
-  \url{http://www.mckinsey.com/insights/business_technology/the_internet_of_things_the_value_of_digitizing_the_physical_world},
-  Junio 2015.
-\newblock [Accedido: 17-06-2017].
 
 \bibitem{ibmiotindustria}
 Jen Clark.
@@ -251,6 +251,31 @@ Raspberry~Pi Foundation.
 \newblock \url{https://www.raspberrypi.org}.
 \newblock [Accedido: 08-07-2017].
 
+\bibitem{scrumsofteng}
+SOFTENG.
+\newblock {Metodología Scrum}.
+\newblock
+  \url{https://www.softeng.es/es-es/empresa/metodologias-de-trabajo/metodologia-scrum.html}.
+\newblock [Accedido: 17-07-2017].
+
+\bibitem{whatspython}
+Guido~Van Rossum.
+\newblock {What is Python, Executive Summary}.
+\newblock \url{https://www.python.org/doc/essays/blurb/}, 1997.
+\newblock [Accedido: 11-06-2017].
+
+\bibitem{Guido}
+Guido~Van Rossum.
+\newblock {Foreword for 'Programing Python' (1st ed.)}.
+\newblock \url{https://www.python.org/doc/essays/foreword/}, Mayo 1996.
+\newblock [Accedido: 11-06-2017].
+
+\bibitem{pep206}
+A.~M. Kuchling.
+\newblock {Python Advanced Librery}.
+\newblock \url{https://www.python.org/dev/pep/pep-0206/}.
+\newblock [Accedido: 11-06-2017].
+
 \bibitem{ALight2017}
 Roger~A Light.
 \newblock Mosquitto: server and client implementation of the {MQTT} protocol.
@@ -261,12 +286,6 @@ influxdata.
 \newblock {The Time Series Database Platform Optimized for Speed and Scale}.
 \newblock \url{https://www.influxdata.com/solutions/}.
 \newblock [Accedido: 15-10-2023].
-
-\bibitem{whatspython}
-Guido~Van Rossum.
-\newblock {What is Python, Executive Summary}.
-\newblock \url{https://www.python.org/doc/essays/blurb/}, 1997.
-\newblock [Accedido: 11-06-2017].
 
 \bibitem{django}
 {Meet Django}.

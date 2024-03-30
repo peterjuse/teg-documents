@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  16 MAR 2024 23:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  29 MAR 2024 23:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1299,9 +1299,6 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 ]
 Cap\'{\i }tulo 6.
 
-LaTeX Warning: Citation `scrumsofteng' on page 48 undefined on input line 14.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
@@ -1337,28 +1334,20 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 
 [50]
 
-LaTeX Warning: Citation `Guido' on page 51 undefined on input line 117.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-
- []
-
-
-LaTeX Warning: Citation `pep206' on page 51 undefined on input line 119.
-
-
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
 [51]
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
 <Figuras/python-logo.png, id=189, 291.0875pt x 82.3075pt>
 File: Figuras/python-logo.png Graphic file (type png)
 <use Figuras/python-logo.png>
-Package pdftex.def Info: Figuras/python-logo.png  used on input line 123.
+Package pdftex.def Info: Figuras/python-logo.png  used on input line 127.
 (pdftex.def)             Requested size: 177.42868pt x 50.1698pt.
-
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1370,79 +1359,7 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[53]
-Underfull \hbox (badness 5091) in paragraph at lines 183--183
-\OT1/cmr/m/n/12 sen-so-res, ac-tua-do-res y
- []
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.187 ...ntering una semana/medio sprint \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Extra alignment tab has been changed to \cr.
-<template> ... width\arrayrulewidth }\endtemplate 
-                                                  
-l.189 ...end para proceso de obtención de datos &
-                                                   2 & una semana/medio spri...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
-[]|\OT1/cmr/m/n/12 una se-ma-na/medio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
-[]|\OT1/cmr/m/n/12 una se-ma-na/medio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[]|\OT1/cmr/m/n/12 una se-ma-na/medio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
-[]|\OT1/cmr/m/n/12 una se-ma-na/medio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
-[]|\OT1/cmr/m/n/12 una se-ma-na/medio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
-[]|\OT1/cmr/m/n/12 una se-ma-na/medio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--203
-[]|\OT1/cmr/m/n/12 una se-ma-na/medio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
-[]|\OT1/cmr/m/n/12 una se-ma-na/medio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[]|\OT1/cmr/m/n/12 cuatro se-ma-nas/dos
- []
-
-
-Underfull \hbox (badness 1817) in paragraph at lines 209--209
-[]|\OT1/cmr/m/n/12 Recolecci^^Son de re-sul-ta-
- []
-
-)
+[53])
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2081,7 +1998,7 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 
 
 ] (main.bbl
-Underfull \hbox (badness 5260) in paragraph at lines 27--33
+Underfull \hbox (badness 5260) in paragraph at lines 4--10
 \OT1/cmtt/m/n/12 internet _ of _ things _ the _ value _ of _ digitizing _ the _
  physical _ world$\OT1/cmr/m/n/12 , Ju-nio
  []
@@ -2249,10 +2166,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7097 strings out of 475248
- 135667 string characters out of 5767628
+ 7098 strings out of 475248
+ 135682 string characters out of 5767628
  1935801 words of memory out of 5000000
- 28440 multiletter control sequences out of 15000+600000
+ 28441 multiletter control sequences out of 15000+600000
  564685 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,13n,79p,1212b,714s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2262,7 +2179,7 @@ Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
 es/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (88 pages, 11646680 bytes).
+Output written on main.pdf (88 pages, 11647940 bytes).
 PDF statistics:
  387 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
