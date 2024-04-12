@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  31 MAR 2024 20:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.3)  12 APR 2024 00:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -190,32 +190,55 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count269
+\lst@gtempboxa=\box53
+\lst@token=\toks24
+\lst@length=\count270
+\lst@currlwidth=\dimen162
+\lst@column=\count271
+\lst@pos=\count272
+\lst@lostspace=\dimen163
+\lst@width=\dimen164
+\lst@newlines=\count273
+\lst@lineno=\count274
+\lst@maxwidth=\dimen165
+
+(C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count275
+\lst@skipnumbers=\count276
+\lst@framebox=\box54
+)
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+
 (C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count269
-\mult@box=\box53
-\multicol@leftmargin=\dimen162
-\c@unbalance=\count270
-\c@collectmore=\count271
-\doublecol@number=\count272
-\multicoltolerance=\count273
-\multicolpretolerance=\count274
-\full@width=\dimen163
-\page@free=\dimen164
-\premulticols=\dimen165
-\postmulticols=\dimen166
+\c@tracingmulticols=\count277
+\mult@box=\box55
+\multicol@leftmargin=\dimen166
+\c@unbalance=\count278
+\c@collectmore=\count279
+\doublecol@number=\count280
+\multicoltolerance=\count281
+\multicolpretolerance=\count282
+\full@width=\dimen167
+\page@free=\dimen168
+\premulticols=\dimen169
+\postmulticols=\dimen170
 \multicolsep=\skip62
 \multicolbaselineskip=\skip63
-\partial@page=\box54
-\last@line=\box55
-\mc@boxedresult=\box56
-\maxbalancingoverflow=\dimen167
-\mult@rightbox=\box57
-\mult@grightbox=\box58
-\mult@firstbox=\box59
-\mult@gfirstbox=\box60
-\@tempa=\box61
-\@tempa=\box62
+\partial@page=\box56
+\last@line=\box57
+\mc@boxedresult=\box58
+\maxbalancingoverflow=\dimen171
+\mult@rightbox=\box59
+\mult@grightbox=\box60
+\mult@firstbox=\box61
+\mult@gfirstbox=\box62
 \@tempa=\box63
 \@tempa=\box64
 \@tempa=\box65
@@ -250,52 +273,54 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box94
 \@tempa=\box95
 \@tempa=\box96
-\c@minrows=\count275
-\c@columnbadness=\count276
-\c@finalcolumnbadness=\count277
-\last@try=\dimen168
-\multicolovershoot=\dimen169
-\multicolundershoot=\dimen170
-\mult@nat@firstbox=\box97
-\colbreak@box=\box98
-\mc@col@check@num=\count278
+\@tempa=\box97
+\@tempa=\box98
+\c@minrows=\count283
+\c@columnbadness=\count284
+\c@finalcolumnbadness=\count285
+\last@try=\dimen172
+\multicolovershoot=\dimen173
+\multicolundershoot=\dimen174
+\mult@nat@firstbox=\box99
+\colbreak@box=\box100
+\mc@col@check@num=\count286
 )
 (C:\Users\peter\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip64
-\multirow@cntb=\count279
+\multirow@cntb=\count287
 \multirow@dima=\skip65
-\bigstrutjot=\dimen171
+\bigstrutjot=\dimen175
 )
 (C:\Users\peter\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen172
-\lightrulewidth=\dimen173
-\cmidrulewidth=\dimen174
-\belowrulesep=\dimen175
-\belowbottomsep=\dimen176
-\aboverulesep=\dimen177
-\abovetopsep=\dimen178
-\cmidrulesep=\dimen179
-\cmidrulekern=\dimen180
-\defaultaddspace=\dimen181
-\@cmidla=\count280
-\@cmidlb=\count281
-\@aboverulesep=\dimen182
-\@belowrulesep=\dimen183
-\@thisruleclass=\count282
-\@lastruleclass=\count283
-\@thisrulewidth=\dimen184
+\heavyrulewidth=\dimen176
+\lightrulewidth=\dimen177
+\cmidrulewidth=\dimen178
+\belowrulesep=\dimen179
+\belowbottomsep=\dimen180
+\aboverulesep=\dimen181
+\abovetopsep=\dimen182
+\cmidrulesep=\dimen183
+\cmidrulekern=\dimen184
+\defaultaddspace=\dimen185
+\@cmidla=\count288
+\@cmidlb=\count289
+\@aboverulesep=\dimen186
+\@belowrulesep=\dimen187
+\@thisruleclass=\count290
+\@lastruleclass=\count291
+\@thisrulewidth=\dimen188
 )
 (C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen185
-\TX@old@table=\dimen186
-\TX@old@col=\dimen187
-\TX@target=\dimen188
-\TX@delta=\dimen189
-\TX@cols=\count284
-\TX@ftn=\toks24
+\TX@col@width=\dimen189
+\TX@old@table=\dimen190
+\TX@old@col=\dimen191
+\TX@target=\dimen192
+\TX@delta=\dimen193
+\TX@cols=\count292
+\TX@ftn=\toks25
 )
 (C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
@@ -303,23 +328,23 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTright=\skip67
 \LTpre=\skip68
 \LTpost=\skip69
-\LTchunksize=\count285
-\LTcapwidth=\dimen190
-\LT@head=\box99
-\LT@firsthead=\box100
-\LT@foot=\box101
-\LT@lastfoot=\box102
-\LT@gbox=\box103
-\LT@cols=\count286
-\LT@rows=\count287
-\c@LT@tables=\count288
-\c@LT@chunks=\count289
-\LT@p@ftn=\toks25
+\LTchunksize=\count293
+\LTcapwidth=\dimen194
+\LT@head=\box101
+\LT@firsthead=\box102
+\LT@foot=\box103
+\LT@lastfoot=\box104
+\LT@gbox=\box105
+\LT@cols=\count294
+\LT@rows=\count295
+\c@LT@tables=\count296
+\c@LT@chunks=\count297
+\LT@p@ftn=\toks26
 )
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count290
-\l__pdf_internal_box=\box104
+\l__color_backend_stack_int=\count298
+\l__pdf_internal_box=\box106
 ) (main.aux
 (Capitulos/Portada.aux)
 LaTeX Info: Redefining \. on input line 7.
@@ -335,34 +360,34 @@ LaTeX Info: Redefining \% on input line 7.
 (Capitulos/Conclusiones.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count291
-\scratchdimen=\dimen191
-\scratchbox=\box105
-\nofMPsegments=\count292
-\nofMParguments=\count293
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count294
-\MPscratchDim=\dimen192
-\MPnumerator=\count295
-\makeMPintoPDFobject=\count296
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count299
+\scratchdimen=\dimen195
+\scratchbox=\box107
+\nofMPsegments=\count300
+\nofMParguments=\count301
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen196
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
+\everyMPtoPDFconversion=\toks28
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -371,8 +396,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -409,11 +434,13 @@ LaTeX Info: Redefining \% on input line 80.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 (C:\Users\peter\AppData\Roaming\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count305
 \openout2 = `Capitulos/Portada.aux'.
 
 
@@ -457,8 +484,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
  []
 
 )
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
+LaTeX Info: Redefining \. on input line 85.
+LaTeX Info: Redefining \% on input line 85.
 
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
@@ -489,8 +516,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
  []
 
 )
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
+LaTeX Info: Redefining \. on input line 87.
+LaTeX Info: Redefining \% on input line 87.
 
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
@@ -540,8 +567,8 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 [6] (main.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
 
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
@@ -568,8 +595,8 @@ LaTeX Info: Redefining \% on input line 1.
 \openout5 = `main.lot'.
 
 )
-LaTeX Info: Redefining \. on input line 88.
-LaTeX Info: Redefining \% on input line 88.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
 
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
@@ -639,8 +666,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
  []
 
 )
-LaTeX Info: Redefining \. on input line 90.
-LaTeX Info: Redefining \% on input line 90.
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
 
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
@@ -1321,46 +1348,113 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 [48
 
 ]
+<Figuras/scrum_process.png, id=179, 1284.8pt x 634.37pt>
+File: Figuras/scrum_process.png Graphic file (type png)
+<use Figuras/scrum_process.png>
+Package pdftex.def Info: Figuras/scrum_process.png  used on input line 30.
+(pdftex.def)             Requested size: 443.57848pt x 219.01276pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[49]
+[49 <./Figuras/scrum_process.png>]
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
 [50]
+<Figuras/gitflow.png, id=188, 804.00375pt x 401.5pt>
+File: Figuras/gitflow.png Graphic file (type png)
+<use Figuras/gitflow.png>
+Package pdftex.def Info: Figuras/gitflow.png  used on input line 76.
+(pdftex.def)             Requested size: 354.86412pt x 177.20578pt.
+
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[51]
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+[51 <./Figuras/gitflow.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
-<Figuras/python-logo.png, id=189, 291.0875pt x 82.3075pt>
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\footskip}{14.49998pt}.
+
+[52]
+<Figuras/python-logo.png, id=196, 291.0875pt x 82.3075pt>
 File: Figuras/python-logo.png Graphic file (type png)
 <use Figuras/python-logo.png>
-Package pdftex.def Info: Figuras/python-logo.png  used on input line 127.
+Package pdftex.def Info: Figuras/python-logo.png  used on input line 142.
 (pdftex.def)             Requested size: 177.42868pt x 50.1698pt.
+<Figuras/django.png, id=197, 288.07625pt x 112.42pt>
+File: Figuras/django.png Graphic file (type png)
+<use Figuras/django.png>
+Package pdftex.def Info: Figuras/django.png  used on input line 152.
+(pdftex.def)             Requested size: 110.8946pt x 43.27582pt.
+
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[52 <./Figuras/python-logo.png>]
+[53 <./Figuras/python-logo.png> <./Figuras/django.png>]
+<Figuras/postgresql_logo.png, id=203, 924.45375pt x 1027.84pt>
+File: Figuras/postgresql_logo.png Graphic file (type png)
+<use Figuras/postgresql_logo.png>
+Package pdftex.def Info: Figuras/postgresql_logo.png  used on input line 174.
+(pdftex.def)             Requested size: 110.8946pt x 123.28842pt.
+<Figuras/Influxdb_logo.png, id=204, 1204.5pt x 446.66875pt>
+File: Figuras/Influxdb_logo.png Graphic file (type png)
+<use Figuras/Influxdb_logo.png>
+Package pdftex.def Info: Figuras/Influxdb_logo.png  used on input line 185.
+(pdftex.def)             Requested size: 199.60895pt x 74.01749pt.
+
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[53]
-Underfull \hbox (badness 4266) in paragraph at lines 211--211
+[54 <./Figuras/postgresql_logo.png> <./Figuras/Influxdb_logo.png>]
+<Figuras/mosquitto_logo.png, id=210, 361.35pt x 203.76125pt>
+File: Figuras/mosquitto_logo.png Graphic file (type png)
+<use Figuras/mosquitto_logo.png>
+Package pdftex.def Info: Figuras/mosquitto_logo.png  used on input line 195.
+(pdftex.def)             Requested size: 155.25517pt x 87.54721pt.
+<Figuras/Grafana_logo.png, id=211, 1204.5pt x 1229.59375pt>
+File: Figuras/Grafana_logo.png Graphic file (type png)
+<use Figuras/Grafana_logo.png>
+Package pdftex.def Info: Figuras/Grafana_logo.png  used on input line 205.
+(pdftex.def)             Requested size: 88.71434pt x 90.54573pt.
+<Figuras/node_red_logo.png, id=212, 303.1325pt x 167.62625pt>
+File: Figuras/node_red_logo.png Graphic file (type png)
+<use Figuras/node_red_logo.png>
+Package pdftex.def Info: Figuras/node_red_logo.png  used on input line 214.
+(pdftex.def)             Requested size: 88.71434pt x 49.05797pt.
+<Figuras/Docker-Logo.png, id=213, 3854.4pt x 2168.1pt>
+File: Figuras/Docker-Logo.png Graphic file (type png)
+<use Figuras/Docker-Logo.png>
+Package pdftex.def Info: Figuras/Docker-Logo.png  used on input line 224.
+(pdftex.def)             Requested size: 110.8946pt x 62.3605pt.
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\footskip}{14.49998pt}.
+
+[55 <./Figuras/mosquitto_logo.png> <./Figuras/Grafana_logo.png> <./Figuras/node
+_red_logo.png>]
+Underfull \hbox (badness 4266) in paragraph at lines 276--276
 []|\OT1/cmr/m/n/12 Documentaci^^Son de de-sa-rro-llo de
  []
 
@@ -1370,13 +1464,13 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[54]
+[56 <./Figuras/Docker-Logo.png>]
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[55]
+[57]
 \openout2 = `Capitulos/DiseñoeImplementación.aux'.
 
  (Capitulos/DiseñoeImplementación.tex
@@ -1391,7 +1485,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-<./Figuras/arduino1.png, id=204, 531.85367pt x 475.376pt>
+<./Figuras/arduino1.png, id=228, 531.85367pt x 475.376pt>
 File: ./Figuras/arduino1.png Graphic file (type png)
 <use ./Figuras/arduino1.png>
 Package pdftex.def Info: ./Figuras/arduino1.png  used on input line 32.
@@ -1401,23 +1495,23 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[56
+[58
 
 
 
 
 ]
-<./Figuras/rpi3javier.png, id=208, 534.798pt x 401.76767pt>
+<./Figuras/rpi3javier.png, id=232, 534.798pt x 401.76767pt>
 File: ./Figuras/rpi3javier.png Graphic file (type png)
 <use ./Figuras/rpi3javier.png>
 Package pdftex.def Info: ./Figuras/rpi3javier.png  used on input line 41.
 (pdftex.def)             Requested size: 267.39835pt x 200.88333pt.
-<./Figuras/rpizero_diagram.png, id=209, 573.07434pt x 344.487pt>
+<./Figuras/rpizero_diagram.png, id=233, 573.07434pt x 344.487pt>
 File: ./Figuras/rpizero_diagram.png Graphic file (type png)
 <use ./Figuras/rpizero_diagram.png>
 Package pdftex.def Info: ./Figuras/rpizero_diagram.png  used on input line 50.
 (pdftex.def)             Requested size: 286.53647pt x 172.24307pt.
-<./Figuras/rpipeter.png, id=210, 283.99434pt x 265.25766pt>
+<./Figuras/rpipeter.png, id=234, 283.99434pt x 265.25766pt>
 File: ./Figuras/rpipeter.png Graphic file (type png)
 <use ./Figuras/rpipeter.png>
 Package pdftex.def Info: ./Figuras/rpipeter.png  used on input line 59.
@@ -1428,7 +1522,7 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[57 <./Figuras/arduino1.png>]
+[59 <./Figuras/arduino1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
@@ -1438,37 +1532,47 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[58 <./Figuras/rpi3javier.png> <./Figuras/rpizero_diagram.png>]
+[60 <./Figuras/rpi3javier.png> <./Figuras/rpizero_diagram.png>]
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[59 <./Figuras/rpipeter.png>]
-<./Figuras/componentes_hamaca.png, id=224, 925.4575pt x 248.93pt>
+[61 <./Figuras/rpipeter.png>]
+<./Figuras/componentes_hamaca.png, id=249, 925.4575pt x 248.93pt>
 File: ./Figuras/componentes_hamaca.png Graphic file (type png)
 <use ./Figuras/componentes_hamaca.png>
 Package pdftex.def Info: ./Figuras/componentes_hamaca.png  used on input line 8
 6.
-(pdftex.def)             Requested size: 323.91498pt x 87.1268pt.
-<./Figuras/arquitectura_hamaca.png, id=225, 1014.79124pt x 506.89375pt>
+(pdftex.def)             Requested size: 416.45203pt x 112.01746pt.
+<./Figuras/arquitectura_hamaca.png, id=250, 1014.79124pt x 506.89375pt>
 File: ./Figuras/arquitectura_hamaca.png Graphic file (type png)
 <use ./Figuras/arquitectura_hamaca.png>
 Package pdftex.def Info: ./Figuras/arquitectura_hamaca.png  used on input line 
 109.
-(pdftex.def)             Requested size: 284.1396pt x 141.92928pt.
+(pdftex.def)             Requested size: 456.65184pt x 228.10008pt.
+
+Overfull \hbox (13.07336pt too wide) in paragraph at lines 109--110
+ [][] 
+ []
 
 
-LaTeX Warning: Reference `fig:sensores_recibidos' on page 60 undefined on input
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\footskip}{14.49998pt}.
+
+[62 <./Figuras/componentes_hamaca.png>]
+
+LaTeX Warning: Reference `fig:sensores_recibidos' on page 63 undefined on input
  line 121.
 
-<./Figuras/sensores_recibidos.jpg, id=226, 1284.8pt x 963.6pt>
+<./Figuras/sensores_recibidos.jpg, id=255, 1284.8pt x 963.6pt>
 File: ./Figuras/sensores_recibidos.jpg Graphic file (type jpg)
 <use ./Figuras/sensores_recibidos.jpg>
 Package pdftex.def Info: ./Figuras/sensores_recibidos.jpg  used on input line 1
 24.
 (pdftex.def)             Requested size: 211.98285pt x 158.98714pt.
-<./Figuras/sensores.jpg, id=227, 963.6pt x 722.7pt>
+<./Figuras/sensores.jpg, id=256, 963.6pt x 722.7pt>
 File: ./Figuras/sensores.jpg Graphic file (type jpg)
 <use ./Figuras/sensores.jpg>
 Package pdftex.def Info: ./Figuras/sensores.jpg  used on input line 125.
@@ -1478,84 +1582,114 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[60 <./Figuras/componentes_hamaca.png>]
-<./Figuras/arduino_ext.jpg, id=232, 963.6pt x 722.7pt>
+[63 <./Figuras/arquitectura_hamaca.png> <./Figuras/sensores_recibidos.jpg> <./F
+iguras/sensores.jpg>]
+<./Figuras/arduino_ext.jpg, id=261, 963.6pt x 722.7pt>
 File: ./Figuras/arduino_ext.jpg Graphic file (type jpg)
 <use ./Figuras/arduino_ext.jpg>
 Package pdftex.def Info: ./Figuras/arduino_ext.jpg  used on input line 136.
 (pdftex.def)             Requested size: 216.81535pt x 162.61151pt.
-<./Figuras/sensor_agua.jpg, id=233, 722.7pt x 963.6pt>
+<./Figuras/sensor_agua.jpg, id=262, 722.7pt x 963.6pt>
 File: ./Figuras/sensor_agua.jpg Graphic file (type jpg)
 <use ./Figuras/sensor_agua.jpg>
 Package pdftex.def Info: ./Figuras/sensor_agua.jpg  used on input line 143.
 (pdftex.def)             Requested size: 79.49724pt x 105.99632pt.
-<./Figuras/pir_ext.jpg, id=234, 722.7pt x 963.6pt>
+<./Figuras/pir_ext.jpg, id=263, 722.7pt x 963.6pt>
 File: ./Figuras/pir_ext.jpg Graphic file (type jpg)
 <use ./Figuras/pir_ext.jpg>
 Package pdftex.def Info: ./Figuras/pir_ext.jpg  used on input line 144.
 (pdftex.def)             Requested size: 79.49724pt x 105.99632pt.
-<./Figuras/temp_ext.jpg, id=235, 722.7pt x 963.6pt>
+<./Figuras/temp_ext.jpg, id=264, 722.7pt x 963.6pt>
 File: ./Figuras/temp_ext.jpg Graphic file (type jpg)
 <use ./Figuras/temp_ext.jpg>
 Package pdftex.def Info: ./Figuras/temp_ext.jpg  used on input line 145.
 (pdftex.def)             Requested size: 79.49724pt x 105.99632pt.
-<./Figuras/rgb_ext.jpg, id=236, 722.7pt x 963.6pt>
+<./Figuras/rgb_ext.jpg, id=265, 722.7pt x 963.6pt>
 File: ./Figuras/rgb_ext.jpg Graphic file (type jpg)
 <use ./Figuras/rgb_ext.jpg>
 Package pdftex.def Info: ./Figuras/rgb_ext.jpg  used on input line 146.
 (pdftex.def)             Requested size: 79.49724pt x 105.99632pt.
-<./Figuras/fotorresistencia.jpg, id=237, 722.7pt x 963.6pt>
+<./Figuras/fotorresistencia.jpg, id=266, 722.7pt x 963.6pt>
 File: ./Figuras/fotorresistencia.jpg Graphic file (type jpg)
 <use ./Figuras/fotorresistencia.jpg>
 Package pdftex.def Info: ./Figuras/fotorresistencia.jpg  used on input line 147
 .
 (pdftex.def)             Requested size: 79.49724pt x 105.99632pt.
-
+ (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
 Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+65.
+(C:\Program Files\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 165.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
+66.
+
+(C:\Program Files\MiKTeX\tex/latex/base\omlcmr.fd
+File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 166.
+
+Overfull \hbox (42.87068pt too wide) in paragraph at lines 169--170
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[61 <./Figuras/arquitectura_hamaca.png> <./Figuras/sensores_recibidos.jpg> <./F
-iguras/sensores.jpg>]
-<./Figuras/rpi3javier_proto.jpg, id=243, 722.7pt x 963.6pt>
+[64 <./Figuras/arduino_ext.jpg> <./Figuras/sensor_agua.jpg> <./Figuras/pir_ext.
+jpg> <./Figuras/temp_ext.jpg> <./Figuras/rgb_ext.jpg> <./Figuras/fotorresistenc
+ia.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+<./Figuras/rpi3javier_proto.jpg, id=272, 722.7pt x 963.6pt>
 File: ./Figuras/rpi3javier_proto.jpg Graphic file (type jpg)
 <use ./Figuras/rpi3javier_proto.jpg>
-Package pdftex.def Info: ./Figuras/rpi3javier_proto.jpg  used on input line 176
+Package pdftex.def Info: ./Figuras/rpi3javier_proto.jpg  used on input line 188
 .
 (pdftex.def)             Requested size: 119.24034pt x 158.98714pt.
-<./Figuras/rpi3javier_final.jpg, id=244, 1284.8pt x 722.7pt>
+<./Figuras/rpi3javier_final.jpg, id=273, 1284.8pt x 722.7pt>
 File: ./Figuras/rpi3javier_final.jpg Graphic file (type jpg)
 <use ./Figuras/rpi3javier_final.jpg>
-Package pdftex.def Info: ./Figuras/rpi3javier_final.jpg  used on input line 177
+Package pdftex.def Info: ./Figuras/rpi3javier_final.jpg  used on input line 189
 .
 (pdftex.def)             Requested size: 282.65688pt x 158.99449pt.
 
-
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[62 <./Figuras/arduino_ext.jpg> <./Figuras/sensor_agua.jpg> <./Figuras/pir_ext.
-jpg> <./Figuras/temp_ext.jpg> <./Figuras/rgb_ext.jpg> <./Figuras/fotorresistenc
-ia.jpg>]
-<./Figuras/rpi3peter_zero_proto.jpg, id=248, 963.6pt x 542.025pt>
+[65 <./Figuras/rpi3javier_proto.jpg> <./Figuras/rpi3javier_final.jpg>]
+<./Figuras/rpi3peter_zero_proto.jpg, id=277, 963.6pt x 542.025pt>
 File: ./Figuras/rpi3peter_zero_proto.jpg Graphic file (type jpg)
 <use ./Figuras/rpi3peter_zero_proto.jpg>
 Package pdftex.def Info: ./Figuras/rpi3peter_zero_proto.jpg  used on input line
- 202.
+ 214.
 (pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
-<./Figuras/rpi3peter_zero.jpg, id=249, 1284.8pt x 722.7pt>
+<./Figuras/rpi3peter_zero.jpg, id=278, 1284.8pt x 722.7pt>
 File: ./Figuras/rpi3peter_zero.jpg Graphic file (type jpg)
 <use ./Figuras/rpi3peter_zero.jpg>
-Package pdftex.def Info: ./Figuras/rpi3peter_zero.jpg  used on input line 203.
+Package pdftex.def Info: ./Figuras/rpi3peter_zero.jpg  used on input line 215.
 (pdftex.def)             Requested size: 218.4131pt x 122.85736pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
  []
 
@@ -1564,43 +1698,23 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[63 <./Figuras/rpi3javier_proto.jpg> <./Figuras/rpi3javier_final.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+[66 <./Figuras/rpi3peter_zero_proto.jpg> <./Figuras/rpi3peter_zero.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
-
-Package fancyhdr Warning: \footskip is too small (14.22636pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\footskip}{14.49998pt}.
-
-[64 <./Figuras/rpi3peter_zero_proto.jpg> <./Figuras/rpi3peter_zero.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
-
- []
-
-<./Figuras/django_schema.jpg, id=256, 903.375pt x 419.31656pt>
+<./Figuras/django_schema.jpg, id=282, 903.375pt x 419.31656pt>
 File: ./Figuras/django_schema.jpg Graphic file (type jpg)
 <use ./Figuras/django_schema.jpg>
-Package pdftex.def Info: ./Figuras/django_schema.jpg  used on input line 235.
+Package pdftex.def Info: ./Figuras/django_schema.jpg  used on input line 247.
 (pdftex.def)             Requested size: 456.20767pt x 211.75638pt.
 
-Overfull \hbox (12.6292pt too wide) in paragraph at lines 235--236
+Overfull \hbox (12.6292pt too wide) in paragraph at lines 247--248
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--255
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
@@ -1609,54 +1723,67 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[65 <./Figuras/django_schema.jpg>]
-<./Figuras/hamaca_config.png, id=260, 1926.19624pt x 902.37125pt>
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--267
+
+ []
+
+<./Figuras/hamaca_config.png, id=287, 1926.19624pt x 902.37125pt>
 File: ./Figuras/hamaca_config.png Graphic file (type png)
 <use ./Figuras/hamaca_config.png>
-Package pdftex.def Info: ./Figuras/hamaca_config.png  used on input line 258.
-(pdftex.def)             Requested size: 385.23242pt x 180.47105pt.
+Package pdftex.def Info: ./Figuras/hamaca_config.png  used on input line 270.
+(pdftex.def)             Requested size: 433.40485pt x 203.03853pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--276
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\footskip}{14.49998pt}.
+
+[68 <./Figuras/django_schema.jpg> <./Figuras/hamaca_config.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 286--288
 
  []
 
-<./Figuras/hamaca_redes.png, id=261, 1920.17375pt x 898.35625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+
+ []
+
+<./Figuras/hamaca_redes.png, id=292, 1920.17375pt x 898.35625pt>
 File: ./Figuras/hamaca_redes.png Graphic file (type png)
 <use ./Figuras/hamaca_redes.png>
-Package pdftex.def Info: ./Figuras/hamaca_redes.png  used on input line 297.
-(pdftex.def)             Requested size: 384.02795pt x 179.66806pt.
-<./Figuras/psql_hamaca_db.png, id=262, 1120.185pt x 452.69125pt>
+Package pdftex.def Info: ./Figuras/hamaca_redes.png  used on input line 309.
+(pdftex.def)             Requested size: 432.04976pt x 202.13513pt.
+<./Figuras/psql_hamaca_db.png, id=293, 1120.185pt x 452.69125pt>
 File: ./Figuras/psql_hamaca_db.png Graphic file (type png)
 <use ./Figuras/psql_hamaca_db.png>
-Package pdftex.def Info: ./Figuras/psql_hamaca_db.png  used on input line 306.
-(pdftex.def)             Requested size: 392.07062pt x 158.4443pt.
+Package pdftex.def Info: ./Figuras/psql_hamaca_db.png  used on input line 318.
+(pdftex.def)             Requested size: 364.05582pt x 147.12291pt.
 )
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[66 <./Figuras/hamaca_config.png>]
+[69 <./Figuras/hamaca_redes.png>]
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[67 <./Figuras/hamaca_redes.png> <./Figuras/psql_hamaca_db.png>]
+[70 <./Figuras/psql_hamaca_db.png>]
 \openout2 = `Capitulos/EntornodePruebas.aux'.
 
-
-(Capitulos/EntornodePruebas.tex
+ (Capitulos/EntornodePruebas.tex
 Cap\'{\i }tulo 8.
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
@@ -1688,7 +1815,7 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[68
+[71
 
 
 
@@ -1698,12 +1825,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-<./Figuras/IA_Pedro.jpeg, id=276, 642.4pt x 481.8pt>
+<./Figuras/IA_Pedro.jpeg, id=305, 642.4pt x 481.8pt>
 File: ./Figuras/IA_Pedro.jpeg Graphic file (type jpg)
 <use ./Figuras/IA_Pedro.jpeg>
 Package pdftex.def Info: ./Figuras/IA_Pedro.jpeg  used on input line 40.
 (pdftex.def)             Requested size: 128.47772pt x 96.35829pt.
-<./Figuras/IA_Coromoto.jpeg, id=277, 642.4pt x 481.8pt>
+<./Figuras/IA_Coromoto.jpeg, id=306, 642.4pt x 481.8pt>
 File: ./Figuras/IA_Coromoto.jpeg Graphic file (type jpg)
 <use ./Figuras/IA_Coromoto.jpeg>
 Package pdftex.def Info: ./Figuras/IA_Coromoto.jpeg  used on input line 41.
@@ -1713,7 +1840,7 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[69]
+[72]
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
@@ -1722,7 +1849,7 @@ File: ./Figuras/temp_ext.jpg Graphic file (type jpg)
 <use ./Figuras/temp_ext.jpg>
 Package pdftex.def Info: ./Figuras/temp_ext.jpg  used on input line 58.
 (pdftex.def)             Requested size: 130.08038pt x 173.4405pt.
-<./Figuras/ds1820.jpg, id=281, 490.83376pt x 453.695pt>
+<./Figuras/ds1820.jpg, id=310, 490.83376pt x 453.695pt>
 File: ./Figuras/ds1820.jpg Graphic file (type jpg)
 <use ./Figuras/ds1820.jpg>
 Package pdftex.def Info: ./Figuras/ds1820.jpg  used on input line 59.
@@ -1732,8 +1859,8 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[70 <./Figuras/IA_Pedro.jpeg> <./Figuras/IA_Coromoto.jpeg>]
-<./Figuras/captura_data.png, id=285, 1927.2pt x 1084.05pt>
+[73 <./Figuras/IA_Pedro.jpeg> <./Figuras/IA_Coromoto.jpeg>]
+<./Figuras/captura_data.png, id=315, 1927.2pt x 1084.05pt>
 File: ./Figuras/captura_data.png Graphic file (type png)
 <use ./Figuras/captura_data.png>
 Package pdftex.def Info: ./Figuras/captura_data.png  used on input line 79.
@@ -1748,7 +1875,7 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[71 <./Figuras/ds1820.jpg>]
+[74 <./Figuras/ds1820.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
@@ -1763,8 +1890,8 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[72 <./Figuras/captura_data.png>]
-<./Figuras/consulta_grafana.png, id=293, 1910.13625pt x 916.42375pt>
+[75 <./Figuras/captura_data.png>]
+<./Figuras/consulta_grafana.png, id=323, 1910.13625pt x 916.42375pt>
 File: ./Figuras/consulta_grafana.png Graphic file (type png)
 <use ./Figuras/consulta_grafana.png>
 Package pdftex.def Info: ./Figuras/consulta_grafana.png  used on input line 104
@@ -1775,7 +1902,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
-<./Figuras/hamaca_grafana_panel.png, id=294, 1911.14pt x 925.4575pt>
+<./Figuras/hamaca_grafana_panel.png, id=324, 1911.14pt x 925.4575pt>
 File: ./Figuras/hamaca_grafana_panel.png Graphic file (type png)
 <use ./Figuras/hamaca_grafana_panel.png>
 Package pdftex.def Info: ./Figuras/hamaca_grafana_panel.png  used on input line
@@ -1786,12 +1913,12 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[73 <./Figuras/consulta_grafana.png>]
+[76 <./Figuras/consulta_grafana.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-<./Figuras/node_red_ui.png, id=300, 847.66687pt x 712.91344pt>
+<./Figuras/node_red_ui.png, id=329, 847.66687pt x 712.91344pt>
 File: ./Figuras/node_red_ui.png Graphic file (type png)
 <use ./Figuras/node_red_ui.png>
 Package pdftex.def Info: ./Figuras/node_red_ui.png  used on input line 128.
@@ -1801,7 +1928,7 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[74 <./Figuras/hamaca_grafana_panel.png> <./Figuras/node_red_ui.png>]
+[77 <./Figuras/hamaca_grafana_panel.png> <./Figuras/node_red_ui.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
@@ -1811,7 +1938,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-<./Figuras/hamaca_nodered.png, id=306, 1914.15125pt x 925.4575pt>
+<./Figuras/hamaca_nodered.png, id=335, 1914.15125pt x 925.4575pt>
 File: ./Figuras/hamaca_nodered.png Graphic file (type png)
 <use ./Figuras/hamaca_nodered.png>
 Package pdftex.def Info: ./Figuras/hamaca_nodered.png  used on input line 144.
@@ -1822,12 +1949,12 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[75 <./Figuras/hamaca_nodered.png>]
+[78 <./Figuras/hamaca_nodered.png>]
 \openout2 = `Capitulos/CasosdeUso.aux'.
 
  (Capitulos/CasosdeUso.tex
 Cap\'{\i }tulo 9.
-<./Figuras/caso_de_uso_mqtt.png, id=311, 644.4075pt x 468.24937pt>
+<./Figuras/caso_de_uso_mqtt.png, id=340, 644.4075pt x 468.24937pt>
 File: ./Figuras/caso_de_uso_mqtt.png Graphic file (type png)
 <use ./Figuras/caso_de_uso_mqtt.png>
 Package pdftex.def Info: ./Figuras/caso_de_uso_mqtt.png  used on input line 19.
@@ -1838,7 +1965,7 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[76
+[79
 
 
 
@@ -1848,7 +1975,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-<./Figuras/caso_de_uso.png, id=316, 770.88pt x 974.64125pt>
+<./Figuras/caso_de_uso.png, id=346, 770.88pt x 974.64125pt>
 File: ./Figuras/caso_de_uso.png Graphic file (type png)
 <use ./Figuras/caso_de_uso.png>
 Package pdftex.def Info: ./Figuras/caso_de_uso.png  used on input line 39.
@@ -1858,19 +1985,19 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[77]
+[80]
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[78 <./Figuras/caso_de_uso.png>])
+[81 <./Figuras/caso_de_uso.png>])
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[79]
+[82]
 \openout2 = `Capitulos/ResultadosLimitacionesyTrabajosFuturos.aux'.
 
  (Capitulos/ResultadosLimitacionesyTrabajosFuturos.tex
@@ -1905,7 +2032,7 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[80
+[83
 
 
 
@@ -1935,7 +2062,7 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[81]
+[84]
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
@@ -1960,7 +2087,7 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[82]
+[85]
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
@@ -1971,7 +2098,7 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[83]
+[86]
 \openout2 = `Capitulos/Conclusiones.aux'.
 
  (Capitulos/Conclusiones.tex
@@ -1997,7 +2124,7 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[84
+[87
 
 
 
@@ -2033,7 +2160,7 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[85
+[88
 
 
 
@@ -2078,7 +2205,7 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[86]
+[89]
 Underfull \hbox (badness 10000) in paragraph at lines 182--188
 []\OT1/cmr/m/n/12 RS Com-po-nents.  11 in-ter-net of things (iot) pro-to-cols y
 ou
@@ -2143,13 +2270,13 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[87])
+[90])
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[88] (main.aux (Capitulos/Portada.aux)
+[91] (main.aux (Capitulos/Portada.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  (Capitulos/Agradecimientos.aux)
@@ -2171,22 +2298,24 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7098 strings out of 475248
- 135682 string characters out of 5767628
- 1935801 words of memory out of 5000000
- 28441 multiletter control sequences out of 15000+600000
+ 9011 strings out of 475248
+ 162062 string characters out of 5767628
+ 1937801 words of memory out of 5000000
+ 30336 multiletter control sequences out of 15000+600000
  564685 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,13n,79p,1212b,714s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,13n,79p,1212b,1448s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\peter\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
-es/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (88 pages, 11648000 bytes).
+es/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.p
+fb>
+Output written on main.pdf (91 pages, 12142734 bytes).
 PDF statistics:
- 387 PDF objects out of 1000 (max. 8388607)
+ 426 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 281 words of extra memory for PDF output out of 10000 (max. 10000000)
 

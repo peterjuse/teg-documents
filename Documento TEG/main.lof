@@ -18,34 +18,43 @@
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Raspberry Pi 4 modelo B}}{45}{}%
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Raspberry Pi 4 modelo B}}{46}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Logo de Python}}{52}{}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Etapas de desarrollo de la metodología Scrum}}{49}{}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Ramas de desarrollo usando la metodología Git-flow}}{51}{}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Logo de Python}}{53}{}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Logo de Django}}{53}{}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Logo de PostgreSQL}}{54}{}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Logo de InfluxDB}}{54}{}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Logo de Eclipse Mosquitto}}{55}{}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Logo de Grafana}}{55}{}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Logo de NodeRed}}{55}{}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Logo de Docker}}{56}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Prototipo de dispositivo exterior usando Arduino Uno}}{57}{}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Prototipo de dispositivo interior usando un Raspbery Pi 3 modelo B}}{58}{}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Prototipo de dispositivo de seguridad usando un Raspbery Zero}}{58}{}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Prototipo de dispositivo de cámara de inteligente usando un Raspbery Pi 3 modelo B}}{59}{}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Componentes sugeridos para la herramienta de visualización, monitoreo y control HAMACA}}{60}{}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Arquitectura de la solución propuesta}}{61}{}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Elementos para prototipado de dispositivos}}{61}{}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Arduino Uno conectado a sensores y al iBook G4}}{62}{}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Sensores y actuadores en el exterior}}{62}{}%
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Sensor IoT en el interior del hogar antes y despues de su validación}}{63}{}%
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Sensor IoT en el interior del hogar antes y después de su validación}}{64}{}%
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Modelo autogenerado por el framework Django}}{65}{}%
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Interfaz de configuración de la aplicación}}{66}{}%
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Interfaz de la aplicación para la configuración y visualización de métricas de red}}{67}{}%
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Modelo de la base de datos HAMACA}}{67}{}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Prototipo de dispositivo exterior usando Arduino Uno}}{59}{}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Prototipo de dispositivo interior usando un Raspbery Pi 3 modelo B}}{60}{}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Prototipo de dispositivo de seguridad usando un Raspbery Zero}}{60}{}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Prototipo de dispositivo de cámara de inteligente usando un Raspbery Pi 3 modelo B}}{61}{}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Componentes sugeridos para la herramienta de visualización, monitoreo y control HAMACA}}{62}{}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Arquitectura de la solución propuesta}}{63}{}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Elementos para prototipado de dispositivos}}{63}{}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Arduino Uno conectado a sensores y al iBook G4}}{64}{}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Sensores y actuadores en el exterior}}{64}{}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Sensor IoT en el interior del hogar antes y despues de su validación}}{65}{}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Sensor IoT en el interior del hogar antes y después de su validación}}{66}{}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Modelo autogenerado por el framework Django}}{68}{}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Interfaz de configuración de la aplicación}}{68}{}%
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Interfaz de la aplicación para la configuración y visualización de métricas de red}}{69}{}%
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Modelo de la base de datos HAMACA}}{70}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Identificación de rostros usando un modelo de IA desplegado en un Raspberry Pi 3 modelo B}}{70}{}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces A la izquierda el sensor de temperatura y humedad DHT11 y a la derecha el sensor de temperatura DS1820}}{71}{}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Captura de datos por parte del backend de la aplicación web}}{72}{}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Estadísticas de mensajería del broker MQTT}}{72}{}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Consulta para construcción de gráficos usando la integración de Grafana}}{73}{}%
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Cuadro de Mando con indicadores de la integración con Grafana}}{74}{}%
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Cuadro de Mando con indicadores e interfaces de control de dispositivos}}{74}{}%
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Flujos creados dentro de la integración de Node-Red para automatizar tareas}}{75}{}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Identificación de rostros usando un modelo de IA desplegado en un Raspberry Pi 3 modelo B}}{73}{}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces A la izquierda el sensor de temperatura y humedad DHT11 y a la derecha el sensor de temperatura DS1820}}{74}{}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Captura de datos por parte del backend de la aplicación web}}{75}{}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Estadísticas de mensajería del broker MQTT}}{75}{}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Consulta para construcción de gráficos usando la integración de Grafana}}{76}{}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Cuadro de Mando con indicadores de la integración con Grafana}}{77}{}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Cuadro de Mando con indicadores e interfaces de control de dispositivos}}{77}{}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Flujos creados dentro de la integración de Node-Red para automatizar tareas}}{78}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Diagrama de caso de uso para la comunicación vía MQTT}}{76}{}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Diagrama de caso de uso para la aplicación web HAMACA}}{78}{}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Diagrama de caso de uso para la comunicación vía MQTT}}{79}{}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Diagrama de caso de uso para la aplicación web HAMACA}}{81}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

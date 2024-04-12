@@ -83,7 +83,7 @@ Con estos componentes definidos y después de discutir sobre la mejor manera de 
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[scale=0.35]{./Figuras/componentes_hamaca.png}
+\includegraphics[scale=0.45]{./Figuras/componentes_hamaca.png}
 \caption{Componentes sugeridos para la herramienta de visualización, monitoreo y control HAMACA}
 \label{fig:componentes_hamaca}
 \vspace*{-10pt}
@@ -106,7 +106,7 @@ Con estos componentes definidos y después de discutir sobre la mejor manera de 
 De esta forma se presenta el diseño de la arquitectura de la solución para el problema de investigación como se puede notar en la figura \ref{fig:arquitectura_hamaca}
 \begin{figure}[!htb]
 \centering
-\includegraphics[scale=0.28]{./Figuras/arquitectura_hamaca.png}
+\includegraphics[scale=0.45]{./Figuras/arquitectura_hamaca.png}
 \caption{Arquitectura de la solución propuesta}
 \label{fig:arquitectura_hamaca}
 \vspace*{-10pt}
@@ -150,7 +150,7 @@ Una vez organizados, se construyó uno a uno cada prototipo de dispositivo, come
 \vspace*{-10pt}
 \end{figure}
 
-\item Un segundo script en el lenguaje de programación Python con la capacidad de leer los datos seriales provenientes del Arduino Uno y con la capacidad de enviarlos a través del protocolo MQTT al broker %(véase figura \ref{fig:ibook_data}).
+\item Un segundo script en el lenguaje de programación Python con la capacidad de leer los datos seriales provenientes del Arduino Uno y con la capacidad de enviarlos a través del protocolo MQTT al broker. %(véase figura \ref{fig:ibook_data}).
 %\begin{figure}[htb]
 %\centering
 %\includegraphics[scale=0.3]{./Figuras/ibook_data.jpg}
@@ -158,8 +158,20 @@ Una vez organizados, se construyó uno a uno cada prototipo de dispositivo, come
 %\label{fig:ibook_data}
 %\vspace*{-10pt}
 %\end{figure}
-
 \end{itemize}
+
+Para tener estandarizada la comunicación de los dispositivos, se decidió que el mensaje a enviar debe tener el siguiente formato:\\ 
+\begin{lstlisting}[language=Python]
+{
+    ''value'': <''Valor de la medicion''>,
+    ''sensor'': <''Nombre del sensor''>,
+    ''host_device'': <''Nombre del dispositivo''>,
+    ''measurement_type'': <''Nombre del tipo de lectura realizada''>,
+    ''location'': <''Ubicacion''>,
+    ''date'':<''Fecha en formato YYYY-MM-DDTHH:MM:SS:FZ''>
+}
+\end{lstlisting}
+
 Finalmente el dispositivo y el computador fueron colocados geográficamente en el balcón del apartamento para simular con la mayor precisión posible un ambiente exterior propiamente dicho.\\
 
 El siguiente paso de manera similar consistió en construir el prototipo funcional del dispositivo IoT para ser interior del hogar. El dispositivo elegido para esta tarea fue uno de los dos Raspberry Pi 3 modelo B disponibles, así como la lista de sensores asociados para completar la tarea. De esta forma se ejecutaron las siguientes labores:
@@ -255,7 +267,7 @@ junto con las de configuraciones (figura \ref{fig:hamaca_config}), el cual conti
 
 \begin{figure}[htb]
 \centering
-\includegraphics[scale=0.2]{./Figuras/hamaca_config.png}
+\includegraphics[scale=0.225]{./Figuras/hamaca_config.png}
 \caption{Interfaz de configuración de la aplicación}
 \label{fig:hamaca_config}
 \vspace*{-10pt}
@@ -294,7 +306,7 @@ El home de la aplicación particularmente se convierte en un punto donde se mues
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[scale=0.2]{./Figuras/hamaca_redes.png}
+\includegraphics[scale=0.225]{./Figuras/hamaca_redes.png}
 \caption{Interfaz de la aplicación para la configuración y visualización de métricas de red}
 \label{fig:hamaca_redes}
 \vspace*{-10pt}
@@ -303,7 +315,7 @@ El home de la aplicación particularmente se convierte en un punto donde se mues
 Luego del desarrollo de cada modulo y aunque no todos los módulos interactuan con la base de datos se realizó nuevamente el proceso de migración, de forma que la base de datos se adaptara a los requerimientos nuevos de los módulos existentes. Así la base de datos se le agregaron dos nuevas tablas como se pueden observar en la figura \ref{fig:psql_hamaca_db}
 \begin{figure}[!htb]
 \centering
-\includegraphics[scale=0.35]{./Figuras/psql_hamaca_db.png}
+\includegraphics[scale=0.325]{./Figuras/psql_hamaca_db.png}
 \caption{Modelo de la base de datos HAMACA}
 \label{fig:psql_hamaca_db}
 \vspace*{-10pt}

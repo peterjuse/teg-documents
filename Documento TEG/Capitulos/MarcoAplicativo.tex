@@ -11,66 +11,79 @@
 
 \section{Scrum}
 \lhead[\thepage]{\thesection. Scrum}
-Scrum es una metodología ágil y flexible para gestionar el desarrollo de software. Se basa en construir primero la funcionalidad de mayor valor para el cliente y en los principios de inspección continua, adaptación, auto-gestión e innovación\cite{scrumsofteng}.En Scrum se aplican de manera regular un conjunto de buenas prácticas para trabajar colaborativamente y obtener el mejor resultado posible de un proyecto.\\
+Scrum es una metodología ágil y flexible para gestionar el desarrollo de software. Se basa en construir primero la funcionalidad de mayor valor para el cliente y en los principios de inspección continua, adaptación, auto-gestión e innovación\cite{scrumsofteng}. En Scrum se aplican de manera regular un conjunto de buenas prácticas para trabajar colaborativamente y obtener el mejor resultado posible de un proyecto.\\
 
-Es parte de la filosofía de Scrum el poder realizar entregas parciales y regulares del producto final, priorizadas por el beneficio que aportan al receptor del proyecto. Por ello, Scrum está especialmente indicado para proyectos en entornos complejos, donde se necesita obtener resultados rápidamente, con requisitos son cambiantes o poco definidos, donde la innovación, la competitividad, la flexibilidad y la productividad son fundamentales.\\
+Es parte de la filosofía de Scrum el poder realizar entregas parciales y regulares del producto final, priorizadas por el beneficio que aportan al receptor del proyecto. Por ello, Scrum está especialmente indicado para proyectos en entornos complejos, donde se necesita obtener resultados rápidamente, con requisitos cambiantes o poco definidos, donde la innovación, la competitividad, la flexibilidad y la productividad son fundamentales.\\
 
-En Scrum un proyecto se ejecuta en bloques temporales cortos y fijos (iteraciones que normalmente son de 2 semanas, aunque en algunos equipos son de 3 y hasta 4 semanas, límite máximo de feedback y reflexión). Cada iteración tiene que proporcionar un resultado completo, un incremento de producto final que sea susceptible de ser entregado con el mínimo esfuerzo al cliente cuando lo solicite. El proceso parte de la lista de objetivos/requisitos priorizada del producto, que actúa como plan del proyecto. En esta lista el cliente prioriza los objetivos balanceando el valor que le aportan respecto a su coste y quedan repartidos en iteraciones y entregas.\\  
+En Scrum un proyecto se ejecuta en bloques temporales cortos y fijos (iteraciones) que normalmente son de 2 semanas, aunque en algunos equipos son de 3 y hasta 4 semanas, límite recomendado para proveer de un buen feedback y reflexión sobre lo realizado. Cada iteración tiene que proporcionar un resultado completo, un incremento de producto final que sea susceptible de ser entregado con el mínimo esfuerzo al cliente cuando lo solicite. El proceso parte de la lista de objetivos/requisitos priorizada del producto, que actúa como plan del proyecto. En esta lista el cliente prioriza los objetivos balanceando el valor que le aportan respecto a su coste y quedan repartidos en iteraciones y entregas.\\  
 
 La actividades que se llevan a cabo bajo la metodología de Scrum son las siguientes:
 
 \begin{enumerate}
-\item Planificación de la iteración: En el primer día de cada iteración, el equipo realza una reunión de planificación de la iteración. Esta etapa consiste en una primera fase de selección de requisitos, en la cual el cliente presenta al equipo la lista de requisitos priorizada del proyecto y se responden a las dudas que surgen sobre el dominio de las tareas a realizar y una segunda fase de planificación de la iteración, donde el equipo elabora la listas de tareas necesarias para desarrollar lo que se es requerido para la iteración, ademas de la estimación de esfuerzos por parte de los miembros del equipo.
-\item Ejecución de la iteración: Cada día se realiza una reunión con todo el equipo de 15 minutos como máximo para inspeccionar el avance en la realización de las tareas, dependencias u actividades bloqueantes ye insumos pendientes para su culminación. Durante la iteración el Scrum Master (facilitador) se encarga de que el equipo pueda articularse y cumplir los compromisos adquiridos por el equipo.
+\item Planificación de la iteración: En el primer día de cada sprint, el equipo hace reunión de planificación de la iteración. Esta etapa consiste en una primera fase de selección de requisitos, en la cual el cliente presenta al equipo la lista de requisitos priorizada del proyecto y se responden a las dudas que surgen sobre el dominio de las tareas a realizar y una segunda fase de planificación de la iteración, donde el equipo elabora la listas de tareas necesarias para desarrollar lo que se es requerido para la iteración, ademas de la estimación de esfuerzos por parte de los miembros del equipo.
+\item Ejecución de la iteración: Cada día se realiza una reunión con todo el equipo, cuya duración es de 15 minutos como máximo para inspeccionar el avance en la realización de las tareas, dependencias u actividades bloqueantes y/o insumos pendientes para su culminación. Durante la iteración el Scrum Master (facilitador) se encarga de que el equipo pueda articularse y cumplir los compromisos adquiridos por el equipo.
 \item Inspección y adaptación: El ultimo día de la iteración se realiza la reunión de revisión de la iteración. Esta se conforma de dos partes, la demostración en donde el equipo presenta al cliente el/los entregable(s) con los requisitos mínimos acordados y la retrospectiva en la que el equipo analiza si su manera de trabajar ha sido la adecuada, los problemas que han surgido, su solución, de forma que se pueda mejorar de manera continua la productividad.
 \end{enumerate}
 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/scrum_process.png}
+\caption{\label{fig:scrum-process}Etapas de desarrollo de la metodología Scrum}
+\vspace*{-10pt}
+\end{figure}
+
 \section{Control de Versiones de Software}
 \lhead[\thepage]{\thesection. Control de Versiones de Software}
-Un software de control de versiones es un aquel que permite registrar y gestionar cambios a nivel del código fuente de manera histórica permitiendo retornar a versiones anteriores o comprar diferencias entre ellas.
+Un software de control de versiones es un aquel que permite registrar y gestionar cambios a nivel del código fuente de manera histórica permitiendo retornar a versiones anteriores o comprar diferencias entre ellas.\\
 
 Esto permite tener:
 \begin{itemize}
-\item Flujos de trabajo organizados: A través del uso de versiones se pueden crear nuevos elementos siguiendo metodologías de desarrollo.
+\item Flujos de trabajo organizados: A través del uso de versiones se pueden crear o modificar características siguiendo metodologías de desarrollo sin que esto suponga inconvenientes para el proyecto.
 \item Descripción de versiones: Cada versión viene acompañada de una descripción que permite reconocer el cambio realizado en el proyecto.
-\item Colaboración: Permite que las personas puedan trabajar de manera independiente en el mismo proyecto sin temor de interferir en el trabajo de otros desarrolladores.
+\item Colaboración: Permite que las personas puedan trabajar de manera independiente en el mismo proyecto sin temor de interferir en el trabajo de otros colaboradores.
 \item Historial de cambios: Se tiene una lista completa de los cambios realizados a través del tiempo en el proyecto permitiendo en cualquier momento volver a versiones previas.
 \end{itemize}
 
 \subsection{Git}
-Git es un sistema de control de versiones moderno, distribuido y seguro que fue desarrollado originalmente por Linus Torvalds en el año 2005. 
-
-Entre sus características principales se destacan:
+Git es un sistema de control de versiones moderno, distribuido y seguro que fue desarrollado originalmente por Linus Torvalds en el año 2005. Entre sus características principales se destacan:
 \begin{itemize}
 \item Arquitectura distribuida: Cada copia del proyecto se sincroniza con el resto de manera distribuida.
 \item Flexibilidad: Permite adaptar la manera en que se hacen los cambios según la metodología de desarrollo que sigue el proyecto. 
-\item Seguridad: Permite identificar quien o quienes realizan cambios sobre el proyecto. Ademas admite la posibilidad de poder administrar quienes tienen acceso de lectura y escritura sobre los proyectos.
+\item Seguridad: Permite gestionar el tipo de control que tienen los colaboradores sobre los proyectos. Ademas da la posibilidad de identificar quien o quienes realizan cambios sobre el proyecto.
 \item Rendimiento: Solo los cambios realizados son sincronizados a través de las copias del proyecto por lo que es eficiente en el envío y recepción de los datos en la red. 
 \end{itemize}
 
 \subsubsection{Git-Flow}
-Git Flow es una metodología para usar Git en la que se combina ramas de función y ramas principales. Fue popularizado por Vincent Driessen en 2010. Los aspectos clave del modelo Git Flow son:
+Git Flow es una metodología para usar Git en la que se combina la capacidad de git de trabajar versiones a traves de ramas. Estas, se separan entre ramas de función y ramas principales. Fue popularizado por Vincent Driessen en 2010. Los aspectos clave del modelo Git Flow son:
 \begin{itemize}
 \item Ramas principales y de desarrollo: En lugar de tener una única rama principal, Git Flow utiliza dos ramas principales:
 \begin{enumerate}
-\item Main (o Master): Almacena el historial oficial de publicación.
-\item Develop: Sirve como rama de integración para las funciones.
+\item Main (o Master): Es la rama con el proyecto en su estado de producción. Almacena el historial oficial del proyecto hasta la actualidad.
+\item Develop: Sirve como rama de integración para las funciones que se van desarrollando. También es utilizado para realizar pruebas y comprobar que los requerimientos nuevos y antiguos funcionen adecuadamente.
 \end{enumerate}
-\item Ramas de función: Los desarrolladores crean ramas de función para trabajar en características específicas. Estas ramas se fusionan con develop cuando la función está completa.
+\item Ramas de función: Los desarrolladores crean ramas de función para trabajar en características específicas. Estas ramas se fusionan con la rama develop cuando la función está completa.
 \item Ramas de publicación y corrección de errores:
 \begin{enumerate}
 \item Release Branches: Se crean a partir de develop para preparar una nueva versión. Aquí se realizan pruebas finales y se corrigen errores antes de la publicación.
 \item Hotfix Branches: Se utilizan para corregir errores críticos en la versión actual de producción. Se crean a partir de main y se fusionan tanto con main como con develop.
-\item Versionado y etiquetado: Git Flow simplifica la gestión de versiones al asignar números de versión a las confirmaciones en main y etiquetarlas.
 \end{enumerate}
+\item Versionado y etiquetado: Git Flow simplifica la gestión de versiones al asignar números de versión a las confirmaciones en main y etiquetarlas.
 \end{itemize}
+
+\begin{figure}[ht]
+\vspace*{-20pt}
+\centering
+\includegraphics[width=0.8\textwidth]{Figuras/gitflow.png}
+\caption{\label{fig:gitflow}Ramas de desarrollo usando la metodología Git-flow}
+\vspace*{-10pt}
+\end{figure}
 
 \section{Herramientas de Desarrollo}
 \lhead[\thepage]{\thesection. Herramientas de Desarrollo}
 A continuación se detalla aquellas herramientas de hardware y de software utiizados durante el desarrollo de este trabajo de investigación.
 
 \subsection{Herramientas de Hardware}
-Dado el enfoque de tener un grupo de dispositivos IoT que pudiesen obtener data real del entorno en donde fuesen desplegados, se obtuvo un conjunto de placas programables, microcomputadores y microcontroladores, así como también de sensores y actuadores para poder crear prototipos funcionales. Se contó con cuatro placas programables de distinta índole:
+Dado el enfoque de tener agrupados dispositivos IoT que pudiesen obtener data real del entorno distintos en donde fuesen desplegados, se procedió a obtener un conjunto de placas programables así como también de sensores y actuadores para poder crear prototipos funcionales. Se contó con cuatro placas programables de distinta índole:
 \begin{itemize}
 \item Dos Raspberry Pi modelos 3 B.
 \item Un Raspberry Pi Zero.
@@ -120,7 +133,9 @@ A continuación se detalla aquellas herramientas de hardware y de software utiiz
 \subsection{Python}
 Python es un lenguaje de programación de alto nivel, multiplaforma,  débilmente tipado de propósito general, multiparadigma e interpretado\cite{whatspython}, creado por Guido Van Rossum. Su filosofía se basa en el poder crear código que sea muy legible, con una sintaxis simple, utilizando indentaciones para delimitar bloques de código, mas corto y potente que en otros lenguajes de programación.\cite{Guido}\\
 
-Se dice que Python es un lenguaje que viene con "pilas puestas"\cite{pep206}, es decir, que de por si, posee un conjunto de funciones amplio para afrontar cualquier tipo de situación dentro de las librería estándar del lenguaje y destaca en su facilidad para aprender y alta portabilidad y es usado en un una gran cantidad de aplicaciones, que van desde el área web, pasando por la ciencia de datos, la inteligencia artificial y la programación de dispositivos.  
+Se dice que Python es un lenguaje que viene con "pilas puestas"\cite{pep206}, es decir, que de por si, posee un conjunto de funciones amplio para afrontar cualquier tipo de situación dentro de las librería estándar del lenguaje y destaca en su facilidad para aprender y alta portabilidad y es usado en un una gran cantidad de aplicaciones, que van desde el área web, pasando por la ciencia de datos, la inteligencia artificial y la programación de dispositivos. 
+
+La escogencia sobre este lenguaje de programación para el desarrollo recae en la facilidad del mismo, sin que esto afecte el rendimiento o legibilidad al momento de realizar el código. Su característica multiproposito y la portabilidad lo hace especialmente útil debido a que muchos de los sensores y actuadores poseen drivers nativos sobre este lenguaje. De cara al desarrollo web, Python también es uno de los lenguajes de programación mas utilizados dadas la estabilidad y potencia de las diversas librerias y frameworks de desarrollos existentes.
 
 \begin{figure}[ht]
 \centering
@@ -130,36 +145,86 @@ Se dice que Python es un lenguaje que viene con "pilas puestas"\cite{pep206}, es
 \end{figure}
 
 \subsection{Django}
-Django es un framework web de alto nivel que permite el desarrollo rápido de sitios web seguros y mantenibles. Desarrollado por programadores experimentados, Django se encarga de gran parte de las complicaciones del desarrollo web, por lo que puedes concentrarte en escribir tu aplicación sin necesidad de reinventar la rueda. Es gratuito y de código abierto
+Django es un framework web de alto nivel que permite el desarrollo rápido de sitios web seguros y mantenibles. Desarrollado por programadores experimentados, Django se encarga de gran parte de las complicaciones del desarrollo web, por lo que puedes concentrarte en escribir tu aplicación sin necesidad de reinventar la rueda. Es gratuito y de código abierto por lo que es fácil de construir y modificar elementos sobre el. Fue escogido por el poco esfuerzo requerido para poder tener un ambiente web completo, la gran cantidad de plugins y por la experiencia del desarrollado con el mismo.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.25\textwidth]{Figuras/django.png}
+\caption{\label{fig:django-logo}Logo de Django}
+\vspace*{-10pt}
+\end{figure} 
 
 \subsection{Bases de datos}
 Para el desarrollo de la aplicación web se desplegaron dos bases de datos para poder aprovechar las caracteristicas de los datos y flujos involucrados:
 \begin{itemize}
-\item Una base de datos Postgresql para la gestión de los datos y elementos de la aplicación web en si misma.
-\item Una base de datos InfluxDB para almacenamiento de la información registrada por la operación de los sensores y actuadores de los dispositvos IoT.
+\item Una base de datos Postgresql para la gestión de los datos y elementos de la aplicación web en si misma. Su robustez y madurez, sumado a la facilidad de despliegue y utilización fueron las razones de su escogencia.
+\item Una base de datos InfluxDB para almacenamiento de la información registrada por la operación de los sensores y actuadores de los dispositvos IoT. Esta base de datos fue seleccionada por su el rol de los datos de sensores estrechamente relacionados con el tiempo de su registro, así como su facilidad de consulta.
 \end{itemize}
 
 \subsubsection{Postgresql}
-Es un sistema de gestión de bases de datos relacional orientado a objetos y de código abierto. Sus principales caracteristicas son:
+Es un sistema de gestión de bases de datos relacional orientado a objeto que utiliza el lenguaje estándar de consulta (SQL por sus siglas en ingles) y de código abierto. Sus principales características son:
 \begin{itemize}
 \item Alta concurrencia.
 \item Amplia cantidad de tipos nativos.
 \end{itemize}
 
+\begin{figure}[ht]
+\vspace*{-15pt}
+\centering
+\includegraphics[width=0.25\textwidth]{Figuras/postgresql_logo.png}
+\caption{\label{fig:postgresql-logo}Logo de PostgreSQL}
+\vspace*{-10pt}
+\end{figure}
+
 \subsubsection{InfluxDB}
 Es una base de datos de series temporales de código abierto desarrollada por InfluxData, utilizada para almacenar y recuperar datos de series temporales en áreas como monitoreo de operaciones, métricas de aplicaciones, datos de sensores de Internet de las Cosas y análisis en tiempo real. Está escrita en el lenguaje de programación Rust.
 
+\begin{figure}[ht]
+\vspace*{-15pt}
+\centering
+\includegraphics[width=0.45\textwidth]{Figuras/Influxdb_logo.png}
+\caption{\label{fig:influxdb-logo}Logo de InfluxDB}
+\vspace*{-15pt}
+\end{figure}
+
 \subsection{Eclipse Mosquitto}
-Eclipse Mosquitto es un broker de mensajes de código abierto que implementa las versiones 5.0, 3.1.1 y 3.1 del protocolo MQTT. Es ligero y adecuado para todos los dispositivos, desde computadoras de placa única de baja potencia hasta servidores completos. Esta escrito en el lenguaje de programación C.
+Eclipse Mosquitto es un broker de mensajes de código abierto que implementa las versiones 5.0, 3.1.1 y 3.1 del protocolo MQTT. Al ser asíncrono y ligero ademas de poder ser usado en toda clase dispositivos, desde computadoras de placa única de baja potencia hasta servidores completos lo hacen especialmente útil para enviar información de dispositivos IoT, por lo que fue elegido como la mejor alternativa para el desarrollo de este proyecto. Esta escrito en el lenguaje de programación C pero posee librerías para interactuar con gran variedad de lenguajes de programación. 
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.35\textwidth]{Figuras/mosquitto_logo.png}
+\caption{\label{fig:mosquitto-logo}Logo de Eclipse Mosquitto}
+\vspace*{-10pt}
+\end{figure}
 
 \subsection{Grafana}
-Grafana es una plataforma de visualización de código abierto que permite generar métricas, registros y trazas de datos de otras aplicaciones a través del uso de graficos y tablas organizados en dashboards. Permite consultar, visualizar, configurar alertas y comprender tus métricas, sin importar dónde se almacenen. 
+Grafana es una plataforma de visualización de código abierto que permite generar métricas, registros y trazas de datos de otras aplicaciones a través del uso de graficos y tablas organizados en dashboards. Permite consultar, visualizar, configurar alertas y comprender tus métricas, sin importar dónde se almacenen. Su versatilidad, facilidad de uso y solidez lo convirtieron en la opción de facto para la integración de visualización de datos en el desarrollo del trabajo de investigación.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.2\textwidth]{Figuras/Grafana_logo.png}
+\caption{\label{fig:grafana-logo}Logo de Grafana}
+\vspace*{-10pt}
+\end{figure}
 
 \subsection{Node-Red}
-Node-RED es una herramienta de programación que te permite conectar, integrar y automatizar dispositivos de hardware, APIs y servicios en línea. Su editor basado en paneles dentro del navegador facilita la creación de flujos mediante una amplia variedad de nodos, que luego se pueden implementar en su entorno de ejecución al mismo tiempo de manera sencilla.
+Node-RED es una herramienta de programación que te permite conectar, integrar y automatizar dispositivos de hardware, APIs y servicios en línea. Su editor basado en paneles dentro del navegador facilita la creación de flujos mediante una amplia variedad de nodos, que luego se pueden implementar en su entorno de ejecución al mismo tiempo de manera sencilla. Se escogió como la integración de control y automatización de tareas por su amplio catalogo de instrucciones y plugins disponibles. 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.2\textwidth]{Figuras/node_red_logo.png}
+\caption{\label{fig:node-red-logo}Logo de NodeRed}
+\vspace*{-10pt}
+\end{figure}
 
 \subsection{Docker}
 Docker es una plataforma de código abierto que simplifica y automatiza el proceso de construir, desplegar y gestionar contenedores. Los contenedores son componentes estandarizados y ejecutables que combinan el código de la aplicación con las dependencias del sistema operativo.
+\begin{figure}[ht]
+\vspace*{-20pt}
+\centering
+\includegraphics[width=0.25\textwidth]{Figuras/Docker-Logo.png}
+\caption{\label{fig:docker-logo}Logo de Docker}
+\vspace*{-10pt}
+\end{figure}
 
 \section{Adaptación del Marco Metodológico}
 Para llevar a cabo la investigación propuesta, se decidió adaptar la metodología de forma que está favoreciera el desarrollo de los diversos elementos que se requerían. De esta manera se acordó hacer uso de lo siguiente:

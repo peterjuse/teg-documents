@@ -58,47 +58,47 @@
 \contentsline {chapter}{\numberline {6}Metodología General de Trabajo}{48}{}%
 \contentsline {section}{\numberline {6.1}Scrum}{48}{}%
 \contentsline {section}{\numberline {6.2}Control de Versiones de Software}{49}{}%
-\contentsline {subsection}{\numberline {6.2.1}Git}{49}{}%
+\contentsline {subsection}{\numberline {6.2.1}Git}{50}{}%
 \contentsline {subsubsection}{\numberline {6.2.1.1}Git-Flow}{50}{}%
-\contentsline {section}{\numberline {6.3}Herramientas de Desarrollo}{50}{}%
-\contentsline {subsection}{\numberline {6.3.1}Herramientas de Hardware}{50}{}%
+\contentsline {section}{\numberline {6.3}Herramientas de Desarrollo}{51}{}%
+\contentsline {subsection}{\numberline {6.3.1}Herramientas de Hardware}{51}{}%
 \contentsline {section}{\numberline {6.4}Herramientas de Desarrollo}{52}{}%
-\contentsline {subsection}{\numberline {6.4.1}Python}{52}{}%
-\contentsline {subsection}{\numberline {6.4.2}Django}{52}{}%
-\contentsline {subsection}{\numberline {6.4.3}Bases de datos}{52}{}%
-\contentsline {subsubsection}{\numberline {6.4.3.1}Postgresql}{53}{}%
-\contentsline {subsubsection}{\numberline {6.4.3.2}InfluxDB}{53}{}%
-\contentsline {subsection}{\numberline {6.4.4}Eclipse Mosquitto}{53}{}%
-\contentsline {subsection}{\numberline {6.4.5}Grafana}{53}{}%
-\contentsline {subsection}{\numberline {6.4.6}Node-Red}{53}{}%
-\contentsline {subsection}{\numberline {6.4.7}Docker}{53}{}%
-\contentsline {section}{\numberline {6.5}Adaptación del Marco Metodológico}{54}{}%
-\contentsline {chapter}{\numberline {7}Diseño e Implementación}{56}{}%
-\contentsline {section}{\numberline {7.1}Diseño}{56}{}%
-\contentsline {subsection}{\numberline {7.1.1}Software de Visualización, Monitoreo y Control}{58}{}%
-\contentsline {section}{\numberline {7.2}Implementación de la solución}{60}{}%
-\contentsline {subsection}{\numberline {7.2.1}Implementación de los prototipos de dispositivos IoT}{61}{}%
-\contentsline {subsection}{\numberline {7.2.2}Implementación de la Aplicación Web HAMACA}{63}{}%
-\contentsline {subsubsection}{\numberline {7.2.2.1}Infraestructura}{64}{}%
-\contentsline {subsubsection}{\numberline {7.2.2.2}Configuración de Entorno}{64}{}%
-\contentsline {subsubsection}{\numberline {7.2.2.3}Desarrollo de la Aplicación Web HAMACA}{65}{}%
-\contentsline {chapter}{\numberline {8} Entorno de Pruebas}{68}{}%
-\contentsline {section}{\numberline {8.1}Escenarios de pruebas}{68}{}%
-\contentsline {subsection}{\numberline {8.1.1}Prototipos de Dispositivos IoT}{68}{}%
-\contentsline {subsubsection}{\numberline {8.1.1.1}Variedad en los Dispositivos}{69}{}%
-\contentsline {subsubsection}{\numberline {8.1.1.2}Variedad en los sensores}{70}{}%
-\contentsline {subsection}{\numberline {8.1.2}Aplicación HAMACA}{71}{}%
-\contentsline {subsubsection}{\numberline {8.1.2.1}Captura de Información}{71}{}%
-\contentsline {subsubsection}{\numberline {8.1.2.2}Visualización de datos}{72}{}%
-\contentsline {subsubsection}{\numberline {8.1.2.3}Monitoreo de Dispositivos}{73}{}%
-\contentsline {subsubsection}{\numberline {8.1.2.4}Control de Dispositivos}{75}{}%
-\contentsline {chapter}{\numberline {9}Casos de Uso}{76}{}%
-\contentsline {section}{\numberline {9.1}Infraestructura de Comunicación}{76}{}%
-\contentsline {section}{\numberline {9.2}Aplicación Web}{77}{}%
-\contentsline {chapter}{\numberline {10}Resultados, Limitaciones y Trabajos Futuros}{80}{}%
-\contentsline {section}{\numberline {10.1}Resultados}{80}{}%
-\contentsline {section}{\numberline {10.2}Limitaciones}{82}{}%
-\contentsline {section}{\numberline {10.3}Contribuciones}{82}{}%
-\contentsline {section}{\numberline {10.4}Trabajos Futuros}{82}{}%
-\contentsline {chapter}{\numberline {11}Conclusión}{84}{}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{85}{}%
+\contentsline {subsection}{\numberline {6.4.1}Python}{53}{}%
+\contentsline {subsection}{\numberline {6.4.2}Django}{53}{}%
+\contentsline {subsection}{\numberline {6.4.3}Bases de datos}{53}{}%
+\contentsline {subsubsection}{\numberline {6.4.3.1}Postgresql}{54}{}%
+\contentsline {subsubsection}{\numberline {6.4.3.2}InfluxDB}{54}{}%
+\contentsline {subsection}{\numberline {6.4.4}Eclipse Mosquitto}{54}{}%
+\contentsline {subsection}{\numberline {6.4.5}Grafana}{55}{}%
+\contentsline {subsection}{\numberline {6.4.6}Node-Red}{55}{}%
+\contentsline {subsection}{\numberline {6.4.7}Docker}{56}{}%
+\contentsline {section}{\numberline {6.5}Adaptación del Marco Metodológico}{56}{}%
+\contentsline {chapter}{\numberline {7}Diseño e Implementación}{58}{}%
+\contentsline {section}{\numberline {7.1}Diseño}{58}{}%
+\contentsline {subsection}{\numberline {7.1.1}Software de Visualización, Monitoreo y Control}{60}{}%
+\contentsline {section}{\numberline {7.2}Implementación de la solución}{63}{}%
+\contentsline {subsection}{\numberline {7.2.1}Implementación de los prototipos de dispositivos IoT}{63}{}%
+\contentsline {subsection}{\numberline {7.2.2}Implementación de la Aplicación Web HAMACA}{66}{}%
+\contentsline {subsubsection}{\numberline {7.2.2.1}Infraestructura}{66}{}%
+\contentsline {subsubsection}{\numberline {7.2.2.2}Configuración de Entorno}{67}{}%
+\contentsline {subsubsection}{\numberline {7.2.2.3}Desarrollo de la Aplicación Web HAMACA}{67}{}%
+\contentsline {chapter}{\numberline {8} Entorno de Pruebas}{71}{}%
+\contentsline {section}{\numberline {8.1}Escenarios de pruebas}{71}{}%
+\contentsline {subsection}{\numberline {8.1.1}Prototipos de Dispositivos IoT}{71}{}%
+\contentsline {subsubsection}{\numberline {8.1.1.1}Variedad en los Dispositivos}{72}{}%
+\contentsline {subsubsection}{\numberline {8.1.1.2}Variedad en los sensores}{73}{}%
+\contentsline {subsection}{\numberline {8.1.2}Aplicación HAMACA}{74}{}%
+\contentsline {subsubsection}{\numberline {8.1.2.1}Captura de Información}{74}{}%
+\contentsline {subsubsection}{\numberline {8.1.2.2}Visualización de datos}{75}{}%
+\contentsline {subsubsection}{\numberline {8.1.2.3}Monitoreo de Dispositivos}{76}{}%
+\contentsline {subsubsection}{\numberline {8.1.2.4}Control de Dispositivos}{78}{}%
+\contentsline {chapter}{\numberline {9}Casos de Uso}{79}{}%
+\contentsline {section}{\numberline {9.1}Infraestructura de Comunicación}{79}{}%
+\contentsline {section}{\numberline {9.2}Aplicación Web}{80}{}%
+\contentsline {chapter}{\numberline {10}Resultados, Limitaciones y Trabajos Futuros}{83}{}%
+\contentsline {section}{\numberline {10.1}Resultados}{83}{}%
+\contentsline {section}{\numberline {10.2}Limitaciones}{85}{}%
+\contentsline {section}{\numberline {10.3}Contribuciones}{85}{}%
+\contentsline {section}{\numberline {10.4}Trabajos Futuros}{85}{}%
+\contentsline {chapter}{\numberline {11}Conclusión}{87}{}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{88}{}%
