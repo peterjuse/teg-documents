@@ -15,7 +15,7 @@ Scrum es una metodología ágil y flexible para gestionar el desarrollo de softw
 
 Es parte de la filosofía de Scrum el poder realizar entregas parciales y regulares del producto final, priorizadas por el beneficio que aportan al receptor del proyecto. Por ello, Scrum está especialmente indicado para proyectos en entornos complejos, donde se necesita obtener resultados rápidamente, con requisitos cambiantes o poco definidos, donde la innovación, la competitividad, la flexibilidad y la productividad son fundamentales.\\
 
-En Scrum un proyecto se ejecuta en bloques temporales cortos y fijos (iteraciones) que normalmente son de 2 semanas, aunque en algunos equipos son de 3 y hasta 4 semanas, límite recomendado para proveer de un buen feedback y reflexión sobre lo realizado. Cada iteración tiene que proporcionar un resultado completo, un incremento de producto final que sea susceptible de ser entregado con el mínimo esfuerzo al cliente cuando lo solicite. El proceso parte de la lista de objetivos/requisitos priorizada del producto, que actúa como plan del proyecto. En esta lista el cliente prioriza los objetivos balanceando el valor que le aportan respecto a su coste y quedan repartidos en iteraciones y entregas.\\  
+En Scrum un proyecto se ejecuta en bloques temporales cortos y fijos (iteraciones) que normalmente son de 2 semanas, aunque en algunos equipos son de 3 y hasta 4 semanas, límite recomendado para proveer de un buen feedback y reflexión sobre lo realizado. Cada iteración tiene que proporcionar un resultado completo, un incremento de producto final que sea susceptible de ser entregado con el mínimo esfuerzo al cliente cuando lo solicite. El proceso parte de la lista de objetivos/requisitos priorizada del producto, que actúa como plan del proyecto. En esta lista el cliente prioriza los objetivos balanceando el valor que le aportan respecto a su coste y quedan repartidos en iteraciones y entregas. Finalmente el proceso se lleva a cabo tantas veces como sea requerido para poder finiquitar el proyecto (véase figura:\ref{fig:scrum-process}).\\  
 
 La actividades que se llevan a cabo bajo la metodología de Scrum son las siguientes:
 
@@ -29,7 +29,6 @@ La actividades que se llevan a cabo bajo la metodología de Scrum son las siguie
 \centering
 \includegraphics[width=1\textwidth]{Figuras/scrum_process.png}
 \caption{\label{fig:scrum-process}Etapas de desarrollo de la metodología Scrum}
-\vspace*{-10pt}
 \end{figure}
 
 \section{Control de Versiones de Software}
@@ -54,7 +53,7 @@ Git es un sistema de control de versiones moderno, distribuido y seguro que fue 
 \end{itemize}
 
 \subsubsection{Git-Flow}
-Git Flow es una metodología para usar Git en la que se combina la capacidad de git de trabajar versiones a traves de ramas. Estas, se separan entre ramas de función y ramas principales. Fue popularizado por Vincent Driessen en 2010. Los aspectos clave del modelo Git Flow son:
+Git Flow es una metodología para usar Git en la que se combina la capacidad de git de trabajar versiones a traves de ramas (figura:\ref{fig:gitflow}). Estas, se separan entre ramas de función y ramas principales. Fue popularizado por Vincent Driessen en 2010. Los aspectos clave del modelo Git Flow son:
 \begin{itemize}
 \item Ramas principales y de desarrollo: En lugar de tener una única rama principal, Git Flow utiliza dos ramas principales:
 \begin{enumerate}
@@ -73,7 +72,7 @@ Git Flow es una metodología para usar Git en la que se combina la capacidad de 
 \begin{figure}[ht]
 \vspace*{-20pt}
 \centering
-\includegraphics[width=0.8\textwidth]{Figuras/gitflow.png}
+\includegraphics[width=0.9\textwidth]{Figuras/gitflow.png}
 \caption{\label{fig:gitflow}Ramas de desarrollo usando la metodología Git-flow}
 \vspace*{-10pt}
 \end{figure}
@@ -90,25 +89,34 @@ Dado el enfoque de tener agrupados dispositivos IoT que pudiesen obtener data re
 \item Un Arduino Uno R3.
 \end{itemize}
 
-Entre los sensores y actuadores a integrar a esos dispositivos se ha contado con los siguientes elementos:
-\begin{itemize}
-\item Dos sensores de movimiento PIR HC-SR501.
-\item Un sensor de test de nivel de agua Robodo Sen18.
-\item Un sensor de temperatura DS1820.
-\item Dos leds RGB.
-\item Una fotorresistencia (LDR).
-\item Un sensor de temperatura y humedad DHT11.
-\item Dos leds color verde.
-\item Dos leds color rojo.
-\item Seis leds color blanco.
-\item Un sensor de intensidad lumínica TSL2561.
-\item Un buzzer HW-508.
-\item Una pantalla LCD 16x2 I2C Hd44780.
-\item Un Lector de tarjetas RFID RC522.
-\item Un llavero RFID 100.
-\item Una tarjeta RFID programable. 
-\item Una cámara RaspiCam V1.  
-\end{itemize}
+Entre los sensores y actuadores a integrar a esos dispositivos se ha contado con los elementos de la tabla \ref{table:sensores}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+Sensor & Tipo de medición & Cantidad\tabularnewline
+\midrule
+\endhead
+\tabularnewline
+PIR HC-SR501 & Movimiento & Dos (2)\tabularnewline
+Robodo Sen18 & Nivel de Agua & Uno (1)\tabularnewline
+DS1820 & Tempetatura & Uno (1)\tabularnewline
+Leds RGB & Leds (iluminación) & Dos (2)\tabularnewline
+LDR & Fotorresistencia (iluminación) & Uno (1)\tabularnewline
+DHT11 & Temperatura y Humedad & Uno (1)\tabularnewline
+Leds color verde & Leds (iluminación) & Dos (2)\tabularnewline
+Leds color rojo & Leds (iluminación) & Dos (2)\tabularnewline
+Leds color blanco & Leds (iluminación) & Seis (6)\tabularnewline
+TSL2561 & Intensidad lumínica (iluminación) & Uno (1)\tabularnewline
+Buzzer HW-508 & Buzzer (sonido)& Uno (1)\tabularnewline
+LCD 16x2 I2C Hd44780 & Pantalla LCD & Uno (1)\tabularnewline
+RFID RC522 & Lector de radio frecuencia & Uno (1)\tabularnewline
+RFID 100 & Llavero RFID & Uno (1)\tabularnewline
+RFID Card & Tarjeta RFID & Uno (1)\tabularnewline
+RaspiCam V1 & Camara & Uno (1)\tabularnewline
+\bottomrule
+\caption{Lista de sensores y actuadores utilizados en los prototipos de dispositivos IoT}
+\label{table:sensores}
+\end{longtable}
 
 Por otro lado para el desarrollo de software se hizo uso de un computador con las siguientes características:
 \begin{itemize}
@@ -139,7 +147,7 @@ La escogencia sobre este lenguaje de programación para el desarrollo recae en l
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.4\textwidth]{Figuras/python-logo.png}
+\includegraphics[width=0.425\textwidth]{Figuras/python-logo.png}
 \caption{\label{fig:python-logo}Logo de Python}
 \vspace*{-10pt}
 \end{figure}
@@ -149,7 +157,7 @@ Django es un framework web de alto nivel que permite el desarrollo rápido de si
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.25\textwidth]{Figuras/django.png}
+\includegraphics[width=0.3\textwidth]{Figuras/django.png}
 \caption{\label{fig:django-logo}Logo de Django}
 \vspace*{-10pt}
 \end{figure} 
@@ -171,9 +179,9 @@ Es un sistema de gestión de bases de datos relacional orientado a objeto que ut
 \begin{figure}[ht]
 \vspace*{-15pt}
 \centering
-\includegraphics[width=0.25\textwidth]{Figuras/postgresql_logo.png}
+\includegraphics[width=0.275\textwidth]{Figuras/postgresql_logo.png}
 \caption{\label{fig:postgresql-logo}Logo de PostgreSQL}
-\vspace*{-10pt}
+\vspace*{-15pt}
 \end{figure}
 
 \subsubsection{InfluxDB}
@@ -182,9 +190,9 @@ Es una base de datos de series temporales de código abierto desarrollada por In
 \begin{figure}[ht]
 \vspace*{-15pt}
 \centering
-\includegraphics[width=0.45\textwidth]{Figuras/Influxdb_logo.png}
+\includegraphics[width=0.5\textwidth]{Figuras/Influxdb_logo.png}
 \caption{\label{fig:influxdb-logo}Logo de InfluxDB}
-\vspace*{-15pt}
+\vspace*{-10pt}
 \end{figure}
 
 \subsection{Eclipse Mosquitto}
@@ -192,7 +200,7 @@ Eclipse Mosquitto es un broker de mensajes de código abierto que implementa las
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.35\textwidth]{Figuras/mosquitto_logo.png}
+\includegraphics[width=0.4\textwidth]{Figuras/mosquitto_logo.png}
 \caption{\label{fig:mosquitto-logo}Logo de Eclipse Mosquitto}
 \vspace*{-10pt}
 \end{figure}
@@ -221,7 +229,7 @@ Docker es una plataforma de código abierto que simplifica y automatiza el proce
 \begin{figure}[ht]
 \vspace*{-20pt}
 \centering
-\includegraphics[width=0.25\textwidth]{Figuras/Docker-Logo.png}
+\includegraphics[width=0.3\textwidth]{Figuras/Docker-Logo.png}
 \caption{\label{fig:docker-logo}Logo de Docker}
 \vspace*{-10pt}
 \end{figure}
@@ -237,7 +245,8 @@ Para llevar a cabo la investigación propuesta, se decidió adaptar la metodolog
 \item El profesor Antonio Russoniello en calidad de tutor del trabajo especial de grado, asume el rol de Scrum Master. 
 \item El bachiller Pedro Boll asume el desarrollo. 
 \end{itemize}
-Con ello definido, se presentan las siguientes actividades para el desarrollo y culminación del proyecto según los objetivos generales y especificos en la  tabla \ref{tabla:actividades_desarrollo}, junto con su duración aproximada.
+
+Con ello definido junto con la selección de las tecnologías para el desarrollo, se presentan las siguientes actividades para el desarrollo y culminación del proyecto según los objetivos generales y específicos en la  tabla \ref{tabla:actividades_desarrollo}, junto con su duración aproximada.
 
 \begin{table}[!htb]
 \centering
